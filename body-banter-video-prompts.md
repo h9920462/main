@@ -1,1681 +1,2594 @@
-# Body Banter — Video Prompts with Full Voice & SFX Direction
+# Body Banter — Ensemble Prompts
 
-**Episode:** What Happens When You Stop Drinking Alcohol  
-**Beats:** 66 · **Runtime:** ~221 s  
-**Audio mastering (all voices):** 48 kHz / 24-bit WAV, mono, recorded dry; dialogue normalized to −16 LUFS integrated, true peak ≤ −1.5 dBTP, noise floor ≤ −60 dBFS. SFX sit 4–8 dB under dialogue; music beds 12–15 dB under dialogue.
+```
+BODY BANTER — CONTINUITY BIBLE
 
----
+LOOK: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9.
 
-## V01 · 4s
-**Script segment:** "It's 2 a.m., the third wedding this month,"
+CAST (all present in every scene):
+- Brain (coral-pink wrinkled brain with a small brown cerebellum)
+- Liver (deep maroon two-lobed liver)
+- Stomach (mustard-orange J-shaped stomach with an esophagus tube on top)
+- Large Intestine (lavender segmented, banded, frame-shaped large intestine)
+- Small Intestine (salmon-pink tight coil with a short tube on top)
+- Heart (bright red rounded heart with stubby vessels)
+- Kidneys (pair of warm brown bean-shaped kidneys)
+- Bladder (pale yellow balloon-shaped bladder)
+- Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture)
+- Lungs (pair of soft pink spongy lungs)
+- Skin (warm beige rounded-square skin swatch with one tiny hair on top)
+- Muscle (striated red muscle bulge with white tendon ends)
+- Guest: Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes)
 
-**Scene:** Late-night wedding reception aftermath: confetti on the floor, a small disco ball, a wall clock at 2:00, a half-eaten three-tier cake. Slumped at a table: a coral-pink wrinkled cartoon brain with a small brown cerebellum, a deep maroon two-lobed cartoon liver, a mustard-orange J-shaped cartoon stomach with an esophagus tube on top, a lavender segmented, banded, frame-shaped cartoon large intestine and a salmon-pink tightly coiled cartoon small intestine with a short tube on top. Soft peach-to-apricot gradient background with warm party glow.
+Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Motion:** Organs sway sleepily, eyelids drooping; one confetti piece floats down onto the stomach's head; the disco ball turns slowly.
+SETS:
+- WED: Wedding reception hall at 2 a.m.: sagging string lights, confetti on the floor, a slowly turning disco ball, a wall clock at 2:00, a half-eaten three-tier cake, chairs pushed back, the team crowded around one round banquet table
+- HQ: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky
+- HQN: Body HQ at night: the same cozy meeting room with blush-pink organic walls, crescent table pushed aside, the whole team asleep in sleeping bags and tiny cots across the floor, moonlight through the big window, indigo shadows
+- HALL: The hallway of Body HQ: blush-pink organic walls, framed team photos, a small bathroom door at the end
+- STREETD: A sunny cartoon suburban street outside the body's neighborhood: pastel houses, a sidewalk, a street sign reading 'HOME: 3 BLOCKS'
+- STREETE: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green
+- HILL: A grassy hill at dusk overlooking a cartoon city skyline where a gigantic neon cocktail-glass billboard towers like a mountain, stormy lavender clouds above
+- PARTY: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky
 
-**Camera:** Slow push-in, eye level.
+LIGHTING BY STORY BEAT: Wedding = warm string lights · 2 a.m. meeting = single pendant-lamp pool · 12 hours = cool morning · Day 3 = grey overcast · Night = moonlight · 1 week = golden sunbeams · 2 weeks = bright clean daylight · Friday = dusk neon · 30 days = golden-hour party light.
 
-**Voice & dialogue:**
+CAMERA LANGUAGE: 24–28mm for wide establishing shots, 35mm for group mediums, 50mm for speaker mediums, 85–100mm for close-ups. The speaker is always in focus; the rest of the team stays in frame, softly focused, reacting. No isolated single-character frames on blank backgrounds.
 
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** dry, warm, unhurried; slight smile on 'third wedding'.  
-> **The Narrator says:** "It's 2 a.m., the third wedding this month," — *while the organs blink slowly in unison.*
+VOICE CALIBRATION (measured from the reference 36-hour-fast episode): character lines sit at a median pitch of 195–270 Hz with shouts reaching 380–520 Hz; only the explainer narration is low (~150 Hz). Full lines run 180–240 wpm, with short 100–300 ms gaps between speakers. Profiles below use these ranges.
 
-**Sound effects (timed):**
+AUDIO MASTERING: record dialogue dry at 48 kHz / 24-bit, mono. The reference is mastered dense and loud (−7.9 LUFS integrated, loudness range 4 LU). Match that density with dialogue compression and a limiter for a 4–5 LU loudness range; deliver at −9 LUFS to match the reference, or −14 LUFS for YouTube normalization (YouTube turns louder masters down anyway). True peak ≤ −1 dBTP. SFX 4–8 dB under dialogue; music beds 12–15 dB under.
+```
+
+## Image Prompts
+
+```
+V01 · 4s · Speaker: Narrator
+SCRIPT SEGMENT: "It's 2 a.m., the third wedding this month,"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Wedding reception hall at 2 a.m.: sagging string lights, confetti on the floor, a slowly turning disco ball, a wall clock at 2:00, a half-eaten three-tier cake, chairs pushed back, the team crowded around one round banquet table. Lighting: warm tungsten string-light glow, dim edges, disco-ball sparkles. Shot: Wide establishing shot, 24mm, slow push-in. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Narrator. Primary action: Liver sits at the center of the table in a loosened red necktie with a tiny paper cocktail umbrella stuck in its top lobe, staring at the clock. Ensemble reactions: Stomach face-down in the cake; Small and Large Intestine asleep leaning on each other; Bladder bouncing cross-legged; Heart still dancing alone in a party hat; Brain squinting at the clock; Kidneys mopping spilled drinks; Muscle asleep sitting upright; Lungs fanning themselves; Skin flushed red and puffy; Pancreas hiccuping. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide establishing shot, 24mm, slow push-in
+LIGHTING: Warm tungsten string-light glow, dim edges, disco-ball sparkles
+MOOD: Dry, warm, unhurried; slight smile on 'third wedding'
+ACTION: Liver sits at the center of the table in a loosened red necktie with a tiny paper cocktail umbrella stuck in its top lobe, staring at the clock; Stomach face-down in the cake; Small and Large Intestine asleep leaning on each other; Bladder bouncing cross-legged; Heart still dancing alone in a party hat; Brain squinting at the clock; Kidneys mopping spilled drinks; Muscle asleep sitting upright; Lungs fanning themselves; Skin flushed red and puffy; Pancreas hiccuping.
+```
+
+```
+V02 · 3s · Speaker: Narrator
+SCRIPT SEGMENT: "and Liver just called an emergency meeting."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Shot: Medium-wide shot, 35mm, eye level. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Narrator. Primary action: Liver climbs onto its chair at the center of the table holding up a hand-drawn 'EMERGENCY MEETING' sign while the pendant lamp flickers. Ensemble reactions: the rest of the team shuffles in groggily in pajamas and party clothes, pulling out chairs; Brain drops into the boss position; Stomach carries a slice of cake; the coffee machine gurgles. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium-wide shot, 35mm, eye level
+LIGHTING: Single warm pool of light from the pendant lamp, deep soft shadows at the room's edges
+MOOD: Wry, light emphasis on 'emergency'
+ACTION: Liver climbs onto its chair at the center of the table holding up a hand-drawn 'EMERGENCY MEETING' sign while the pendant lamp flickers; the rest of the team shuffles in groggily in pajamas and party clothes, pulling out chairs; Brain drops into the boss position; Stomach carries a slice of cake; the coffee machine gurgles.
+```
+
+```
+V03 · 5s · Speaker: Liver
+SCRIPT SEGMENT: "Team. I'm not okay. I'm a sponge. In a cocktail. Wearing a tie."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Shot: Medium close-up on Liver, 50mm, team soft in the background. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Liver. Primary action: Liver, soggy and puffy, drips onto the table as it gestures at itself and tugs its loose tie; a thought bubble shows it floating like a sponge in a giant martini glass. Ensemble reactions: Heart slides it a napkin; Kidneys quietly place a bucket under the drips; Stomach avoids eye contact; Muscle and Lungs wince; Brain rubs its temples. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium close-up on Liver, 50mm, team soft in the background
+LIGHTING: Single warm pool of light from the pendant lamp, deep soft shadows at the room's edges
+MOOD: Hoarse, defeated sighing; 400 ms pause between each fragment
+ACTION: Liver, soggy and puffy, drips onto the table as it gestures at itself and tugs its loose tie; a thought bubble shows it floating like a sponge in a giant martini glass; Heart slides it a napkin; Kidneys quietly place a bucket under the drips; Stomach avoids eye contact; Muscle and Lungs wince; Brain rubs its temples.
+```
+
+```
+V04 · 4s · Speaker: Stomach
+SCRIPT SEGMENT: "Don't look at me. I just hold the stuff."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Shot: Medium shot on Stomach, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Stomach. Primary action: Stomach raises both hands defensively, liquid sloshing visibly inside its belly, giving guilty side-eye. Ensemble reactions: every head at the table swivels toward Stomach; Large Intestine raises one eyebrow; Skin crosses its arms. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Stomach, 50mm, team behind
+LIGHTING: Single warm pool of light from the pendant lamp, deep soft shadows at the room's edges
+MOOD: Whiny, defensive, nasal; quick
+ACTION: Stomach raises both hands defensively, liquid sloshing visibly inside its belly, giving guilty side-eye; every head at the table swivels toward Stomach; Large Intestine raises one eyebrow; Skin crosses its arms.
+```
+
+```
+V05 · 3s · Speaker: Bladder
+SCRIPT SEGMENT: "And I just flush it. Not my department."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Shot: Medium shot on Bladder at the far left, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Bladder. Primary action: Bladder does a slow, exaggerated shrug and turns its face away. Ensemble reactions: heads swivel from Stomach to Bladder; Kidneys facepalm in sync; Small Intestine snorts a laugh. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Bladder at the far left, 50mm, team behind
+LIGHTING: Single warm pool of light from the pendant lamp, deep soft shadows at the room's edges
+MOOD: Flat, unbothered gurgly shrug; 300 ms pause before 'Not my department'
+ACTION: Bladder does a slow, exaggerated shrug and turns its face away; heads swivel from Stomach to Bladder; Kidneys facepalm in sync; Small Intestine snorts a laugh.
+```
+
+```
+V06 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Enough. Thirty days. Zero alcohol. Starting now."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Shot: Low-angle medium shot on Brain in the back-row boss position, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain. Primary action: Brain slams a wooden gavel on the table and points at the wall calendar with '30' circled in red and a crossed-out martini icon. Ensemble reactions: the whole team jolts upright; coffee cups jump off the table; Liver gasps with hope; Muscle drops his protein shaker. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Low-angle medium shot on Brain in the back-row boss position, 35mm
+LIGHTING: Single warm pool of light from the pendant lamp, deep soft shadows at the room's edges
+MOOD: Firm, clipped decree at 110 wpm; 300 ms between sentences
+ACTION: Brain slams a wooden gavel on the table and points at the wall calendar with '30' circled in red and a crossed-out martini icon; the whole team jolts upright; coffee cups jump off the table; Liver gasps with hope; Muscle drops his protein shaker.
+```
+
+```
+V07 · 4s · Speaker: Stomach, Small Intestine
+SCRIPT SEGMENT: "Thirty days?! / Bro. The weekend is in two days."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Shot: Medium two-shot, Stomach and Small Intestine in the foreground, 35mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Stomach, Small Intestine. Primary action: Stomach leaps backward out of his chair in shock; Small Intestine leans in holding up two fingers. Ensemble reactions: Large Intestine nods along; Muscle groans; Pancreas nervously shuffles papers; Bladder grabs the table. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium two-shot, Stomach and Small Intestine in the foreground, 35mm, team behind
+LIGHTING: Single warm pool of light from the pendant lamp, deep soft shadows at the room's edges
+MOOD: High-pitched outraged squeal, peak −12 dBFS
+ACTION: Stomach leaps backward out of his chair in shock; Small Intestine leans in holding up two fingers; Large Intestine nods along; Muscle groans; Pancreas nervously shuffles papers; Bladder grabs the table.
+```
+
+```
+V08 · 2s · Speaker: Brain
+SCRIPT SEGMENT: "The weekend is canceled."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Shot: Close-up on Brain, 85mm, team blurred behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain. Primary action: Brain stamps a big red 'CANCELED' stamp across a 'SAT / SUN' calendar page without blinking. Ensemble reactions: in the soft background the whole team freezes; Small Intestine's jaw drops; Stomach clutches his heart dramatically. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Close-up on Brain, 85mm, team blurred behind
+LIGHTING: Single warm pool of light from the pendant lamp, deep soft shadows at the room's edges
+MOOD: Ice-cold deadpan, falling flat
+ACTION: Brain stamps a big red 'CANCELED' stamp across a 'SAT / SUN' calendar page without blinking; in the soft background the whole team freezes; Small Intestine's jaw drops; Stomach clutches his heart dramatically.
+```
+
+```
+V09 · 4s · Speaker: Heart, Liver
+SCRIPT SEGMENT: "Let's go! I'm in! / Somebody pinch me. Gently."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Shot: Medium-wide shot, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Heart, Liver. Primary action: Heart jumps onto the table cheering with both arms up; Liver, teary and hopeful, pinches its own cheek. Ensemble reactions: Muscle fist-pumps; Lungs give polite golf claps; Skin rolls its eyes; Stomach slumps into his chair; Kidneys high-five. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium-wide shot, 35mm
+LIGHTING: Single warm pool of light from the pendant lamp, deep soft shadows at the room's edges
+MOOD: Bright, punchy cheer at full energy
+ACTION: Heart jumps onto the table cheering with both arms up; Liver, teary and hopeful, pinches its own cheek; Muscle fist-pumps; Lungs give polite golf claps; Skin rolls its eyes; Stomach slumps into his chair; Kidneys high-five.
+```
+
+```
+V10 · 4s · Speaker: Narrator
+SCRIPT SEGMENT: "But the first twelve hours? Nobody warned them about those."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Shot: Wide shot from the doorway, 24mm, slow push-in. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Narrator. Primary action: the team grins together around the table, unaware. Ensemble reactions: a long, dark ominous shadow slides across the floor from the doorway toward them while the lamp dims; only Pancreas glances back nervously. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot from the doorway, 24mm, slow push-in
+LIGHTING: Single warm pool of light from the pendant lamp, deep soft shadows at the room's edges
+MOOD: Low, dropping, ominous; 500 ms hold after 'those'
+ACTION: The team grins together around the table, unaware; a long, dark ominous shadow slides across the floor from the doorway toward them while the lamp dims; only Pancreas glances back nervously.
+```
+
+```
+V11 · 3s · Speaker: Narrator, Liver
+SCRIPT SEGMENT: "Twelve hours. / Last drop... processed."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Shot: Wide shot, 28mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Narrator, Liver. Primary action: Liver stands at a little conveyor-belt machine set up on the table; the last amber droplet rolls off into a bin and Liver presses a big green button labeled 'PROCESSED'; white title card '12 HOURS' top-left. Ensemble reactions: the whole team leans in, watching the droplet; Kidneys hold their breath; Heart crosses her fingers; Brain sips coffee. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot, 28mm
+LIGHTING: Cool morning daylight through the window mixed with the warm pendant lamp
+MOOD: Clean title-card read
+ACTION: Liver stands at a little conveyor-belt machine set up on the table; the last amber droplet rolls off into a bin and Liver presses a big green button labeled 'PROCESSED'; white title card '12 HOURS' top-left; the whole team leans in, watching the droplet; Kidneys hold their breath; Heart crosses her fingers; Brain sips coffee.
+```
+
+```
+V12 · 3s · Speaker: Liver
+SCRIPT SEGMENT: "Enzymes, clock out. You've earned it."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Shot: Medium shot, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Liver. Primary action: tiny glossy pastel enzyme workers in hard hats punch out at a punch-clock on the wall beside Liver, who gives them a proud thumbs-up. Ensemble reactions: the team waves goodbye to the enzymes; Muscle high-fives one; Bladder holds the door for them. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot, 35mm
+LIGHTING: Cool morning daylight through the window mixed with the warm pendant lamp
+MOOD: Warm, proud, tired
+ACTION: Tiny glossy pastel enzyme workers in hard hats punch out at a punch-clock on the wall beside Liver, who gives them a proud thumbs-up; the team waves goodbye to the enzymes; Muscle high-fives one; Bladder holds the door for them.
+```
+
+```
+V13 · 3s · Speaker: Kidneys
+SCRIPT SEGMENT: "Faucet's off! I repeat, the faucet is off!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Shot: Medium shot on the Kidneys at the corner sink, 35mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Kidneys. Primary action: the Kidneys turn the chrome faucet handle to 'OFF' and jump in sync as the last droplet falls. Ensemble reactions: the team applauds; Bladder sags with relief; Liver mouths 'thank you'. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on the Kidneys at the corner sink, 35mm, team behind
+LIGHTING: Cool morning daylight through the window mixed with the warm pendant lamp
+MOOD: Cheerful synchronized unison, announcement lift
+ACTION: The Kidneys turn the chrome faucet handle to 'OFF' and jump in sync as the last droplet falls; the team applauds; Bladder sags with relief; Liver mouths 'thank you'.
+```
+
+```
+V14 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Wait. Why is everything so loud?"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Shot: Close-up on Brain, 85mm, team frozen behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain. Primary action: Brain flinches and covers its sides, pupils pinpoint, toothy grimace; jagged sound-wave lines vibrate around it. Ensemble reactions: the background team freezes mid-motion, staring at Brain; Lungs whisper to Skin; the clock and coffee machine visibly vibrate. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Close-up on Brain, 85mm, team frozen behind
+LIGHTING: Cool morning daylight through the window mixed with the warm pendant lamp
+MOOD: Tense, rattled whisper-shout; 300 ms after 'Wait.'
+ACTION: Brain flinches and covers its sides, pupils pinpoint, toothy grimace; jagged sound-wave lines vibrate around it; the background team freezes mid-motion, staring at Brain; Lungs whisper to Skin; the clock and coffee machine visibly vibrate.
+```
+
+```
+V15 · 5s · Speaker: Heart
+SCRIPT SEGMENT: "Boss, I'm racing. And why are we sweating? We're sitting on a couch."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Shot: Medium shot on Heart on the small sofa, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Heart. Primary action: Heart thumps fast with motion lines, sweat drops flying off, gesturing at the sofa it's sitting on. Ensemble reactions: Lungs fan Heart with a clipboard; Skin dabs its sweat with a tissue; Kidneys bring a cup of water; Brain watches calmly from the back. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Heart on the small sofa, 35mm
+LIGHTING: Cool morning daylight through the window mixed with the warm pendant lamp
+MOOD: Quick, breathless, confused at ~170 wpm
+ACTION: Heart thumps fast with motion lines, sweat drops flying off, gesturing at the sofa it's sitting on; Lungs fan Heart with a clipboard; Skin dabs its sweat with a tissue; Kidneys bring a cup of water; Brain watches calmly from the back.
+```
+
+```
+V16 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Easy. For months, alcohol was pushing my brakes."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Shot: Medium shot, 35mm, team gathered like a class. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain. Primary action: Brain demonstrates on the table with a toy car: a tiny green cocktail-glass figurine is pressing the toy car's brake pedal while a little brain figurine slumps in the driver's seat. Ensemble reactions: the team leans in like students; Large Intestine takes notes; Small Intestine raises a hand; Pancreas adjusts its glasses. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot, 35mm, team gathered like a class
+LIGHTING: Cool morning daylight through the window mixed with the warm pendant lamp
+MOOD: Calm, steadying baritone
+ACTION: Brain demonstrates on the table with a toy car: a tiny green cocktail-glass figurine is pressing the toy car's brake pedal while a little brain figurine slumps in the driver's seat; the team leans in like students; Large Intestine takes notes; Small Intestine raises a hand; Pancreas adjusts its glasses.
+```
+
+```
+V17 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Now I'm learning to find them myself."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Shot: Medium close-up on Brain and the toy car, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain. Primary action: Brain flicks the cocktail-glass figurine off the table and carefully presses the toy car's brake pedal itself, tongue out in concentration. Ensemble reactions: the team says 'ohhh' in unison; Muscle nods slowly; Liver smiles. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium close-up on Brain and the toy car, 50mm, team behind
+LIGHTING: Cool morning daylight through the window mixed with the warm pendant lamp
+MOOD: Calm, determined, slight effort strain
+ACTION: Brain flicks the cocktail-glass figurine off the table and carefully presses the toy car's brake pedal itself, tongue out in concentration; the team says 'ohhh' in unison; Muscle nods slowly; Liver smiles.
+```
+
+```
+V18 · 5s · Speaker: Heart
+SCRIPT SEGMENT: "And if this ever gets scary, we call a doctor. Not the bar."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Shot: Medium shot on Heart at the whiteboard, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Heart. Primary action: Heart holds an old red telephone receiver and circles a doctor's-cross card taped to the whiteboard, then crosses out a cocktail-glass card. Ensemble reactions: the team nods seriously; Pancreas writes it down; Liver gives a thumbs-up; Brain nods approvingly. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Heart at the whiteboard, 35mm
+LIGHTING: Cool morning daylight through the window mixed with the warm pendant lamp
+MOOD: Sincere, warm, slowed to 130 wpm; downward settle on 'bar'
+ACTION: Heart holds an old red telephone receiver and circles a doctor's-cross card taped to the whiteboard, then crosses out a cocktail-glass card; the team nods seriously; Pancreas writes it down; Liver gives a thumbs-up; Brain nods approvingly.
+```
+
+```
+V19 · 4s · Speaker: Stomach
+SCRIPT SEGMENT: "Hold on. Is anyone else... hungry? Like, real food hungry?"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Shot: Medium shot on Stomach, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Stomach. Primary action: Stomach freezes and looks down as his belly growls loudly; a thought bubble shows a steaming plate of vegetables and rice. Ensemble reactions: the whole team turns toward the sound; several look down at their own middles; Small Intestine licks its lips. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Stomach, 50mm, team behind
+LIGHTING: Cool morning daylight through the window mixed with the warm pendant lamp
+MOOD: Surprised, curious nasal tenor; 300 ms pause on '...'
+ACTION: Stomach freezes and looks down as his belly growls loudly; a thought bubble shows a steaming plate of vegetables and rice; the whole team turns toward the sound; several look down at their own middles; Small Intestine licks its lips.
+```
+
+```
+V20 · 4s · Speaker: Brain
+SCRIPT SEGMENT: "That's your signal coming back. Alcohol was jamming the radio."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Shot: Medium shot by the shelf, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain. Primary action: Brain, in tiny headphones, yanks a cocktail-glass-shaped plug out of the back of an old wooden radio and turns the dial as its screen clears from static to clean waves. Ensemble reactions: the team leans toward the radio; Lungs nod approvingly; Heart bobs to the clean signal. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot by the shelf, 35mm
+LIGHTING: Cool morning daylight through the window mixed with the warm pendant lamp
+MOOD: Clever, explanatory baritone
+ACTION: Brain, in tiny headphones, yanks a cocktail-glass-shaped plug out of the back of an old wooden radio and turns the dial as its screen clears from static to clean waves; the team leans toward the radio; Lungs nod approvingly; Heart bobs to the clean signal.
+```
+
+```
+V21 · 5s · Speaker: Narrator
+SCRIPT SEGMENT: "Hunger's back. Good news. The bad news showed up on night three."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ at night: the same cozy meeting room with blush-pink organic walls, crescent table pushed aside, the whole team asleep in sleeping bags and tiny cots across the floor, moonlight through the big window, indigo shadows. Lighting: cool blue moonlight through the window, soft indigo shadows. Shot: Wide shot, 24mm, slow pan. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Everyone sleeps on the floor in the same left-to-right order as their meeting seats. Speaking and in focus: Narrator. Primary action: the whole team lies asleep across the floor; a giant shadow of a cocktail glass creeps across the wall. Ensemble reactions: one by one, every character's eyes pop open in the dark: Brain, Stomach, Liver, then the rest. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot, 24mm, slow pan
+LIGHTING: Cool blue moonlight through the window, soft indigo shadows
+MOOD: Dry, teasing, suspenseful; 500 ms hold after 'night three'
+ACTION: The whole team lies asleep across the floor; a giant shadow of a cocktail glass creeps across the wall; one by one, every character's eyes pop open in the dark: Brain, Stomach, Liver, then the rest.
+```
+
+```
+V22 · 2s · Speaker: Narrator, Brain
+SCRIPT SEGMENT: "Day three. / Sleep report."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Shot: Wide shot, 28mm; white title card 'DAY 3' top-left. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Narrator, Brain. Primary action: Brain stands at the whiteboard with huge eye bags and messy folds, holding a steaming mug, tapping 'SLEEP REPORT'. Ensemble reactions: the team slumps in their chairs like zombies: Lungs in an eye mask, Muscle face-down on the table, Bladder yawning, Skin with cucumber slices over its eyes. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot, 28mm; white title card 'DAY 3' top-left
+LIGHTING: Dull overcast grey-blue daylight, flat and sleepy
+MOOD: Clean title-card read
+ACTION: Brain stands at the whiteboard with huge eye bags and messy folds, holding a steaming mug, tapping 'SLEEP REPORT'; the team slumps in their chairs like zombies: Lungs in an eye mask, Muscle face-down on the table, Bladder yawning, Skin with cucumber slices over its eyes.
+```
+
+```
+V23 · 5s · Speaker: Brain, Stomach
+SCRIPT SEGMENT: "Four hours. One dream. It was a margarita. / Mine was nachos."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Shot: Medium two-shot, Brain and Stomach in the foreground, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain, Stomach. Primary action: Brain stares blankly under a dream bubble showing a glowing margarita; Stomach drools under a dream bubble showing cheesy nachos. Ensemble reactions: behind them Small Intestine drools too; Heart sleeps on the table; Pancreas stares into its coffee. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium two-shot, Brain and Stomach in the foreground, 35mm
+LIGHTING: Dull overcast grey-blue daylight, flat and sleepy
+MOOD: Groggy, flat baritone; 300 ms between fragments
+ACTION: Brain stares blankly under a dream bubble showing a glowing margarita; Stomach drools under a dream bubble showing cheesy nachos; behind them Small Intestine drools too; Heart sleeps on the table; Pancreas stares into its coffee.
+```
+
+```
+V24 · 5s · Speaker: Stomach
+SCRIPT SEGMENT: "And why am I craving sugar like a raccoon in a dumpster?"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Shot: Medium-wide shot, 28mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Stomach. Primary action: Stomach dives headfirst into the HQ trash can overflowing with candy wrappers and donuts, only his stick legs kicking out the top; a raccoon doodle grins on the whiteboard. Ensemble reactions: the team stares in horror; Skin covers its eyes; Muscle grabs Stomach's legs and tries to pull him out; Lungs shake their heads. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium-wide shot, 28mm
+LIGHTING: Dull overcast grey-blue daylight, flat and sleepy
+MOOD: Frantic, muffled whine from inside the trash can
+ACTION: Stomach dives headfirst into the HQ trash can overflowing with candy wrappers and donuts, only his stick legs kicking out the top; a raccoon doodle grins on the whiteboard; the team stares in horror; Skin covers its eyes; Muscle grabs Stomach's legs and tries to pull him out; Lungs shake their heads.
+```
+
+```
+V25 · 4s · Speaker: Liver
+SCRIPT SEGMENT: "Those empty calories stopped showing up, buddy. Your cravings noticed."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Shot: Medium shot, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Liver. Primary action: Liver pats a sticky, sad Stomach on the back beside an empty snack drawer labeled 'NO DELIVERIES'. Ensemble reactions: the team gathers sympathetically; Heart offers Stomach a carrot stick; Small Intestine pats his other side. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot, 35mm
+LIGHTING: Dull overcast grey-blue daylight, flat and sleepy
+MOOD: Gentle, consoling, softened consonants
+ACTION: Liver pats a sticky, sad Stomach on the back beside an empty snack drawer labeled 'NO DELIVERIES'; the team gathers sympathetically; Heart offers Stomach a carrot stick; Small Intestine pats his other side.
+```
+
+```
+V26 · 3s · Speaker: Pancreas
+SCRIPT SEGMENT: "Uh, who keeps mailing me cookies?"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Shot: Medium shot on Pancreas at the right end of the table, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Pancreas. Primary action: Pancreas sits buried under a growing pile of cookie boxes, lifting one with nervous wide eyes. Ensemble reactions: the team passes more boxes down the table toward Pancreas; Stomach's chair is suspiciously empty. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Pancreas at the right end of the table, 35mm
+LIGHTING: Dull overcast grey-blue daylight, flat and sleepy
+MOOD: Nervous, reedy stammer; 200 ms hesitation after 'Uh,'
+ACTION: Pancreas sits buried under a growing pile of cookie boxes, lifting one with nervous wide eyes; the team passes more boxes down the table toward Pancreas; Stomach's chair is suspiciously empty.
+```
+
+```
+V27 · 3s · Speaker: Small Intestine, Stomach
+SCRIPT SEGMENT: "The stomach, Pancreas. He's coping. / I'm grieving, okay?!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Shot: Medium-wide shot, 28mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Small Intestine, Stomach. Primary action: Small Intestine points to the corner where Stomach sits wrapped in a blanket, hugging a cookie jar, lips trembling. Ensemble reactions: the whole team turns to look; Pancreas holds a cookie box; Liver sighs; Kidneys shake their heads. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium-wide shot, 28mm
+LIGHTING: Dull overcast grey-blue daylight, flat and sleepy
+MOOD: Casual, tattletale bro
+ACTION: Small Intestine points to the corner where Stomach sits wrapped in a blanket, hugging a cookie jar, lips trembling; the whole team turns to look; Pancreas holds a cookie box; Liver sighs; Kidneys shake their heads.
+```
+
+```
+V28 · 2s · Speaker: Heart
+SCRIPT SEGMENT: "Still dry. Still alive. Barely."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Shot: Wide shot, 28mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Heart. Primary action: Heart stands on the table giving a weak, wobbly thumbs-up next to a handwritten 'STILL DRY' sign. Ensemble reactions: the team is asleep in their chairs around Heart: Muscle snoring, Lungs drooped, Brain's head on the whiteboard. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot, 28mm
+LIGHTING: Dull overcast grey-blue daylight, flat and sleepy
+MOOD: Weak but determined chant; 200 ms between segments, 'Barely' deflated
+ACTION: Heart stands on the table giving a weak, wobbly thumbs-up next to a handwritten 'STILL DRY' sign; the team is asleep in their chairs around Heart: Muscle snoring, Lungs drooped, Brain's head on the whiteboard.
+```
+
+```
+V29 · 3s · Speaker: Narrator
+SCRIPT SEGMENT: "Then, night seven, something nobody expected."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ at night: the same cozy meeting room with blush-pink organic walls, crescent table pushed aside, the whole team asleep in sleeping bags and tiny cots across the floor, moonlight through the big window, indigo shadows. Lighting: cool blue moonlight through the window, soft indigo shadows. Shot: Wide shot, 24mm, slow drift. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Everyone sleeps on the floor in the same left-to-right order as their meeting seats. Speaking and in focus: Narrator. Primary action: the team sleeps peacefully on the floor; a big dream bubble above Brain shows a painterly dream sky with a sleepy crescent moon and Brain floating on a cloud. Ensemble reactions: a mysterious sparkle glows above the sleeping team; Bladder snores softly; Heart hugs a pillow. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot, 24mm, slow drift
+LIGHTING: Cool blue moonlight through the window, soft indigo shadows
+MOOD: Soft, mysterious upward lift; 500 ms hold after 'expected'
+ACTION: The team sleeps peacefully on the floor; a big dream bubble above Brain shows a painterly dream sky with a sleepy crescent moon and Brain floating on a cloud; a mysterious sparkle glows above the sleeping team; Bladder snores softly; Heart hugs a pillow.
+```
+
+```
+V30 · 2s · Speaker: Narrator, Brain
+SCRIPT SEGMENT: "One week. / Eight hours. Eight!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: golden sunrise beams through the window, volumetric light shafts with floating dust. Shot: Wide shot, 28mm; white title card '1 WEEK' top-left. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Narrator, Brain. Primary action: Brain bolts upright from his sleeping bag, refreshed and grinning, holding up eight fingers. Ensemble reactions: the team wakes and stretches in golden sunbeams; Muscle does a morning stretch; Skin yawns prettily; Liver smiles. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot, 28mm; white title card '1 WEEK' top-left
+LIGHTING: Golden sunrise beams through the window, volumetric light shafts with floating dust
+MOOD: Clean title-card read
+ACTION: Brain bolts upright from his sleeping bag, refreshed and grinning, holding up eight fingers; the team wakes and stretches in golden sunbeams; Muscle does a morning stretch; Skin yawns prettily; Liver smiles.
+```
+
+```
+V31 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Deep sleep, real dreams, the full package!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: golden sunrise beams through the window, volumetric light shafts with floating dust. Shot: Medium shot, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain. Primary action: Brain opens a glowing gift box on the table and a crescent moon, 'Zzz' letters and a rainbow cloud float out with sparkles. Ensemble reactions: the team gathers around saying 'oooh', faces lit by the glow. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot, 35mm
+LIGHTING: Golden sunrise beams through the window, volumetric light shafts with floating dust
+MOOD: Joyful, delighted baritone, rising
+ACTION: Brain opens a glowing gift box on the table and a crescent moon, 'Zzz' letters and a rainbow cloud float out with sparkles; the team gathers around saying 'oooh', faces lit by the glow.
+```
+
+```
+V32 · 2s · Speaker: Kidneys
+SCRIPT SEGMENT: "And we're finally holding water."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: golden sunrise beams through the window, volumetric light shafts with floating dust. Shot: Medium shot on the Kidneys, 35mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Kidneys. Primary action: the Kidneys proudly hold up a full glass water jug between them. Ensemble reactions: the team raises water cups in a toast; Bladder gives a calm thumbs-up. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on the Kidneys, 35mm, team behind
+LIGHTING: Golden sunrise beams through the window, volumetric light shafts with floating dust
+MOOD: Proud, synchronized satisfaction
+ACTION: The Kidneys proudly hold up a full glass water jug between them; the team raises water cups in a toast; Bladder gives a calm thumbs-up.
+```
+
+```
+V33 · 5s · Speaker: Kidneys
+SCRIPT SEGMENT: "The hormone that tells us to keep it is back at work."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: golden sunrise beams through the window, volumetric light shafts with floating dust. Shot: Medium-wide shot toward the door, 28mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Kidneys. Primary action: a small glossy teal droplet hormone character with an office lanyard and tiny briefcase walks through the HQ door, now marked 'BACK AT WORK'. Ensemble reactions: the team waves hello; the Kidneys wave hardest; Bladder salutes. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium-wide shot toward the door, 28mm
+LIGHTING: Golden sunrise beams through the window, volumetric light shafts with floating dust
+MOOD: Cheerful, synchronized, announcement lift
+ACTION: A small glossy teal droplet hormone character with an office lanyard and tiny briefcase walks through the HQ door, now marked 'BACK AT WORK'; the team waves hello; the Kidneys wave hardest; Bladder salutes.
+```
+
+```
+V34 · 3s · Speaker: Skin
+SCRIPT SEGMENT: "Less puffy. More pretty. Somebody take my picture."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: golden sunrise beams through the window, volumetric light shafts with floating dust. Shot: Medium shot, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Skin. Primary action: Skin strikes model poses on the table while Heart snaps photos with a phone, flash bursting; a 'before' photo of a puffy Skin is taped to the wall. Ensemble reactions: Lungs roll their eyes; Muscle photobombs in the background; Stomach claps. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot, 35mm
+LIGHTING: Golden sunrise beams through the window, volumetric light shafts with floating dust
+MOOD: Sing-song influencer purr; 250 ms between compliments
+ACTION: Skin strikes model poses on the table while Heart snaps photos with a phone, flash bursting; a 'before' photo of a puffy Skin is taped to the wall; Lungs roll their eyes; Muscle photobombs in the background; Stomach claps.
+```
+
+```
+V35 · 4s · Speaker: Large Intestine, Small Intestine
+SCRIPT SEGMENT: "Bro. Why are we so... regular? / Don't jinx it."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Shot: Medium two-shot on the Intestines at the table, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Large Intestine, Small Intestine. Primary action: Large Intestine raises one eyebrow suspiciously; Small Intestine panics, waving its arms in a 'stop' gesture. Ensemble reactions: the rest of the team slowly leans away from the Intestines; Brain raises an eyebrow. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium two-shot on the Intestines at the table, 35mm
+LIGHTING: Bright clean daylight, soft bounce light
+MOOD: Suspicious, laid-back drawl; 250 ms pause before 'regular'
+ACTION: Large Intestine raises one eyebrow suspiciously; Small Intestine panics, waving its arms in a 'stop' gesture; the rest of the team slowly leans away from the Intestines; Brain raises an eyebrow.
+```
+
+```
+V36 · 2s · Speaker: Large Intestine
+SCRIPT SEGMENT: "Too late. Jinxed. Bathroom. Now."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Shot: Close-up on Large Intestine, 85mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Large Intestine. Primary action: Large Intestine freezes, sweating, pupils shrinking, in a toothy grimace as a red warning light starts flashing in the ceiling. Ensemble reactions: in the background the whole team leaps up in alarm, chairs scraping; Bladder points frantically at the door. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Close-up on Large Intestine, 85mm, team behind
+LIGHTING: Bright clean daylight, soft bounce light
+MOOD: Tight, strained grunt; clipped one-word beats
+ACTION: Large Intestine freezes, sweating, pupils shrinking, in a toothy grimace as a red warning light starts flashing in the ceiling; in the background the whole team leaps up in alarm, chairs scraping; Bladder points frantically at the door.
+```
+
+```
+V37 · 3s · Speaker: Small Intestine, Brain
+SCRIPT SEGMENT: "We're three blocks from home! / Legs. Run."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: A sunny cartoon suburban street outside the body's neighborhood: pastel houses, a sidewalk, a street sign reading 'HOME: 3 BLOCKS'. Lighting: bright sunny outdoor daylight, crisp shadows. Shot: Wide tracking shot, 24mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Small Intestine, Brain. Primary action: the entire team sprints down the sidewalk past the 'HOME: 3 BLOCKS' sign, Brain in front pointing ahead and carrying Large Intestine. Ensemble reactions: Small Intestine clings to Muscle's back; Heart, Liver, Stomach, Kidneys, Bladder, Pancreas, Lungs and Skin run in a frantic line behind, kicking up dust clouds. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide tracking shot, 24mm
+LIGHTING: Bright sunny outdoor daylight, crisp shadows
+MOOD: Breathless yelp
+ACTION: The entire team sprints down the sidewalk past the 'HOME: 3 BLOCKS' sign, Brain in front pointing ahead and carrying Large Intestine; Small Intestine clings to Muscle's back; Heart, Liver, Stomach, Kidneys, Bladder, Pancreas, Lungs and Skin run in a frantic line behind, kicking up dust clouds.
+```
+
+```
+V38 · 2s · Speaker: Heart
+SCRIPT SEGMENT: "Still dry. Still alive!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: The hallway of Body HQ: blush-pink organic walls, framed team photos, a small bathroom door at the end. Lighting: bright clean daylight, soft bounce light. Shot: Medium shot, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Heart. Primary action: the bathroom door has just slammed shut, with a relieved sigh cloud puffing over the top; Heart gives a double thumbs-up. Ensemble reactions: the rest of the team collapses panting on the hallway floor; Muscle fans himself; Lungs wheeze. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot, 35mm
+LIGHTING: Bright clean daylight, soft bounce light
+MOOD: Relieved, triumphant chant; 200 ms between segments
+ACTION: The bathroom door has just slammed shut, with a relieved sigh cloud puffing over the top; Heart gives a double thumbs-up; the rest of the team collapses panting on the hallway floor; Muscle fans himself; Lungs wheeze.
+```
+
+```
+V39 · 3s · Speaker: Narrator
+SCRIPT SEGMENT: "Week two brought the biggest test yet."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: A grassy hill at dusk overlooking a cartoon city skyline where a gigantic neon cocktail-glass billboard towers like a mountain, stormy lavender clouds above. Lighting: dusk sky ambience with magenta and teal neon rim light. Shot: Low-angle wide shot, 24mm, slow tilt up. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Narrator. Primary action: the team stands in a line on the hill looking up at the giant neon cocktail-glass billboard as lightning flickers in the clouds. Ensemble reactions: everyone gulps at once; Pancreas hides behind Muscle; Liver grips Heart's hand. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Low-angle wide shot, 24mm, slow tilt up
+LIGHTING: Dusk sky ambience with magenta and teal neon rim light
+MOOD: Epic, foreboding weight; 500 ms hold after 'yet'
+ACTION: The team stands in a line on the hill looking up at the giant neon cocktail-glass billboard as lightning flickers in the clouds; everyone gulps at once; Pancreas hides behind Muscle; Liver grips Heart's hand.
+```
+
+```
+V40 · 4s · Speaker: Narrator, Stomach
+SCRIPT SEGMENT: "Two weeks. / Guys. The burning... is gone. My lining is healing!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Shot: Medium shot on Stomach, 50mm, team behind; white title card '2 WEEKS' top-left. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Narrator, Stomach. Primary action: the last tiny cartoon flames on Stomach's belly fizzle out under a healing sparkle and bandage strips peel away; happy tears. Ensemble reactions: the team cheers; Heart hugs Stomach; Liver wipes away a tear. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Stomach, 50mm, team behind; white title card '2 WEEKS' top-left
+LIGHTING: Bright clean daylight, soft bounce light
+MOOD: Clean title-card read
+ACTION: The last tiny cartoon flames on Stomach's belly fizzle out under a healing sparkle and bandage strips peel away; happy tears; the team cheers; Heart hugs Stomach; Liver wipes away a tear.
+```
+
+```
+V41 · 3s · Speaker: Pancreas
+SCRIPT SEGMENT: "Me too. No more tequila tsunamis."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Shot: Medium shot on Pancreas, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Pancreas. Primary action: Pancreas points proudly at the whiteboard, where a drawn giant tequila tsunami is being erased. Ensemble reactions: the Kidneys erase the drawing with big sweeps; the team gives a little cheer. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Pancreas, 50mm, team behind
+LIGHTING: Bright clean daylight, soft bounce light
+MOOD: Calm, relieved tenor
+ACTION: Pancreas points proudly at the whiteboard, where a drawn giant tequila tsunami is being erased; the Kidneys erase the drawing with big sweeps; the team gives a little cheer.
+```
+
+```
+V42 · 5s · Speaker: Pancreas
+SCRIPT SEGMENT: "And my blood sugar got off the roller coaster. I can finally breathe."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Shot: Medium shot, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Pancreas. Primary action: Pancreas steps dizzily off a little toy roller coaster set up on the table, hand on its chest, taking a big dramatic breath. Ensemble reactions: Muscle steadies Pancreas with one hand; the team chuckles; Skin fans it. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot, 35mm
+LIGHTING: Bright clean daylight, soft bounce light
+MOOD: Relieved, slightly dizzy tenor; nervous burst then slow
+ACTION: Pancreas steps dizzily off a little toy roller coaster set up on the table, hand on its chest, taking a big dramatic breath; Muscle steadies Pancreas with one hand; the team chuckles; Skin fans it.
+```
+
+```
+V43 · 3s · Speaker: Lungs, Pancreas
+SCRIPT SEGMENT: "You don't breathe, Pancreas. / Figure of speech, Lungs."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Shot: Medium two-shot, Lungs and Pancreas in the foreground, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Lungs, Pancreas. Primary action: Lungs raise one finger and an eyebrow smugly; Pancreas turns with a flat, half-lidded glare. Ensemble reactions: the team snickers behind their hands; Small Intestine mouths 'ooooh'. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium two-shot, Lungs and Pancreas in the foreground, 50mm, team behind
+LIGHTING: Bright clean daylight, soft bounce light
+MOOD: Airy, smug, corrective; 300 ms breath before speaking
+ACTION: Lungs raise one finger and an eyebrow smugly; Pancreas turns with a flat, half-lidded glare; the team snickers behind their hands; Small Intestine mouths 'ooooh'.
+```
+
+```
+V44 · 2s · Speaker: Brain
+SCRIPT SEGMENT: "Friday. Happy hour. Uh-oh."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Shot: Wide shot, 28mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Brain. Primary action: the team walks along the dusk street when the 'HAPPY HOUR' neon sign flickers on above the dark doorway; Brain, in front, freezes mid-step. Ensemble reactions: the whole team freezes mid-step behind Brain, pupils shrinking; Stomach licks his lips; Heart grabs his arm. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot, 28mm
+LIGHTING: Dusk sky ambience with magenta and teal neon rim light
+MOOD: Low, tense murmur; 300 ms between fragments
+ACTION: The team walks along the dusk street when the 'HAPPY HOUR' neon sign flickers on above the dark doorway; Brain, in front, freezes mid-step; the whole team freezes mid-step behind Brain, pupils shrinking; Stomach licks his lips; Heart grabs his arm.
+```
+
+```
+V45 · 3s · Speaker: Large Intestine, Small Intestine
+SCRIPT SEGMENT: "Who's the guy with the lime? / That's Craving."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Shot: Medium-wide shot, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Large Intestine, Small Intestine. Primary action: Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) leans casually in the neon doorway, tipping its lime hat. Ensemble reactions: the team huddles behind a mailbox, peeking; the Intestines whisper in front; Liver trembles at the back. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium-wide shot, 35mm
+LIGHTING: Dusk sky ambience with magenta and teal neon rim light
+MOOD: Hushed, curious whisper
+ACTION: Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) leans casually in the neon doorway, tipping its lime hat; the team huddles behind a mailbox, peeking; the Intestines whisper in front; Liver trembles at the back.
+```
+
+```
+V46 · 5s · Speaker: Craving
+SCRIPT SEGMENT: "Come on, boss. Just one. For old times' sake. You deserve it."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Shot: Medium two-shot, 50mm, slow push-in, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Craving. Primary action: Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) drapes an arm around Brain and holds out a glowing shot glass; Brain's eyes dart sideways, tempted. Ensemble reactions: behind them the team watches tensely: Liver bites its nails; Heart holds Stomach back by the tube; Muscle cracks his knuckles. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium two-shot, 50mm, slow push-in, team behind
+LIGHTING: Dusk sky ambience with magenta and teal neon rim light
+MOOD: Velvety seductive purr at 120 wpm; 400 ms gaps between phrases
+ACTION: Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) drapes an arm around Brain and holds out a glowing shot glass; Brain's eyes dart sideways, tempted; behind them the team watches tensely: Liver bites its nails; Heart holds Stomach back by the tube; Muscle cracks his knuckles.
+```
+
+```
+V47 · 2s · Speaker: Brain
+SCRIPT SEGMENT: "Not today, buddy."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Shot: Low-angle hero close-up on Brain, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Brain. Primary action: Brain raises one hand in a calm, polite stop gesture with a cool small smile while Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) recoils at the edge of the frame. Ensemble reactions: the team behind gasps, hands over mouths. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Low-angle hero close-up on Brain, 50mm, team behind
+LIGHTING: Dusk sky ambience with magenta and teal neon rim light
+MOOD: Calm, cool, heroic baritone; slow and falling
+ACTION: Brain raises one hand in a calm, polite stop gesture with a cool small smile while Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) recoils at the edge of the frame; the team behind gasps, hands over mouths.
+```
+
+```
+V48 · 2s · Speaker: Liver
+SCRIPT SEGMENT: "He's leaving. He's actually leaving!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Shot: Wide deep-focus shot, 28mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Liver. Primary action: Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) walks away down the street, shoulders slumped, its shadow long behind it. Ensemble reactions: in the foreground Liver points and bounces with excitement; the rest of the team hugs and jumps. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide deep-focus shot, 28mm
+LIGHTING: Dusk sky ambience with magenta and teal neon rim light
+MOOD: Disbelieving, rising cheer at 155 wpm
+ACTION: Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) walks away down the street, shoulders slumped, its shadow long behind it; in the foreground Liver points and bounces with excitement; the rest of the team hugs and jumps.
+```
+
+```
+V49 · 2s · Speaker: Stomach
+SCRIPT SEGMENT: "Bravest thing I've ever seen."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Shot: Medium shot on Stomach, 50mm, team around. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Stomach. Primary action: Stomach weeps with pride into a tiny handkerchief. Ensemble reactions: the team consoles him; Muscle secretly wipes away his own tear; Skin hands over another tissue. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Stomach, 50mm, team around
+LIGHTING: Dusk sky ambience with magenta and teal neon rim light
+MOOD: Choked-up, sobbing whisper
+ACTION: Stomach weeps with pride into a tiny handkerchief; the team consoles him; Muscle secretly wipes away his own tear; Skin hands over another tissue.
+```
+
+```
+V50 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "It gets easier every time, boys. Promise."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Shot: Medium shot, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Brain. Primary action: Brain pulls the Intestine brothers into a side hug. Ensemble reactions: the rest of the team piles into a big group hug around them. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot, 35mm
+LIGHTING: Dusk sky ambience with magenta and teal neon rim light
+MOOD: Warm, reassuring baritone; 300 ms pause before 'Promise'
+ACTION: Brain pulls the Intestine brothers into a side hug; the rest of the team piles into a big group hug around them.
+```
+
+```
+V51 · 2s · Speaker: Heart
+SCRIPT SEGMENT: "Still dry. Still alive!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Shot: Medium shot on Heart, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below. Speaking and in focus: Heart. Primary action: Heart winks and gives a confident thumbs-up, standing tall. Ensemble reactions: behind Heart the team walks home arm in arm under the glowing streetlights. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Heart, 50mm, team behind
+LIGHTING: Dusk sky ambience with magenta and teal neon rim light
+MOOD: Proud, confident chant; 200 ms between segments
+ACTION: Heart winks and gives a confident thumbs-up, standing tall; behind Heart the team walks home arm in arm under the glowing streetlights.
+```
+
+```
+V52 · 3s · Speaker: Narrator, Liver
+SCRIPT SEGMENT: "Thirty days. / Everyone. I have an announcement."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Wide shot from behind the seated team, 28mm; white title card '30 DAYS' top-left. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Narrator, Liver. Primary action: Liver stands at the head of the table in front of the bedsheet curtain, its back to the camera, under a spotlight. Ensemble reactions: the rest of the team sits facing Liver, leaning forward; Muscle holds a confetti cannon; Heart crosses her fingers. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot from behind the seated team, 28mm; white title card '30 DAYS' top-left
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Clean title-card read
+ACTION: Liver stands at the head of the table in front of the bedsheet curtain, its back to the camera, under a spotlight; the rest of the team sits facing Liver, leaning forward; Muscle holds a confetti cannon; Heart crosses her fingers.
+```
+
+```
+V53 · 2s · Speaker: Stomach
+SCRIPT SEGMENT: "Oh no. Here it comes."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Close two-shot on Stomach and Heart in the audience, 85mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Stomach. Primary action: Stomach bites his nails, sweating; Heart peeks through her fingers. Ensemble reactions: the rest of the audience leans forward, soft and blurred behind them. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Close two-shot on Stomach and Heart in the audience, 85mm
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Trembling, nervous whimper
+ACTION: Stomach bites his nails, sweating; Heart peeks through her fingers; the rest of the audience leans forward, soft and blurred behind them.
+```
+
+```
+V54 · 4s · Speaker: Liver
+SCRIPT SEGMENT: "My fat is dropping. My swelling is going down."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Medium full shot, 35mm, quick push on the spin. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Liver. Primary action: Liver spins around, now slimmer, smoother and glossy, as a see-through ghost of its old puffy shape shrinks away. Ensemble reactions: Muscle fires the confetti cannon; the whole team's jaws drop; Skin gasps. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium full shot, 35mm, quick push on the spin
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Triumphant, rising, energized at 155 wpm, −15 dBFS
+ACTION: Liver spins around, now slimmer, smoother and glossy, as a see-through ghost of its old puffy shape shrinks away; Muscle fires the confetti cannon; the whole team's jaws drop; Skin gasps.
+```
+
+```
+V55 · 4s · Speaker: Liver
+SCRIPT SEGMENT: "My cells are fixing themselves. I'm getting my shape back!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Macro close-up on Liver's glossy surface, 100mm, tilting up to its face. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Liver. Primary action: tiny round cell workers in hard hats patch and polish small cracks until they vanish in sparkles; Liver beams. Ensemble reactions: the whole team claps, soft and blurred in the background. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Macro close-up on Liver's glossy surface, 100mm, tilting up to its face
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Excited, proud, rising
+ACTION: Tiny round cell workers in hard hats patch and polish small cracks until they vanish in sparkles; Liver beams; the whole team claps, soft and blurred in the background.
+```
+
+```
+V56 · 4s · Speaker: Heart
+SCRIPT SEGMENT: "Blood pressure's down. I'm pumping smooth jazz over here."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Medium shot on Heart, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Heart. Primary action: Heart, in tiny sunglasses, plays a golden saxophone on the table beside a small blood-pressure gauge settling into the green zone. Ensemble reactions: the team sways to the music; Lungs snap their fingers; Kidneys slow-dance. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Heart, 50mm, team behind
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Smooth, relaxed, jazzy; slowed to 130 wpm
+ACTION: Heart, in tiny sunglasses, plays a golden saxophone on the table beside a small blood-pressure gauge settling into the green zone; the team sways to the music; Lungs snap their fingers; Kidneys slow-dance.
+```
+
+```
+V57 · 3s · Speaker: Muscle
+SCRIPT SEGMENT: "Recovery's faster, bro. The gains are gaining."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Low-angle medium shot on Muscle, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Muscle. Primary action: Muscle curls a small dumbbell and flexes as an upward green arrow chart pops up beside him. Ensemble reactions: the team is impressed; Skin swoons; Small Intestine copies the flex. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Low-angle medium shot on Muscle, 35mm
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Deep, cocky gym-bro grunt; 200 ms before 'bro'
+ACTION: Muscle curls a small dumbbell and flexes as an upward green arrow chart pops up beside him; the team is impressed; Skin swoons; Small Intestine copies the flex.
+```
+
+```
+V58 · 4s · Speaker: Bladder
+SCRIPT SEGMENT: "Fewer bathroom trips at night. I sleep through now."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ at night: the same cozy meeting room with blush-pink organic walls, crescent table pushed aside, the whole team asleep in sleeping bags and tiny cots across the floor, moonlight through the big window, indigo shadows. Lighting: cool blue moonlight through the window, soft indigo shadows. Shot: Wide shot, 24mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Everyone sleeps on the floor in the same left-to-right order as their meeting seats. Speaking and in focus: Bladder. Primary action: Bladder sleeps peacefully in its cot with a sleep mask pushed up on its head; the clock reads 3:00 a.m.; the bathroom door in the background is covered in cobwebs. Ensemble reactions: the whole team sleeps soundly around Bladder; a spider dangles from the bathroom door. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot, 24mm
+LIGHTING: Cool blue moonlight through the window, soft indigo shadows
+MOOD: Sleepy, contented murmur; contented rise on 'sleep through'
+ACTION: Bladder sleeps peacefully in its cot with a sleep mask pushed up on its head; the clock reads 3:00 a.m.; the bathroom door in the background is covered in cobwebs; the whole team sleeps soundly around Bladder; a spider dangles from the bathroom door.
+```
+
+```
+V59 · 4s · Speaker: Skin
+SCRIPT SEGMENT: "Brighter. Softer. Way less red. I look ten years younger!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Medium close-up on Skin, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Skin. Primary action: Skin admires its glowing reflection in a hand mirror, sparkles popping; the reflection shows a faded red, blotchy old version. Ensemble reactions: the team gathers around admiring; Lungs look grudgingly impressed. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium close-up on Skin, 50mm, team behind
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Delighted, high sing-song; 250 ms between compliments, peak on 'younger'
+ACTION: Skin admires its glowing reflection in a hand mirror, sparkles popping; the reflection shows a faded red, blotchy old version; the team gathers around admiring; Lungs look grudgingly impressed.
+```
+
+```
+V60 · 4s · Speaker: Brain
+SCRIPT SEGMENT: "Focus, sharp. Mood, steady. And the wallet? Weirdly heavy."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Medium shot on Brain, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain. Primary action: Brain, in tiny glasses with a lens glint, lifts a fat wallet bursting with cash that weighs its arm down. Ensemble reactions: the team leans in at the wallet; Stomach's eyes turn into sparkles. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium shot on Brain, 50mm, team behind
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Crisp, pleasantly surprised baritone; 300 ms beat before 'Weirdly heavy'
+ACTION: Brain, in tiny glasses with a lens glint, lifts a fat wallet bursting with cash that weighs its arm down; the team leans in at the wallet; Stomach's eyes turn into sparkles.
+```
+
+```
+V61 · 5s · Speaker: Stomach, Large Intestine
+SCRIPT SEGMENT: "I knew this would work! / You called it ridiculous. / With love."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Medium two-shot, Stomach and Large Intestine, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Stomach, Large Intestine. Primary action: Stomach throws his arms up, then puts a hand on his chest with a sheepish smile; Large Intestine gives him a deadpan side-eye. Ensemble reactions: the team snickers behind them. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium two-shot, Stomach and Large Intestine, 50mm, team behind
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Loud, boastful cheer
+ACTION: Stomach throws his arms up, then puts a hand on his chest with a sheepish smile; Large Intestine gives him a deadpan side-eye; the team snickers behind them.
+```
+
+```
+V62 · 5s · Speaker: Brain, Liver
+SCRIPT SEGMENT: "Liver, buddy. How do you feel? / Like I just got back from vacation."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Medium-wide shot, 35mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain, Liver. Primary action: Liver lounges in a beach chair on the HQ floor under a sun lamp beside an inflatable palm tree, wearing sunglasses and a flower lei and sipping a coconut drink; Brain leans in. Ensemble reactions: the team stands around in Hawaiian shirts, smiling; the window glows with a painterly golden sunset. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium-wide shot, 35mm
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Warm, caring baritone
+ACTION: Liver lounges in a beach chair on the HQ floor under a sun lamp beside an inflatable palm tree, wearing sunglasses and a flower lei and sipping a coconut drink; Brain leans in; the team stands around in Hawaiian shirts, smiling; the window glows with a painterly golden sunset.
+```
+
+```
+V63 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Thirty days, team. This calls for a toast!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Wide shot, 28mm, slow push-in. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain. Primary action: Brain raises a glass high at the boss position. Ensemble reactions: the whole team raises their glasses as confetti falls. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot, 28mm, slow push-in
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Proud, booming toastmaster, up to −14 dBFS
+ACTION: Brain raises a glass high at the boss position; the whole team raises their glasses as confetti falls.
+```
+
+```
+V64 · 2s · Speaker: Liver
+SCRIPT SEGMENT: "A WHAT?!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Extreme close-up crash zoom on Liver, 85mm, red flash vignette. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Liver. Primary action: Liver's eyes balloon, its eyebrows fly off the top of its head, and its mouth stretches into a giant screaming oval. Ensemble reactions: the team behind freezes mid-toast, glasses in the air. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Extreme close-up crash zoom on Liver, 85mm, red flash vignette
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Shrill, horrified scream, peak −12 dBFS
+ACTION: Liver's eyes balloon, its eyebrows fly off the top of its head, and its mouth stretches into a giant screaming oval; the team behind freezes mid-toast, glasses in the air.
+```
+
+```
+V65 · 3s · Speaker: Brain, Liver
+SCRIPT SEGMENT: "With sparkling water. / Oh. Carry on."
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Medium two-shot, Brain and Liver, 50mm, team behind. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Brain, Liver. Primary action: Brain holds up a fizzy glass of sparkling water with a lemon wedge, deadpan; Liver's shoulders drop and it nods sheepishly. Ensemble reactions: the team laughs with relief behind them. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Medium two-shot, Brain and Liver, 50mm, team behind
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Unbothered, flat deadpan
+ACTION: Brain holds up a fizzy glass of sparkling water with a lemon wedge, deadpan; Liver's shoulders drop and it nods sheepishly; the team laughs with relief behind them.
+```
+
+```
+V66 · 2s · Speaker: Everyone
+SCRIPT SEGMENT: "Cheers!"
+
+IMAGE PROMPT: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Set: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Shot: Wide shot, slight crane up, 24mm. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas. Speaking and in focus: Everyone. Primary action: the whole team clinks sparkling-water glasses in the center as bubbles and confetti burst upward. Ensemble reactions: everyone cheers; the window glows with a painterly pink, lavender, tangerine and cerulean sunset sky. Every other character stays in its blocking position, visible and on-model.
+
+CAMERA ANGLE: Wide shot, slight crane up, 24mm
+LIGHTING: Warm golden-hour glow mixed with colorful party lights and a white spotlight
+MOOD: Joyful, overlapping group cheer
+ACTION: The whole team clinks sparkling-water glasses in the center as bubbles and confetti burst upward; everyone cheers; the window glows with a painterly pink, lavender, tangerine and cerulean sunset sky.
+```
+
+## Video Prompts
+
+```
+V01 · 4s · Speaker: Narrator
+SCRIPT SEGMENT: "It's 2 a.m., the third wedding this month,"
+
+SCENE: Wedding reception hall at 2 a.m.: sagging string lights, confetti on the floor, a slowly turning disco ball, a wall clock at 2:00, a half-eaten three-tier cake, chairs pushed back, the team crowded around one round banquet table. Lighting: warm tungsten string-light glow, dim edges, disco-ball sparkles. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
+
+CAMERA: Wide establishing shot, 24mm, slow push-in. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
+
+PRIMARY ACTION: Liver sits at the center of the table in a loosened red necktie with a tiny paper cocktail umbrella stuck in its top lobe, staring at the clock.
+ENSEMBLE ANIMATION: Stomach face-down in the cake; Small and Large Intestine asleep leaning on each other; Bladder bouncing cross-legged; Heart still dancing alone in a party hat; Brain squinting at the clock; Kidneys mopping spilled drinks; Muscle asleep sitting upright; Lungs fanning themselves; Skin flushed red and puffy; Pancreas hiccuping. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
+
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] dry, warm, unhurried; slight smile on 'third wedding'.
+The Narrator says: "It's 2 a.m., the third wedding this month," — while the organs blink slowly in unison.
+
+SOUND EFFECTS (TIMED):
 - 0.0s muffled party music fading out
 - 1.2s single clock TICK-TOCK
 - 2.8s soft confetti rustle as the piece lands
 - 3.5s Stomach's tiny yawn
+- background: Heart's dance-floor shuffle, Pancreas HIC!
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V02 · 3s · Speaker: Narrator
+SCRIPT SEGMENT: "and Liver just called an emergency meeting."
 
-## V02 · 3s
-**Script segment:** "and Liver just called an emergency meeting."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** A deep maroon two-lobed cartoon liver wearing a loosened red necktie, a tiny paper cocktail umbrella stuck in its top lobe, alone under a single hanging bulb. Soft peach-to-apricot gradient background.
+CAMERA: Medium-wide shot, 35mm, eye level. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Bulb flickers twice; Liver lifts a hand-drawn 'EMERGENCY MEETING' sign with shaky arms.
+PRIMARY ACTION: Liver climbs onto its chair at the center of the table holding up a hand-drawn 'EMERGENCY MEETING' sign while the pendant lamp flickers.
+ENSEMBLE ANIMATION: The rest of the team shuffles in groggily in pajamas and party clothes, pulling out chairs; Brain drops into the boss position; Stomach carries a slice of cake; the coffee machine gurgles. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium full shot, centered.
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] wry, light emphasis on 'emergency'.
+The Narrator says: "and Liver just called an emergency meeting." — while Liver hoists the sign with trembling arms.
 
-**Voice & dialogue:**
-
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** wry, light emphasis on 'emergency'.  
-> **The Narrator says:** "and Liver just called an emergency meeting." — *while Liver hoists the sign with trembling arms.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s electric bulb BUZZ and two flicker CLICKS
 - 1.5s paper sign RUSTLE
 - 2.6s soft wooden TOK
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V03 · 5s · Speaker: Liver
+SCRIPT SEGMENT: "Team. I'm not okay. I'm a sponge. In a cocktail. Wearing a tie."
 
-## V03 · 5s
-**Script segment:** "Team. I'm not okay. I'm a sponge. In a cocktail. Wearing a tie."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Medium close-up of the deep maroon two-lobed cartoon liver with a loose red tie and paper umbrella; its surface soggy and puffy, drips falling from the edges; thought bubble shows the liver floating like a sponge in a giant martini glass. Soft peach-to-apricot gradient background.
+CAMERA: Medium close-up on Liver, 50mm, team soft in the background. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** A drip falls on each short sentence; pupils wobble; it gestures weakly at itself and tugs the tie on the last word.
+PRIMARY ACTION: Liver, soggy and puffy, drips onto the table as it gestures at itself and tugs its loose tie; a thought bubble shows it floating like a sponge in a giant martini glass.
+ENSEMBLE ANIMATION: Heart slides it a napkin; Kidneys quietly place a bucket under the drips; Stomach avoids eye contact; Muscle and Lungs wince; Brain rubs its temples. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static, very slow zoom-in.
+VOICE & DIALOGUE:
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] hoarse, defeated sighing; 400 ms pause between each fragment.
+The Liver says: "Team. I'm not okay. I'm a sponge. In a cocktail. Wearing a tie." — while gesturing at its dripping lobes and tugging the loose tie.
 
-**Voice & dialogue:**
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** hoarse, defeated sighing; 400 ms pause between each fragment.  
-> **The Liver says:** "Team. I'm not okay. I'm a sponge. In a cocktail. Wearing a tie." — *while gesturing at its dripping lobes and tugging the loose tie.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.4s, 1.3s, 2.2s, 3.1s wet DRIP plinks synced to each fragment
 - 2.4s squelchy sponge SQUEEZE
 - 4.4s sad trombone 'wah-wah'
+- background: bucket PLINK under drips, sympathetic team 'ohhh'
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V04 · 4s · Speaker: Stomach
+SCRIPT SEGMENT: "Don't look at me. I just hold the stuff."
 
-## V04 · 4s
-**Script segment:** "Don't look at me. I just hold the stuff."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** A mustard-orange J-shaped cartoon stomach with an esophagus tube on top on the left third, liquid visibly sloshing inside its belly. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on Stomach, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Raises both hands defensively, shuffles sideways, guilty side-eye.
+PRIMARY ACTION: Stomach raises both hands defensively, liquid sloshing visibly inside its belly, giving guilty side-eye.
+ENSEMBLE ANIMATION: Every head at the table swivels toward Stomach; Large Intestine raises one eyebrow; Skin crosses its arms. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium full shot.
+VOICE & DIALOGUE:
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] whiny, defensive, nasal; quick.
+The Stomach says: "Don't look at me. I just hold the stuff." — while raising his hands and side-stepping away.
 
-**Voice & dialogue:**
-
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** whiny, defensive, nasal; quick.  
-> **The Stomach says:** "Don't look at me. I just hold the stuff." — *while raising his hands and side-stepping away.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.5s liquid SLOSH
 - 1.4s SLOSH
 - 2.2s SLOSH with each shuffle step
 - 2.0s small cartoon footstep pitter-pats
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V05 · 3s · Speaker: Bladder
+SCRIPT SEGMENT: "And I just flush it. Not my department."
 
-## V05 · 3s
-**Script segment:** "And I just flush it. Not my department."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** A pale yellow balloon-shaped cartoon bladder on the right third, little water droplets bouncing around it. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on Bladder at the far left, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Slow exaggerated shrug, eyes half-close, turns face away.
+PRIMARY ACTION: Bladder does a slow, exaggerated shrug and turns its face away.
+ENSEMBLE ANIMATION: Heads swivel from Stomach to Bladder; Kidneys facepalm in sync; Small Intestine snorts a laugh. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[BLADDER — FULL VOICE PROFILE] Perceived age 33, male cartoon voice. Volume −12 dBFS RMS. Pace 180 wpm. Pitch 170–300 Hz, baseline 225 Hz. Tone: slightly watery and bubbly, with a light gurgle. Articulation: easygoing, relaxed endings. Intonation: flat shrug; contented rise on 'sleep through'. Delivery: unbothered, casually deflects blame. Pauses: 300 ms before dismissive tags. Resonance: throat-centered, slightly hollow. AI: stability 0.65, similarity 0.80, style 0.35.
+[DELIVERY FOR THIS LINE] flat, unbothered gurgly shrug; 300 ms pause before 'Not my department'.
+The Bladder says: "And I just flush it. Not my department." — while shrugging and looking away.
 
-**Voice & dialogue:**
-
-> **BLADDER — full voice profile:** Perceived age 35, male. Volume −18 dBFS RMS. Pace 140 wpm. Pitch 105–180 Hz, baseline 130 Hz. Tone: slightly watery, bubbly, light gurgle quality. Articulation: easygoing, relaxed endings. Intonation: flat shrug; contented rise on 'sleep through'. Delivery: unbothered, casually deflects blame. Pauses: 300 ms before dismissive tags. Resonance: throat-centered, slightly hollow. AI: stability 0.65, similarity 0.80, style 0.35.  
-> **Delivery for this line:** flat, unbothered gurgly shrug; 300 ms pause before 'Not my department'.  
-> **The Bladder says:** "And I just flush it. Not my department." — *while shrugging and looking away.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.9s toilet FLUSH whoosh on 'flush'
 - 2.4s small bubble POP
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V06 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Enough. Thirty days. Zero alcohol. Starting now."
 
-## V06 · 3s
-**Script segment:** "Enough. Thirty days. Zero alcohol. Starting now."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** A coral-pink wrinkled cartoon brain with a small brown cerebellum behind a small wooden judge's podium; behind it a paper calendar with '30' circled in red and a crossed-out martini icon. Soft peach-to-apricot gradient background.
+CAMERA: Low-angle medium shot on Brain in the back-row boss position, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Slams gavel on 'Enough' (impact lines burst), points at the calendar on 'Thirty days', taps the podium on 'now'.
+PRIMARY ACTION: Brain slams a wooden gavel on the table and points at the wall calendar with '30' circled in red and a crossed-out martini icon.
+ENSEMBLE ANIMATION: The whole team jolts upright; coffee cups jump off the table; Liver gasps with hope; Muscle drops his protein shaker. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Slightly low medium shot; quick micro-shake on gavel hit.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] firm, clipped decree at 110 wpm; 300 ms between sentences.
+The Brain says: "Enough. Thirty days. Zero alcohol. Starting now." — while slamming the gavel and pointing at the calendar.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** firm, clipped decree at 110 wpm; 300 ms between sentences.  
-> **The Brain says:** "Enough. Thirty days. Zero alcohol. Starting now." — *while slamming the gavel and pointing at the calendar.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.1s loud gavel BANG
 - 0.2s orchestral STING
 - 2.6s knuckle TAP on podium
+- background: cups CLATTER, chairs SCRAPE
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V07 · 4s · Speaker: Stomach, Small Intestine
+SCRIPT SEGMENT: "Thirty days?! / Bro. The weekend is in two days."
 
-## V07 · 4s
-**Script segment:** "Thirty days?! / Bro. The weekend is in two days."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Two-shot: left, the mustard-orange J-shaped cartoon stomach with an esophagus tube on top; right, the salmon-pink tightly coiled cartoon small intestine with a short tube on top. Soft peach-to-apricot gradient background.
+CAMERA: Medium two-shot, Stomach and Small Intestine in the foreground, 35mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Stomach jumps back with squash-and-stretch, eyes ballooning; Small Intestine leans in holding up two fingers.
+PRIMARY ACTION: Stomach leaps backward out of his chair in shock; Small Intestine leans in holding up two fingers.
+ENSEMBLE ANIMATION: Large Intestine nods along; Muscle groans; Pancreas nervously shuffles papers; Bladder grabs the table. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Quick whip-pan from Stomach to Small Intestine, then hold.
+VOICE & DIALOGUE:
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] high-pitched outraged squeal, peak −12 dBFS.
+The Stomach says: "Thirty days?!" — while leaping backward.
 
-**Voice & dialogue:**
+[SMALL INTESTINE — FULL VOICE PROFILE] Perceived age 21, male bro (younger brother). Volume −11 dBFS RMS, −8 when panicking. Pace 235 wpm. Pitch 180–400 Hz, baseline 240 Hz. Tone: a higher, scratchier version of the Large Intestine so the two read as brothers. Articulation: quick, energetic. Intonation: jumpy, sharp rises when alarmed. Delivery: high-strung, superstitious little brother. Pauses: short (100–150 ms). Resonance: mouth-forward, bright. AI: stability 0.45, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] pleading, scratchy bro whine.
+The Small Intestine says: "Bro. The weekend is in two days." — while holding up two fingers.
 
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** high-pitched outraged squeal, peak −12 dBFS.  
-> **The Stomach says:** "Thirty days?!" — *while leaping backward.*
-
-> **SMALL INTESTINE — full voice profile:** Perceived age 22, male bro (younger brother). Volume −16 dBFS RMS, −13 when panicking. Pace 170 wpm. Pitch 115–230 Hz, baseline 140 Hz. Tone: higher, scratchier sibling of the Large Intestine. Articulation: quick, energetic. Intonation: jumpy, sharp rises when alarmed. Delivery: high-strung, superstitious, anxious little brother. Pauses: short (150 ms). Resonance: mouth-forward, bright. AI: stability 0.45, similarity 0.85, style 0.55.  
-> **Delivery for this line:** pleading, scratchy bro whine.  
-> **The Small Intestine says:** "Bro. The weekend is in two days." — *while holding up two fingers.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.2s cartoon BOING on the jump
 - 0.9s whip-pan WHOOSH
 - 1.0s record SCRATCH
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V08 · 2s · Speaker: Brain
+SCRIPT SEGMENT: "The weekend is canceled."
 
-## V08 · 2s
-**Script segment:** "The weekend is canceled."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Close-up of the coral-pink wrinkled cartoon brain with a small brown cerebellum holding a big red rubber stamp over a calendar page labelled 'SAT / SUN'. Soft peach-to-apricot gradient background.
+CAMERA: Close-up on Brain, 85mm, team blurred behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Deadpan stare, no blink; stamps 'CANCELED' in one slow motion.
+PRIMARY ACTION: Brain stamps a big red 'CANCELED' stamp across a 'SAT / SUN' calendar page without blinking.
+ENSEMBLE ANIMATION: In the soft background the whole team freezes; Small Intestine's jaw drops; Stomach clutches his heart dramatically. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static close-up.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] ice-cold deadpan, falling flat.
+The Brain says: "The weekend is canceled." — while stamping the calendar without blinking.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** ice-cold deadpan, falling flat.  
-> **The Brain says:** "The weekend is canceled." — *while stamping the calendar without blinking.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 1.4s heavy rubber-stamp THUNK
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V09 · 4s · Speaker: Heart, Liver
+SCRIPT SEGMENT: "Let's go! I'm in! / Somebody pinch me. Gently."
 
-## V09 · 4s
-**Script segment:** "Let's go! I'm in! / Somebody pinch me. Gently."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Two-shot: left, a bright red rounded cartoon heart with stubby vessels; right, the deep maroon two-lobed cartoon liver with a loose red tie. Soft peach-to-apricot gradient background.
+CAMERA: Medium-wide shot, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Heart jumps with both arms up and lands bouncing; Liver goes teary and lightly pinches its own cheek.
+PRIMARY ACTION: Heart jumps onto the table cheering with both arms up; Liver, teary and hopeful, pinches its own cheek.
+ENSEMBLE ANIMATION: Muscle fist-pumps; Lungs give polite golf claps; Skin rolls its eyes; Stomach slumps into his chair; Kidneys high-five. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium two-shot.
+VOICE & DIALOGUE:
+[HEART — FULL VOICE PROFILE] Perceived age 26, female. Volume −10 dBFS RMS, punchy. Pace 210 wpm (sincere lines 150). Pitch 220–450 Hz, baseline 285 Hz. Tone: bright, warm, upbeat, smiling, breathy energy. Articulation: crisp and rhythmic, on the beat like a cheerleader. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between chant segments. Resonance: mask and head, ringing. AI: stability 0.50, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] bright, punchy cheer at full energy.
+The Heart says: "Let's go! I'm in!" — while leaping in the air.
 
-**Voice & dialogue:**
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] soft, teary, hopeful; 400 ms pause before 'Gently'.
+The Liver says: "Somebody pinch me. Gently." — while pinching itself.
 
-> **HEART — full voice profile:** Perceived age 28, female. Volume −15 dBFS RMS, punchy dynamics. Pace 160 wpm (sincere lines 130). Pitch 180–320 Hz, baseline 220 Hz. Tone: bright, warm, upbeat, smiling, slightly breathy energy. Articulation: crisp, rhythmic, cheerleader-on-the-beat. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman, supportive; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between catchphrase segments. Resonance: mask/head, ringing and bright. AI: stability 0.50, similarity 0.85, style 0.55.  
-> **Delivery for this line:** bright, punchy cheer at full energy.  
-> **The Heart says:** "Let's go! I'm in!" — *while leaping in the air.*
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** soft, teary, hopeful; 400 ms pause before 'Gently'.  
-> **The Liver says:** "Somebody pinch me. Gently." — *while pinching itself.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.1s upbeat WHOOP sting
 - 0.8s bouncy landing BOINK
 - 1.2s steady heartbeat THUMP-THUMP
 - 3.0s tiny pinch SQUEAK
+- background: Lungs' polite golf CLAPS, Kidneys' high-five SLAP
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V10 · 4s · Speaker: Narrator
+SCRIPT SEGMENT: "But the first twelve hours? Nobody warned them about those."
 
-## V10 · 4s
-**Script segment:** "But the first twelve hours? Nobody warned them about those."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: single warm pool of light from the pendant lamp, deep soft shadows at the room's edges. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Wide lineup on a sunset-gradient background (butter yellow top, peach-pink middle, lavender bottom) with a rounded pink ground plane: the coral-pink wrinkled cartoon brain with a small brown cerebellum, the deep maroon two-lobed cartoon liver, the mustard-orange J-shaped cartoon stomach with an esophagus tube on top, the bright red rounded cartoon heart with stubby vessels, the lavender segmented, banded, frame-shaped cartoon large intestine and the salmon-pink tightly coiled cartoon small intestine with a short tube on top.
+CAMERA: Wide shot from the doorway, 24mm, slow push-in. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Organs grin obliviously while a long dark ominous shadow slides across the ground toward them; frame edges darken.
+PRIMARY ACTION: The team grins together around the table, unaware.
+ENSEMBLE ANIMATION: A long, dark ominous shadow slides across the floor from the doorway toward them while the lamp dims; only Pancreas glances back nervously. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Slow push-in.
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] low, dropping, ominous; 500 ms hold after 'those'.
+The Narrator says: "But the first twelve hours? Nobody warned them about those." — while the shadow creeps over the smiling organs.
 
-**Voice & dialogue:**
-
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** low, dropping, ominous; 500 ms hold after 'those'.  
-> **The Narrator says:** "But the first twelve hours? Nobody warned them about those." — *while the shadow creeps over the smiling organs.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s low cello DRONE
 - 3.4s suspense 'DUN'
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V11 · 3s · Speaker: Narrator, Liver
+SCRIPT SEGMENT: "Twelve hours. / Last drop... processed."
 
-## V11 · 3s
-**Script segment:** "Twelve hours. / Last drop... Processed."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** White title card '12 HOURS' top-left. Mini factory: the deep maroon two-lobed cartoon liver beside a little conveyor belt and a big green button. Soft peach-to-apricot gradient background.
+CAMERA: Wide shot, 28mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** A final amber droplet rolls along the belt and drops into a bin; Liver slowly presses the button.
+PRIMARY ACTION: Liver stands at a little conveyor-belt machine set up on the table; the last amber droplet rolls off into a bin and Liver presses a big green button labeled 'PROCESSED'; white title card '12 HOURS' top-left.
+ENSEMBLE ANIMATION: The whole team leans in, watching the droplet; Kidneys hold their breath; Heart crosses her fingers; Brain sips coffee. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium wide shot.
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] clean title-card read.
+The Narrator says: "Twelve hours." — as the title card pops on.
 
-**Voice & dialogue:**
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] slow, satisfied exhale; 400 ms pause on '...'.
+The Liver says: "Last drop... processed." — while pressing the green button.
 
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** clean title-card read.  
-> **The Narrator says:** "Twelve hours." — *as the title card pops on.*
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** slow, satisfied exhale; 400 ms pause on '...'.  
-> **The Liver says:** "Last drop... Processed." — *while pressing the green button.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s title-card WHOOSH
 - 0.5s conveyor HUM
 - 1.6s droplet PLINK into bin
 - 2.4s satisfying button DING
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V12 · 3s · Speaker: Liver
+SCRIPT SEGMENT: "Enzymes, clock out. You've earned it."
 
-## V12 · 3s
-**Script segment:** "Enzymes, clock out. You've earned it."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Tiny glossy pastel blob enzyme characters (mint, lilac, peach) in little hard hats line up at a punch-clock beside the deep maroon two-lobed cartoon liver. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Enzymes punch cards one by one and waddle off happily; Liver gives a proud thumbs-up.
+PRIMARY ACTION: Tiny glossy pastel enzyme workers in hard hats punch out at a punch-clock on the wall beside Liver, who gives them a proud thumbs-up.
+ENSEMBLE ANIMATION: The team waves goodbye to the enzymes; Muscle high-fives one; Bladder holds the door for them. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium wide shot.
+VOICE & DIALOGUE:
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] warm, proud, tired.
+The Liver says: "Enzymes, clock out. You've earned it." — while giving the enzymes a thumbs-up.
 
-**Voice & dialogue:**
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** warm, proud, tired.  
-> **The Liver says:** "Enzymes, clock out. You've earned it." — *while giving the enzymes a thumbs-up.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.3s, 0.8s, 1.3s punch-clock CLACKS
 - 1.8s tiny squeaky cheers 'yay!'
 - 2.2s little patter of waddling feet
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V13 · 3s · Speaker: Kidneys
+SCRIPT SEGMENT: "Faucet's off! I repeat, the faucet is off!"
 
-## V13 · 3s
-**Script segment:** "Faucet's off! I repeat, the faucet is off!"
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** A pair of warm brown bean-shaped cartoon kidneys beside a big chrome faucet. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on the Kidneys at the corner sink, 35mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** One kidney turns the handle to 'OFF', the last droplet falls, both jump in sync, arms up.
+PRIMARY ACTION: The Kidneys turn the chrome faucet handle to 'OFF' and jump in sync as the last droplet falls.
+ENSEMBLE ANIMATION: The team applauds; Bladder sags with relief; Liver mouths 'thank you'. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[KIDNEYS — FULL VOICE PROFILE] Perceived age 30, female duo, double-tracked. Volume −11 dBFS RMS combined. Pace 200 wpm. Pitch: Voice A 210–360 Hz (baseline 265 Hz), Voice B 225–380 Hz (baseline 285 Hz). Tone: clear, practical, friendly. Articulation: clean, efficient, like technicians. Intonation: matter-of-fact with a cheerful lift on announcements. Delivery: synchronized unison, Voice B delayed 15–25 ms for a twin effect. Pauses: 200 ms. Resonance: mid-head. AI: stability 0.70, similarity 0.85, style 0.30; render twice with different seeds, pan L10/R10.
+[DELIVERY FOR THIS LINE] cheerful synchronized unison, announcement lift.
+The Kidneys say: "Faucet's off! I repeat, the faucet is off!" — while jumping together.
 
-**Voice & dialogue:**
-
-> **KIDNEYS — full voice profile:** Perceived age 32, female duo, double-tracked. Volume −17 dBFS RMS combined. Pace 150 wpm. Pitch: Voice A 190–280 Hz, Voice B 200–300 Hz (near-unison, 15–20 Hz offset). Tone: clear, practical, friendly. Articulation: clean, efficient, technician-like. Intonation: matter-of-fact with a cheerful lift on announcements. Delivery: synchronized unison, Voice B delayed 15–25 ms for a twin effect. Pauses: 250 ms. Resonance: mid-head. AI: stability 0.70, similarity 0.85, style 0.30; render twice with different seeds, pan L10/R10.  
-> **Delivery for this line:** cheerful synchronized unison, announcement lift.  
-> **The Kidneys say:** "Faucet's off! I repeat, the faucet is off!" — *while jumping together.*
-
-**Sound effects (timed):**
-- 0.0s faucet handle SQUEAK
+SOUND EFFECTS (TIMED):
+- 0.0s sink faucet handle SQUEAK
 - 0.4s final DRIP
 - 1.0s double landing THUD
-- 1.2s celebratory horn TOOT
-- 2.4s both CLAP twice
+- 1.2s team APPLAUSE
+- 2.4s Bladder's relieved SIGH
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V14 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Wait. Why is everything so loud?"
 
-## V14 · 3s
-**Script segment:** "Wait. Why is everything so loud?"
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Close-up of the coral-pink wrinkled cartoon brain with a small brown cerebellum with jagged sound-wave lines around it. Soft peach-to-apricot gradient background.
+CAMERA: Close-up on Brain, 85mm, team frozen behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Flinches, covers its sides, pupils shrink to pinpoints, toothy grimace; the frame vibrates.
+PRIMARY ACTION: Brain flinches and covers its sides, pupils pinpoint, toothy grimace; jagged sound-wave lines vibrate around it.
+ENSEMBLE ANIMATION: The background team freezes mid-motion, staring at Brain; Lungs whisper to Skin; the clock and coffee machine visibly vibrate. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Close-up, handheld jitter.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] tense, rattled whisper-shout; 300 ms after 'Wait.'.
+The Brain says: "Wait. Why is everything so loud?" — while covering its sides and trembling.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** tense, rattled whisper-shout; 300 ms after 'Wait.'.  
-> **The Brain says:** "Wait. Why is everything so loud?" — *while covering its sides and trembling.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s record SCRATCH
 - 0.4s amplified clock TICKING
 - 0.6s high-pitched electric BUZZ swelling
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V15 · 5s · Speaker: Heart
+SCRIPT SEGMENT: "Boss, I'm racing. And why are we sweating? We're sitting on a couch."
 
-## V15 · 5s
-**Script segment:** "Boss, I'm racing. And why are we sweating? We're sitting on a couch."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The bright red rounded cartoon heart with stubby vessels sitting on a small cozy mustard sofa. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on Heart on the small sofa, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Thumps rapidly with motion lines, sweat drops fly off, gestures at the couch, pats a cushion.
+PRIMARY ACTION: Heart thumps fast with motion lines, sweat drops flying off, gesturing at the sofa it's sitting on.
+ENSEMBLE ANIMATION: Lungs fan Heart with a clipboard; Skin dabs its sweat with a tissue; Kidneys bring a cup of water; Brain watches calmly from the back. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium full shot.
+VOICE & DIALOGUE:
+[HEART — FULL VOICE PROFILE] Perceived age 26, female. Volume −10 dBFS RMS, punchy. Pace 210 wpm (sincere lines 150). Pitch 220–450 Hz, baseline 285 Hz. Tone: bright, warm, upbeat, smiling, breathy energy. Articulation: crisp and rhythmic, on the beat like a cheerleader. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between chant segments. Resonance: mask and head, ringing. AI: stability 0.50, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] quick, breathless, confused at ~170 wpm.
+The Heart says: "Boss, I'm racing. And why are we sweating? We're sitting on a couch." — while pounding and patting the couch cushion.
 
-**Voice & dialogue:**
-
-> **HEART — full voice profile:** Perceived age 28, female. Volume −15 dBFS RMS, punchy dynamics. Pace 160 wpm (sincere lines 130). Pitch 180–320 Hz, baseline 220 Hz. Tone: bright, warm, upbeat, smiling, slightly breathy energy. Articulation: crisp, rhythmic, cheerleader-on-the-beat. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman, supportive; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between catchphrase segments. Resonance: mask/head, ringing and bright. AI: stability 0.50, similarity 0.85, style 0.55.  
-> **Delivery for this line:** quick, breathless, confused at ~170 wpm.  
-> **The Heart says:** "Boss, I'm racing. And why are we sweating? We're sitting on a couch." — *while pounding and patting the couch cushion.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s–5.0s rapid heartbeat THUMP-THUMP-THUMP
 - 1.8s sweat-drop PLINKS
 - 4.0s cushion PAT-PAT
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V16 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Easy. For months, alcohol was pushing my brakes."
 
-## V16 · 3s
-**Script segment:** "Easy. For months, alcohol was pushing my brakes."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The coral-pink wrinkled cartoon brain with a small brown cerebellum in the driver's seat of a little toy-like cartoon car; a glossy translucent green toy-like cocktail-glass character wearing a lime slice as a hat, with sly half-lidded eyes crouches at the pedals. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot, 35mm, team gathered like a class. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** The cocktail glass pushes the brake pedal down; Brain slumps drowsily, eyes half-closed.
+PRIMARY ACTION: Brain demonstrates on the table with a toy car: a tiny green cocktail-glass figurine is pressing the toy car's brake pedal while a little brain figurine slumps in the driver's seat.
+ENSEMBLE ANIMATION: The team leans in like students; Large Intestine takes notes; Small Intestine raises a hand; Pancreas adjusts its glasses. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static side medium shot.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] calm, steadying baritone.
+The Brain says: "Easy. For months, alcohol was pushing my brakes." — while slumping as the glass presses the pedal.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** calm, steadying baritone.  
-> **The Brain says:** "Easy. For months, alcohol was pushing my brakes." — *while slumping as the glass presses the pedal.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 1.2s brake SQUEAK
 - 1.3s low slowing-engine WHINE-DOWN
 - 2.0s glass CLINK
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V17 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Now I'm learning to find them myself."
 
-## V17 · 3s
-**Script segment:** "Now I'm learning to find them myself."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The coral-pink wrinkled cartoon brain with a small brown cerebellum alone in the little toy car. Soft peach-to-apricot gradient background.
+CAMERA: Medium close-up on Brain and the toy car, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Stretches one stick leg toward the brake pedal, tongue out in concentration; foot finally taps it.
+PRIMARY ACTION: Brain flicks the cocktail-glass figurine off the table and carefully presses the toy car's brake pedal itself, tongue out in concentration.
+ENSEMBLE ANIMATION: The team says 'ohhh' in unison; Muscle nods slowly; Liver smiles. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static side medium shot.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] calm, determined, slight effort strain.
+The Brain says: "Now I'm learning to find them myself." — while reaching and tapping the pedal.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** calm, determined, slight effort strain.  
-> **The Brain says:** "Now I'm learning to find them myself." — *while reaching and tapping the pedal.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.5s effort GRUNT 'mmh'
 - 2.2s pedal CLICK
 - 2.4s hopeful DING
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V18 · 5s · Speaker: Heart
+SCRIPT SEGMENT: "And if this ever gets scary, we call a doctor. Not the bar."
 
-## V18 · 5s
-**Script segment:** "And if this ever gets scary, we call a doctor. Not the bar."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The bright red rounded cartoon heart with stubby vessels holding an old red telephone receiver beside a little table with two speed-dial cards: a doctor's cross and a cocktail glass. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on Heart at the whiteboard, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Circles the doctor card, crosses out the cocktail card.
+PRIMARY ACTION: Heart holds an old red telephone receiver and circles a doctor's-cross card taped to the whiteboard, then crosses out a cocktail-glass card.
+ENSEMBLE ANIMATION: The team nods seriously; Pancreas writes it down; Liver gives a thumbs-up; Brain nods approvingly. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[HEART — FULL VOICE PROFILE] Perceived age 26, female. Volume −10 dBFS RMS, punchy. Pace 210 wpm (sincere lines 150). Pitch 220–450 Hz, baseline 285 Hz. Tone: bright, warm, upbeat, smiling, breathy energy. Articulation: crisp and rhythmic, on the beat like a cheerleader. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between chant segments. Resonance: mask and head, ringing. AI: stability 0.50, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] sincere, warm, slowed to 130 wpm; downward settle on 'bar'.
+The Heart says: "And if this ever gets scary, we call a doctor. Not the bar." — while circling the doctor card and crossing out the bar card.
 
-**Voice & dialogue:**
-
-> **HEART — full voice profile:** Perceived age 28, female. Volume −15 dBFS RMS, punchy dynamics. Pace 160 wpm (sincere lines 130). Pitch 180–320 Hz, baseline 220 Hz. Tone: bright, warm, upbeat, smiling, slightly breathy energy. Articulation: crisp, rhythmic, cheerleader-on-the-beat. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman, supportive; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between catchphrase segments. Resonance: mask/head, ringing and bright. AI: stability 0.50, similarity 0.85, style 0.55.  
-> **Delivery for this line:** sincere, warm, slowed to 130 wpm; downward settle on 'bar'.  
-> **The Heart says:** "And if this ever gets scary, we call a doctor. Not the bar." — *while circling the doctor card and crossing out the bar card.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s phone DIAL TONE
 - 2.6s marker SQUEAK circle
 - 3.9s marker SCRATCH cross-out
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V19 · 4s · Speaker: Stomach
+SCRIPT SEGMENT: "Hold on. Is anyone else... hungry? Like, real food hungry?"
 
-## V19 · 4s
-**Script segment:** "Hold on. Is anyone else... Hungry? Like, real food hungry?"
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The mustard-orange J-shaped cartoon stomach with an esophagus tube on top; thought bubble of a steaming plate of vegetables and rice. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on Stomach, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Freezes, looks down as the belly rumbles, eyes widen in surprise, clutches middle.
+PRIMARY ACTION: Stomach freezes and looks down as his belly growls loudly; a thought bubble shows a steaming plate of vegetables and rice.
+ENSEMBLE ANIMATION: The whole team turns toward the sound; several look down at their own middles; Small Intestine licks its lips. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Slow zoom-in.
+VOICE & DIALOGUE:
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] surprised, curious nasal tenor; 300 ms pause on '...'.
+The Stomach says: "Hold on. Is anyone else... hungry? Like, real food hungry?" — while clutching his growling belly.
 
-**Voice & dialogue:**
-
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** surprised, curious nasal tenor; 300 ms pause on '...'.  
-> **The Stomach says:** "Hold on. Is anyone else... Hungry? Like, real food hungry?" — *while clutching his growling belly.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.6s loud cartoon stomach GROWL
 - 2.8s thought-bubble POP
 - 3.0s steam HISS
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V20 · 4s · Speaker: Brain
+SCRIPT SEGMENT: "That's your signal coming back. Alcohol was jamming the radio."
 
-## V20 · 4s
-**Script segment:** "That's your signal coming back. Alcohol was jamming the radio."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: cool morning daylight through the window mixed with the warm pendant lamp. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The coral-pink wrinkled cartoon brain with a small brown cerebellum in tiny headphones beside a retro wooden radio; a glossy translucent green toy-like cocktail-glass character wearing a lime slice as a hat, with sly half-lidded eyes is plugged into the back of the radio. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot by the shelf, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Brain yanks the cocktail glass's plug out and turns the knob; the screen shifts from static to clean waves.
+PRIMARY ACTION: Brain, in tiny headphones, yanks a cocktail-glass-shaped plug out of the back of an old wooden radio and turns the dial as its screen clears from static to clean waves.
+ENSEMBLE ANIMATION: The team leans toward the radio; Lungs nod approvingly; Heart bobs to the clean signal. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] clever, explanatory baritone.
+The Brain says: "That's your signal coming back. Alcohol was jamming the radio." — while yanking the plug and tuning the dial.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** clever, explanatory baritone.  
-> **The Brain says:** "That's your signal coming back. Alcohol was jamming the radio." — *while yanking the plug and tuning the dial.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s radio STATIC hiss
 - 2.0s plug YANK pop
 - 2.4s knob CLICK-CLICK
 - 2.8s static clears into clean TONE
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V21 · 5s · Speaker: Narrator
+SCRIPT SEGMENT: "Hunger's back. Good news. The bad news showed up on night three."
 
-## V21 · 5s
-**Script segment:** "Hunger's back. Good news. The bad news showed up on night three."
+SCENE: Body HQ at night: the same cozy meeting room with blush-pink organic walls, crescent table pushed aside, the whole team asleep in sleeping bags and tiny cots across the floor, moonlight through the big window, indigo shadows. Lighting: cool blue moonlight through the window, soft indigo shadows. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Everyone sleeps on the floor in the same left-to-right order as their meeting seats.
 
-**Scene:** Dark cozy bedroom in indigo and lavender, full moon in the window; the coral-pink wrinkled cartoon brain with a small brown cerebellum, the mustard-orange J-shaped cartoon stomach with an esophagus tube on top and the deep maroon two-lobed cartoon liver lie in tiny beds under blankets.
+CAMERA: Wide shot, 24mm, slow pan. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** A giant cocktail-glass shadow creeps across the wall; the organs' eyes pop open in the dark one by one.
+PRIMARY ACTION: The whole team lies asleep across the floor; a giant shadow of a cocktail glass creeps across the wall.
+ENSEMBLE ANIMATION: One by one, every character's eyes pop open in the dark: Brain, Stomach, Liver, then the rest. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Slow pan across the beds.
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] dry, teasing, suspenseful; 500 ms hold after 'night three'.
+The Narrator says: "Hunger's back. Good news. The bad news showed up on night three." — while the eyes snap open.
 
-**Voice & dialogue:**
-
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** dry, teasing, suspenseful; 500 ms hold after 'night three'.  
-> **The Narrator says:** "Hunger's back. Good news. The bad news showed up on night three." — *while the eyes snap open.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s soft cricket ambience
 - 1.5s creaky door CREAK
 - 2.5s owl HOOT
 - 3.6s, 4.0s, 4.4s eye-blink POPS
+- background: sleeping-bag RUSTLES
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V22 · 2s · Speaker: Narrator, Brain
+SCRIPT SEGMENT: "Day three. / Sleep report."
 
-## V22 · 2s
-**Script segment:** "Day three. / Sleep report."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** White title card 'DAY 3' top-left. The coral-pink wrinkled cartoon brain with a small brown cerebellum with huge eye bags and messy folds at a whiteboard, holding a steaming mug. Soft peach-to-apricot gradient background, dull morning light.
+CAMERA: Wide shot, 28mm; white title card 'DAY 3' top-left. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Taps the whiteboard tiredly, sways.
+PRIMARY ACTION: Brain stands at the whiteboard with huge eye bags and messy folds, holding a steaming mug, tapping 'SLEEP REPORT'.
+ENSEMBLE ANIMATION: The team slumps in their chairs like zombies: Lungs in an eye mask, Muscle face-down on the table, Bladder yawning, Skin with cucumber slices over its eyes. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] clean title-card read.
+The Narrator says: "Day three." — as the card pops on.
 
-**Voice & dialogue:**
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] groggy, gravelly mumble.
+The Brain says: "Sleep report." — while tapping the board.
 
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** clean title-card read.  
-> **The Narrator says:** "Day three." — *as the card pops on.*
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** groggy, gravelly mumble.  
-> **The Brain says:** "Sleep report." — *while tapping the board.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s title-card WHOOSH
 - 0.8s big YAWN
 - 1.4s marker TAP on whiteboard
 - mug steam HISS throughout
+- background: group SNORES and YAWNS
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V23 · 5s · Speaker: Brain, Stomach
+SCRIPT SEGMENT: "Four hours. One dream. It was a margarita. / Mine was nachos."
 
-## V23 · 5s
-**Script segment:** "Four hours. One dream. It was a margarita. / Mine was nachos."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Two-shot: left, the coral-pink wrinkled cartoon brain with a small brown cerebellum with eye bags; right, the mustard-orange J-shaped cartoon stomach with an esophagus tube on top. Dream bubbles above show a glowing margarita and cheesy nachos. Soft peach-to-apricot gradient background.
+CAMERA: Medium two-shot, Brain and Stomach in the foreground, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Bubbles pop in one after the other; Stomach drools a tiny drop.
+PRIMARY ACTION: Brain stares blankly under a dream bubble showing a glowing margarita; Stomach drools under a dream bubble showing cheesy nachos.
+ENSEMBLE ANIMATION: Behind them Small Intestine drools too; Heart sleeps on the table; Pancreas stares into its coffee. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium two-shot.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] groggy, flat baritone; 300 ms between fragments.
+The Brain says: "Four hours. One dream. It was a margarita." — while staring blankly.
 
-**Voice & dialogue:**
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] dreamy, drooling nasal.
+The Stomach says: "Mine was nachos." — while gazing at his bubble.
 
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** groggy, flat baritone; 300 ms between fragments.  
-> **The Brain says:** "Four hours. One dream. It was a margarita." — *while staring blankly.*
-
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** dreamy, drooling nasal.  
-> **The Stomach says:** "Mine was nachos." — *while gazing at his bubble.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.2s dreamy harp GLISS
 - 1.6s bubble POP (margarita)
 - 3.8s bubble POP (nachos)
 - 4.4s drool SLURP
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V24 · 5s · Speaker: Stomach
+SCRIPT SEGMENT: "And why am I craving sugar like a raccoon in a dumpster?"
 
-## V24 · 5s
-**Script segment:** "And why am I craving sugar like a raccoon in a dumpster?"
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The mustard-orange J-shaped cartoon stomach with an esophagus tube on top diving headfirst into a small metal dumpster overflowing with donuts, candy and lollipops; a cute cartoon raccoon sits beside it. Soft peach-to-apricot gradient background.
+CAMERA: Medium-wide shot, 28mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Only stick legs kick out of the top; candy flies everywhere; the raccoon blinks, confused.
+PRIMARY ACTION: Stomach dives headfirst into the HQ trash can overflowing with candy wrappers and donuts, only his stick legs kicking out the top; a raccoon doodle grins on the whiteboard.
+ENSEMBLE ANIMATION: The team stares in horror; Skin covers its eyes; Muscle grabs Stomach's legs and tries to pull him out; Lungs shake their heads. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium wide shot.
+VOICE & DIALOGUE:
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] frantic, muffled whine from inside the trash can.
+The Stomach says: "And why am I craving sugar like a raccoon in a dumpster?" — while digging wildly.
 
-**Voice & dialogue:**
-
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** frantic, muffled whine from inside the dumpster.  
-> **The Stomach says:** "And why am I craving sugar like a raccoon in a dumpster?" — *while digging wildly.*
-
-**Sound effects (timed):**
-- 0.0s metal lid CLANG
+SOUND EFFECTS (TIMED):
+- 0.0s trash-can lid CLANG
 - 0.5s–4.5s rummaging CLATTER and wrapper CRINKLES
-- 3.8s raccoon CHITTER
-- 4.6s candy THUNK on the ground
+- 2.5s Muscle's effort GRUNT tugging his legs
+- 4.6s donut THUNK on the floor
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V25 · 4s · Speaker: Liver
+SCRIPT SEGMENT: "Those empty calories stopped showing up, buddy. Your cravings noticed."
 
-## V25 · 4s
-**Script segment:** "Those empty calories stopped showing up, buddy. Your cravings noticed."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The deep maroon two-lobed cartoon liver consoles the sad mustard-orange J-shaped cartoon stomach with an esophagus tube on top beside an empty delivery chute labelled 'NO DELIVERIES'. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Liver pats Stomach's back; Stomach gives puppy-dog eyes and a small sniffle.
+PRIMARY ACTION: Liver pats a sticky, sad Stomach on the back beside an empty snack drawer labeled 'NO DELIVERIES'.
+ENSEMBLE ANIMATION: The team gathers sympathetically; Heart offers Stomach a carrot stick; Small Intestine pats his other side. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium two-shot.
+VOICE & DIALOGUE:
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] gentle, consoling, softened consonants.
+The Liver says: "Those empty calories stopped showing up, buddy. Your cravings noticed." — while patting the stomach's back.
 
-**Voice & dialogue:**
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** gentle, consoling, softened consonants.  
-> **The Liver says:** "Those empty calories stopped showing up, buddy. Your cravings noticed." — *while patting the stomach's back.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.4s hollow empty-chute ECHO
 - 1.5s, 2.0s soft back PATS
 - 3.6s small SNIFFLE
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V26 · 3s · Speaker: Pancreas
+SCRIPT SEGMENT: "Uh, who keeps mailing me cookies?"
 
-## V26 · 3s
-**Script segment:** "Uh, who keeps mailing me cookies?"
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** A small golden-yellow lumpy cartoon pancreas with a bumpy, granular, sponge-like texture beside a tall stack of small cardboard boxes overflowing with chocolate-chip cookies. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on Pancreas at the right end of the table, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** More boxes slide in from off-screen; Pancreas lifts one with nervous wide eyes.
+PRIMARY ACTION: Pancreas sits buried under a growing pile of cookie boxes, lifting one with nervous wide eyes.
+ENSEMBLE ANIMATION: The team passes more boxes down the table toward Pancreas; Stomach's chair is suspiciously empty. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium full shot.
+VOICE & DIALOGUE:
+[PANCREAS — FULL VOICE PROFILE] Perceived age 36, male cartoon voice. Volume −12 dBFS RMS. Pace 200 wpm, nervous bursts to 240. Pitch 180–340 Hz, baseline 230 Hz. Tone: thin, reedy, anxious-accountant tenor. Articulation: fussy and overly precise, sharp t's and s's. Intonation: jittery questioning upspeak; flat and indignant when corrected. Delivery: neurotic, polite, easily flustered. Pauses: 200 ms nervous hesitations ('Uh,'). Resonance: head-dominant, narrow. AI: stability 0.50, similarity 0.85, style 0.45.
+[DELIVERY FOR THIS LINE] nervous, reedy stammer; 200 ms hesitation after 'Uh,'.
+The Pancreas says: "Uh, who keeps mailing me cookies?" — while lifting a box as another slides in.
 
-**Voice & dialogue:**
-
-> **PANCREAS — full voice profile:** Perceived age 38, male. Volume −18 dBFS RMS. Pace 155 wpm, nervous bursts to 175. Pitch 120–230 Hz, baseline 150 Hz. Tone: thin, slightly reedy tenor, anxious-accountant quality. Articulation: fussy, overly precise, sharp t's and s's. Intonation: jittery questioning upspeak; flat and indignant when corrected. Delivery: neurotic, polite, easily flustered. Pauses: 200 ms nervous hesitations ('Uh,'). Resonance: head-dominant, narrow. AI: stability 0.50, similarity 0.85, style 0.45.  
-> **Delivery for this line:** nervous, reedy stammer; 200 ms hesitation after 'Uh,'.  
-> **The Pancreas says:** "Uh, who keeps mailing me cookies?" — *while lifting a box as another slides in.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s doorbell DING-DONG
 - 0.6s box THUMP
 - 1.8s box SLIDE and THUMP
 - 2.5s cookie CRUNCH-crumble
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V27 · 3s · Speaker: Small Intestine, Stomach
+SCRIPT SEGMENT: "The stomach, Pancreas. He's coping. / I'm grieving, okay?!"
 
-## V27 · 3s
-**Script segment:** "The stomach, Pancreas. He's coping. / I'm grieving, okay?!"
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The salmon-pink tightly coiled cartoon small intestine with a short tube on top points at the mustard-orange J-shaped cartoon stomach with an esophagus tube on top, who sits wrapped in a blanket hugging a cookie jar; the small golden-yellow lumpy cartoon pancreas with a bumpy, granular, sponge-like texture watches from the side. Soft peach-to-apricot gradient background.
+CAMERA: Medium-wide shot, 28mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Small Intestine points casually; Stomach clutches the jar tighter, lips trembling.
+PRIMARY ACTION: Small Intestine points to the corner where Stomach sits wrapped in a blanket, hugging a cookie jar, lips trembling.
+ENSEMBLE ANIMATION: The whole team turns to look; Pancreas holds a cookie box; Liver sighs; Kidneys shake their heads. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium wide shot.
+VOICE & DIALOGUE:
+[SMALL INTESTINE — FULL VOICE PROFILE] Perceived age 21, male bro (younger brother). Volume −11 dBFS RMS, −8 when panicking. Pace 235 wpm. Pitch 180–400 Hz, baseline 240 Hz. Tone: a higher, scratchier version of the Large Intestine so the two read as brothers. Articulation: quick, energetic. Intonation: jumpy, sharp rises when alarmed. Delivery: high-strung, superstitious little brother. Pauses: short (100–150 ms). Resonance: mouth-forward, bright. AI: stability 0.45, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] casual, tattletale bro.
+The Small Intestine says: "The stomach, Pancreas. He's coping." — while pointing.
 
-**Voice & dialogue:**
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] cracking, melodramatic wail, peak −12 dBFS.
+The Stomach says: "I'm grieving, okay?!" — while hugging the cookie jar.
 
-> **SMALL INTESTINE — full voice profile:** Perceived age 22, male bro (younger brother). Volume −16 dBFS RMS, −13 when panicking. Pace 170 wpm. Pitch 115–230 Hz, baseline 140 Hz. Tone: higher, scratchier sibling of the Large Intestine. Articulation: quick, energetic. Intonation: jumpy, sharp rises when alarmed. Delivery: high-strung, superstitious, anxious little brother. Pauses: short (150 ms). Resonance: mouth-forward, bright. AI: stability 0.45, similarity 0.85, style 0.55.  
-> **Delivery for this line:** casual, tattletale bro.  
-> **The Small Intestine says:** "The stomach, Pancreas. He's coping." — *while pointing.*
-
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** cracking, melodramatic wail, peak −12 dBFS.  
-> **The Stomach says:** "I'm grieving, okay?!" — *while hugging the cookie jar.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 1.6s dramatic violin STING
 - 2.0s ceramic jar CLINK
 - 2.6s loud SOB
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V28 · 2s · Speaker: Heart
+SCRIPT SEGMENT: "Still dry. Still alive. Barely."
 
-## V28 · 2s
-**Script segment:** "Still dry. Still alive. Barely."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: dull overcast grey-blue daylight, flat and sleepy. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The bright red rounded cartoon heart with stubby vessels stands in front of the other organs slumped asleep on the floor; a 'STILL DRY' sign leans against it. Soft peach-to-apricot gradient background.
+CAMERA: Wide shot, 28mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Weak thumbs-up; wobbles and nearly tips over.
+PRIMARY ACTION: Heart stands on the table giving a weak, wobbly thumbs-up next to a handwritten 'STILL DRY' sign.
+ENSEMBLE ANIMATION: The team is asleep in their chairs around Heart: Muscle snoring, Lungs drooped, Brain's head on the whiteboard. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[HEART — FULL VOICE PROFILE] Perceived age 26, female. Volume −10 dBFS RMS, punchy. Pace 210 wpm (sincere lines 150). Pitch 220–450 Hz, baseline 285 Hz. Tone: bright, warm, upbeat, smiling, breathy energy. Articulation: crisp and rhythmic, on the beat like a cheerleader. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between chant segments. Resonance: mask and head, ringing. AI: stability 0.50, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] weak but determined chant; 200 ms between segments, 'Barely' deflated.
+The Heart says: "Still dry. Still alive. Barely." — while wobbling through the thumbs-up.
 
-**Voice & dialogue:**
-
-> **HEART — full voice profile:** Perceived age 28, female. Volume −15 dBFS RMS, punchy dynamics. Pace 160 wpm (sincere lines 130). Pitch 180–320 Hz, baseline 220 Hz. Tone: bright, warm, upbeat, smiling, slightly breathy energy. Articulation: crisp, rhythmic, cheerleader-on-the-beat. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman, supportive; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between catchphrase segments. Resonance: mask/head, ringing and bright. AI: stability 0.50, similarity 0.85, style 0.55.  
-> **Delivery for this line:** weak but determined chant; 200 ms between segments, 'Barely' deflated.  
-> **The Heart says:** "Still dry. Still alive. Barely." — *while wobbling through the thumbs-up.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s slow tired heartbeat THUMP… THUMP
 - 0.6s background group SNORE
 - 1.7s wobble CREAK
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V29 · 3s · Speaker: Narrator
+SCRIPT SEGMENT: "Then, night seven, something nobody expected."
 
-## V29 · 3s
-**Script segment:** "Then, night seven, something nobody expected."
+SCENE: Body HQ at night: the same cozy meeting room with blush-pink organic walls, crescent table pushed aside, the whole team asleep in sleeping bags and tiny cots across the floor, moonlight through the big window, indigo shadows. Lighting: cool blue moonlight through the window, soft indigo shadows. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Everyone sleeps on the floor in the same left-to-right order as their meeting seats.
 
-**Scene:** Painterly dream sky of pink, lavender, tangerine and cerulean clouds at night with stars and a crescent moon with a sleepy face; the coral-pink wrinkled cartoon brain with a small brown cerebellum floats asleep on a fluffy cloud.
+CAMERA: Wide shot, 24mm, slow drift. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** The cloud drifts slowly; a mysterious sparkle glows brighter beside the Brain.
+PRIMARY ACTION: The team sleeps peacefully on the floor; a big dream bubble above Brain shows a painterly dream sky with a sleepy crescent moon and Brain floating on a cloud.
+ENSEMBLE ANIMATION: A mysterious sparkle glows above the sleeping team; Bladder snores softly; Heart hugs a pillow. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Slow drift-pan right.
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] soft, mysterious upward lift; 500 ms hold after 'expected'.
+The Narrator says: "Then, night seven, something nobody expected." — while the sparkle twinkles.
 
-**Voice & dialogue:**
-
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** soft, mysterious upward lift; 500 ms hold after 'expected'.  
-> **The Narrator says:** "Then, night seven, something nobody expected." — *while the sparkle twinkles.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s soft wind CHIMES
 - 1.2s Brain's gentle SNORE
 - 2.4s magical TWINKLE
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V30 · 2s · Speaker: Narrator, Brain
+SCRIPT SEGMENT: "One week. / Eight hours. Eight!"
 
-## V30 · 2s
-**Script segment:** "One week. / Eight hours. Eight!"
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: golden sunrise beams through the window, volumetric light shafts with floating dust. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** White title card '1 WEEK' top-left. The coral-pink wrinkled cartoon brain with a small brown cerebellum in a cozy bed, morning sunbeams through a window.
+CAMERA: Wide shot, 28mm; white title card '1 WEEK' top-left. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Bolts upright refreshed and grinning, flashes eight fingers.
+PRIMARY ACTION: Brain bolts upright from his sleeping bag, refreshed and grinning, holding up eight fingers.
+ENSEMBLE ANIMATION: The team wakes and stretches in golden sunbeams; Muscle does a morning stretch; Skin yawns prettily; Liver smiles. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Quick push-in.
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] clean title-card read.
+The Narrator says: "One week." — as the card pops on.
 
-**Voice & dialogue:**
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] ecstatic, wide-awake burst, rising.
+The Brain says: "Eight hours. Eight!" — while springing up holding eight fingers.
 
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** clean title-card read.  
-> **The Narrator says:** "One week." — *as the card pops on.*
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** ecstatic, wide-awake burst, rising.  
-> **The Brain says:** "Eight hours. Eight!" — *while springing up holding eight fingers.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s title-card WHOOSH
 - 0.3s rooster CROW
 - 0.8s blanket WHOOSH as he springs up
 - 1.5s alarm-clock DING
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V31 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Deep sleep, real dreams, the full package!"
 
-## V31 · 3s
-**Script segment:** "Deep sleep, real dreams, the full package!"
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: golden sunrise beams through the window, volumetric light shafts with floating dust. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The coral-pink wrinkled cartoon brain with a small brown cerebellum holding a gift box with a bow. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Lifts the lid; a crescent moon, 'Zzz' letters and a rainbow cloud float out with sparkles.
+PRIMARY ACTION: Brain opens a glowing gift box on the table and a crescent moon, 'Zzz' letters and a rainbow cloud float out with sparkles.
+ENSEMBLE ANIMATION: The team gathers around saying 'oooh', faces lit by the glow. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] joyful, delighted baritone, rising.
+The Brain says: "Deep sleep, real dreams, the full package!" — while opening the glowing box.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** joyful, delighted baritone, rising.  
-> **The Brain says:** "Deep sleep, real dreams, the full package!" — *while opening the glowing box.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.3s ribbon UNTIE and lid POP
 - 0.6s magical SHIMMER
 - 1.5s choir 'AHHH'
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V32 · 2s · Speaker: Kidneys
+SCRIPT SEGMENT: "And we're finally holding water."
 
-## V32 · 2s
-**Script segment:** "And we're finally holding water."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: golden sunrise beams through the window, volumetric light shafts with floating dust. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The pair of warm brown bean-shaped cartoon kidneys holding a full glass water jug between them. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on the Kidneys, 35mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Hold the jug steady; water ripples calmly; relaxed smiles.
+PRIMARY ACTION: The Kidneys proudly hold up a full glass water jug between them.
+ENSEMBLE ANIMATION: The team raises water cups in a toast; Bladder gives a calm thumbs-up. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[KIDNEYS — FULL VOICE PROFILE] Perceived age 30, female duo, double-tracked. Volume −11 dBFS RMS combined. Pace 200 wpm. Pitch: Voice A 210–360 Hz (baseline 265 Hz), Voice B 225–380 Hz (baseline 285 Hz). Tone: clear, practical, friendly. Articulation: clean, efficient, like technicians. Intonation: matter-of-fact with a cheerful lift on announcements. Delivery: synchronized unison, Voice B delayed 15–25 ms for a twin effect. Pauses: 200 ms. Resonance: mid-head. AI: stability 0.70, similarity 0.85, style 0.30; render twice with different seeds, pan L10/R10.
+[DELIVERY FOR THIS LINE] proud, synchronized satisfaction.
+The Kidneys say: "And we're finally holding water." — while balancing the full jug.
 
-**Voice & dialogue:**
-
-> **KIDNEYS — full voice profile:** Perceived age 32, female duo, double-tracked. Volume −17 dBFS RMS combined. Pace 150 wpm. Pitch: Voice A 190–280 Hz, Voice B 200–300 Hz (near-unison, 15–20 Hz offset). Tone: clear, practical, friendly. Articulation: clean, efficient, technician-like. Intonation: matter-of-fact with a cheerful lift on announcements. Delivery: synchronized unison, Voice B delayed 15–25 ms for a twin effect. Pauses: 250 ms. Resonance: mid-head. AI: stability 0.70, similarity 0.85, style 0.30; render twice with different seeds, pan L10/R10.  
-> **Delivery for this line:** proud, synchronized satisfaction.  
-> **The Kidneys say:** "And we're finally holding water." — *while balancing the full jug.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.2s gentle water SLOSH
 - 1.6s glass SPARKLE ting
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V33 · 5s · Speaker: Kidneys
+SCRIPT SEGMENT: "The hormone that tells us to keep it is back at work."
 
-## V33 · 5s
-**Script segment:** "The hormone that tells us to keep it is back at work."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: golden sunrise beams through the window, volumetric light shafts with floating dust. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** A small glossy teal droplet hormone character with an office lanyard and tiny briefcase walks through a door marked 'BACK AT WORK', past the pair of warm brown bean-shaped cartoon kidneys. Soft peach-to-apricot gradient background.
+CAMERA: Medium-wide shot toward the door, 28mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Hormone strides in confidently; Kidneys wave happily.
+PRIMARY ACTION: A small glossy teal droplet hormone character with an office lanyard and tiny briefcase walks through the HQ door, now marked 'BACK AT WORK'.
+ENSEMBLE ANIMATION: The team waves hello; the Kidneys wave hardest; Bladder salutes. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium wide shot, slight tracking on the hormone.
+VOICE & DIALOGUE:
+[KIDNEYS — FULL VOICE PROFILE] Perceived age 30, female duo, double-tracked. Volume −11 dBFS RMS combined. Pace 200 wpm. Pitch: Voice A 210–360 Hz (baseline 265 Hz), Voice B 225–380 Hz (baseline 285 Hz). Tone: clear, practical, friendly. Articulation: clean, efficient, like technicians. Intonation: matter-of-fact with a cheerful lift on announcements. Delivery: synchronized unison, Voice B delayed 15–25 ms for a twin effect. Pauses: 200 ms. Resonance: mid-head. AI: stability 0.70, similarity 0.85, style 0.30; render twice with different seeds, pan L10/R10.
+[DELIVERY FOR THIS LINE] cheerful, synchronized, announcement lift.
+The Kidneys say: "The hormone that tells us to keep it is back at work." — while waving at the hormone.
 
-**Voice & dialogue:**
-
-> **KIDNEYS — full voice profile:** Perceived age 32, female duo, double-tracked. Volume −17 dBFS RMS combined. Pace 150 wpm. Pitch: Voice A 190–280 Hz, Voice B 200–300 Hz (near-unison, 15–20 Hz offset). Tone: clear, practical, friendly. Articulation: clean, efficient, technician-like. Intonation: matter-of-fact with a cheerful lift on announcements. Delivery: synchronized unison, Voice B delayed 15–25 ms for a twin effect. Pauses: 250 ms. Resonance: mid-head. AI: stability 0.70, similarity 0.85, style 0.30; render twice with different seeds, pan L10/R10.  
-> **Delivery for this line:** cheerful, synchronized, announcement lift.  
-> **The Kidneys say:** "The hormone that tells us to keep it is back at work." — *while waving at the hormone.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s door OPEN creak
 - 0.4s–2.5s tiny squeaky FOOTSTEPS
 - 3.0s office bell DING
 - 4.2s briefcase CLICK
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V34 · 3s · Speaker: Skin
+SCRIPT SEGMENT: "Less puffy. More pretty. Somebody take my picture."
 
-## V34 · 3s
-**Script segment:** "Less puffy. More pretty. Somebody take my picture."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: golden sunrise beams through the window, volumetric light shafts with floating dust. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The warm beige rounded-square cartoon skin character with one tiny hair on top posing beside a taped 'before' photo of its puffy self. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Strikes three quick model poses; a camera flash bursts on each.
+PRIMARY ACTION: Skin strikes model poses on the table while Heart snaps photos with a phone, flash bursting; a 'before' photo of a puffy Skin is taped to the wall.
+ENSEMBLE ANIMATION: Lungs roll their eyes; Muscle photobombs in the background; Stomach claps. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot with flash frames.
+VOICE & DIALOGUE:
+[SKIN — FULL VOICE PROFILE] Perceived age 24, female. Volume −10 dBFS RMS. Pace 190 wpm. Pitch 230–480 Hz, baseline 300 Hz. Tone: glossy influencer voice with light vocal fry. Articulation: polished, drawn-out vowels on compliments. Intonation: sing-song with high delight peaks. Delivery: vain and self-admiring, always camera-ready. Pauses: 250 ms between self-compliments. Resonance: bright mask, sparkly top end. AI: stability 0.45, similarity 0.85, style 0.60.
+[DELIVERY FOR THIS LINE] sing-song influencer purr; 250 ms between compliments.
+The Skin says: "Less puffy. More pretty. Somebody take my picture." — while posing between flashes.
 
-**Voice & dialogue:**
-
-> **SKIN — full voice profile:** Perceived age 26, female. Volume −16 dBFS RMS. Pace 150 wpm. Pitch 200–340 Hz, baseline 240 Hz. Tone: glossy, polished influencer voice, light vocal fry. Articulation: polished, drawn-out vowels on compliments. Intonation: sing-song with high delight peaks. Delivery: vain, self-admiring, camera-ready. Pauses: 250 ms between self-compliments. Resonance: bright mask, sparkly top end. AI: stability 0.45, similarity 0.85, style 0.60.  
-> **Delivery for this line:** sing-song influencer purr; 250 ms between compliments.  
-> **The Skin says:** "Less puffy. More pretty. Somebody take my picture." — *while posing between flashes.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.5s, 1.3s, 2.3s camera SHUTTER clicks with flash POPS
 - 1.8s air KISS 'mwah'
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V35 · 4s · Speaker: Large Intestine, Small Intestine
+SCRIPT SEGMENT: "Bro. Why are we so... regular? / Don't jinx it."
 
-## V35 · 4s
-**Script segment:** "Bro. Why are we so... Regular? / Don't jinx it."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Two-shot: the lavender segmented, banded, frame-shaped cartoon large intestine and the salmon-pink tightly coiled cartoon small intestine with a short tube on top on a sunset-gradient background (butter yellow top, peach-pink middle, lavender bottom) with a rounded pink ground plane.
+CAMERA: Medium two-shot on the Intestines at the table, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Large Intestine raises one eyebrow suspiciously; Small Intestine panics, waving 'stop'.
+PRIMARY ACTION: Large Intestine raises one eyebrow suspiciously; Small Intestine panics, waving its arms in a 'stop' gesture.
+ENSEMBLE ANIMATION: The rest of the team slowly leans away from the Intestines; Brain raises an eyebrow. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium two-shot.
+VOICE & DIALOGUE:
+[LARGE INTESTINE — FULL VOICE PROFILE] Perceived age 24, male bro. Volume −12 dBFS RMS. Pace 220 wpm. Pitch 170–300 Hz, baseline 220 Hz. Tone: laid-back, light rasp, vocal fry at phrase ends. Articulation: relaxed, dropped g's, slangy. Intonation: surfer-bro upspeak on questions, falling 'bro'. Delivery: chill, suspicious, deadpan observer. Pauses: 250 ms before punchline words. Resonance: mid-mouth. AI: stability 0.55, similarity 0.85, style 0.45.
+[DELIVERY FOR THIS LINE] suspicious, laid-back drawl; 250 ms pause before 'regular'.
+The Large Intestine says: "Bro. Why are we so... regular?" — while raising an eyebrow.
 
-**Voice & dialogue:**
+[SMALL INTESTINE — FULL VOICE PROFILE] Perceived age 21, male bro (younger brother). Volume −11 dBFS RMS, −8 when panicking. Pace 235 wpm. Pitch 180–400 Hz, baseline 240 Hz. Tone: a higher, scratchier version of the Large Intestine so the two read as brothers. Articulation: quick, energetic. Intonation: jumpy, sharp rises when alarmed. Delivery: high-strung, superstitious little brother. Pauses: short (100–150 ms). Resonance: mouth-forward, bright. AI: stability 0.45, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] high, panicked hiss.
+The Small Intestine says: "Don't jinx it." — while frantically waving.
 
-> **LARGE INTESTINE — full voice profile:** Perceived age 24, male bro. Volume −17 dBFS RMS. Pace 160 wpm. Pitch 100–200 Hz, baseline 125 Hz. Tone: laid-back, light rasp, casual vocal fry at phrase ends. Articulation: relaxed, dropped g's, slurred slang. Intonation: surfer-bro — upspeak on questions, falling 'bro'. Delivery: chill, suspicious, deadpan observer. Pauses: 250 ms before punchline words. Resonance: mid-chest. AI: stability 0.55, similarity 0.85, style 0.45.  
-> **Delivery for this line:** suspicious, laid-back drawl; 250 ms pause before 'regular'.  
-> **The Large Intestine says:** "Bro. Why are we so... Regular?" — *while raising an eyebrow.*
-
-> **SMALL INTESTINE — full voice profile:** Perceived age 22, male bro (younger brother). Volume −16 dBFS RMS, −13 when panicking. Pace 170 wpm. Pitch 115–230 Hz, baseline 140 Hz. Tone: higher, scratchier sibling of the Large Intestine. Articulation: quick, energetic. Intonation: jumpy, sharp rises when alarmed. Delivery: high-strung, superstitious, anxious little brother. Pauses: short (150 ms). Resonance: mouth-forward, bright. AI: stability 0.45, similarity 0.85, style 0.55.  
-> **Delivery for this line:** high, panicked hiss.  
-> **The Small Intestine says:** "Don't jinx it." — *while frantically waving.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.8s suspicious CLARINET note
 - 3.0s frantic arm-wave WHOOSHES
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V36 · 2s · Speaker: Large Intestine
+SCRIPT SEGMENT: "Too late. Jinxed. Bathroom. Now."
 
-## V36 · 2s
-**Script segment:** "Too late. Jinxed. Bathroom. Now."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Close-up of the lavender segmented, banded, frame-shaped cartoon large intestine under a flashing red warning light, sweat beads on its face.
+CAMERA: Close-up on Large Intestine, 85mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Freezes, pupils shrink, toothy grimace, trembles; rumble lines shake around it.
+PRIMARY ACTION: Large Intestine freezes, sweating, pupils shrinking, in a toothy grimace as a red warning light starts flashing in the ceiling.
+ENSEMBLE ANIMATION: In the background the whole team leaps up in alarm, chairs scraping; Bladder points frantically at the door. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Close-up, rapid shake.
+VOICE & DIALOGUE:
+[LARGE INTESTINE — FULL VOICE PROFILE] Perceived age 24, male bro. Volume −12 dBFS RMS. Pace 220 wpm. Pitch 170–300 Hz, baseline 220 Hz. Tone: laid-back, light rasp, vocal fry at phrase ends. Articulation: relaxed, dropped g's, slangy. Intonation: surfer-bro upspeak on questions, falling 'bro'. Delivery: chill, suspicious, deadpan observer. Pauses: 250 ms before punchline words. Resonance: mid-mouth. AI: stability 0.55, similarity 0.85, style 0.45.
+[DELIVERY FOR THIS LINE] tight, strained grunt; clipped one-word beats.
+The Large Intestine says: "Too late. Jinxed. Bathroom. Now." — while trembling.
 
-**Voice & dialogue:**
-
-> **LARGE INTESTINE — full voice profile:** Perceived age 24, male bro. Volume −17 dBFS RMS. Pace 160 wpm. Pitch 100–200 Hz, baseline 125 Hz. Tone: laid-back, light rasp, casual vocal fry at phrase ends. Articulation: relaxed, dropped g's, slurred slang. Intonation: surfer-bro — upspeak on questions, falling 'bro'. Delivery: chill, suspicious, deadpan observer. Pauses: 250 ms before punchline words. Resonance: mid-chest. AI: stability 0.55, similarity 0.85, style 0.45.  
-> **Delivery for this line:** tight, strained grunt; clipped one-word beats.  
-> **The Large Intestine says:** "Too late. Jinxed. Bathroom. Now." — *while trembling.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s ominous low GURGLE
 - 0.5s alarm BEEP-BEEP
 - 1.2s louder GURGLE-RUMBLE
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V37 · 3s · Speaker: Small Intestine, Brain
+SCRIPT SEGMENT: "We're three blocks from home! / Legs. Run."
 
-## V37 · 3s
-**Script segment:** "We're three blocks from home! / Legs. Run."
+SCENE: A sunny cartoon suburban street outside the body's neighborhood: pastel houses, a sidewalk, a street sign reading 'HOME: 3 BLOCKS'. Lighting: bright sunny outdoor daylight, crisp shadows. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** Cartoon suburban sidewalk with a 'HOME: 3 BLOCKS' sign; thin cartoon legs in sneakers carry the coral-pink wrinkled cartoon brain with a small brown cerebellum and the lavender segmented, banded, frame-shaped cartoon large intestine, with the salmon-pink tightly coiled cartoon small intestine with a short tube on top clinging on. Soft peach-to-apricot gradient background sky.
+CAMERA: Wide tracking shot, 24mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Legs sprint full speed with speed lines and dust clouds; Brain points forward.
+PRIMARY ACTION: The entire team sprints down the sidewalk past the 'HOME: 3 BLOCKS' sign, Brain in front pointing ahead and carrying Large Intestine.
+ENSEMBLE ANIMATION: Small Intestine clings to Muscle's back; Heart, Liver, Stomach, Kidneys, Bladder, Pancreas, Lungs and Skin run in a frantic line behind, kicking up dust clouds. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Side tracking shot.
+VOICE & DIALOGUE:
+[SMALL INTESTINE — FULL VOICE PROFILE] Perceived age 21, male bro (younger brother). Volume −11 dBFS RMS, −8 when panicking. Pace 235 wpm. Pitch 180–400 Hz, baseline 240 Hz. Tone: a higher, scratchier version of the Large Intestine so the two read as brothers. Articulation: quick, energetic. Intonation: jumpy, sharp rises when alarmed. Delivery: high-strung, superstitious little brother. Pauses: short (100–150 ms). Resonance: mouth-forward, bright. AI: stability 0.45, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] breathless yelp.
+The Small Intestine says: "We're three blocks from home!" — while clinging on.
 
-**Voice & dialogue:**
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] flat, commanding bark; 300 ms between words.
+The Brain says: "Legs. Run." — while pointing ahead.
 
-> **SMALL INTESTINE — full voice profile:** Perceived age 22, male bro (younger brother). Volume −16 dBFS RMS, −13 when panicking. Pace 170 wpm. Pitch 115–230 Hz, baseline 140 Hz. Tone: higher, scratchier sibling of the Large Intestine. Articulation: quick, energetic. Intonation: jumpy, sharp rises when alarmed. Delivery: high-strung, superstitious, anxious little brother. Pauses: short (150 ms). Resonance: mouth-forward, bright. AI: stability 0.45, similarity 0.85, style 0.55.  
-> **Delivery for this line:** breathless yelp.  
-> **The Small Intestine says:** "We're three blocks from home!" — *while clinging on.*
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** flat, commanding bark; 300 ms between words.  
-> **The Brain says:** "Legs. Run." — *while pointing ahead.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s–3.0s rapid sneaker FOOTSTEPS
 - 1.8s slide-whistle ZOOM
 - 2.2s dust-cloud POOF
+- background: team panting and footsteps
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V38 · 2s · Speaker: Heart
+SCRIPT SEGMENT: "Still dry. Still alive!"
 
-## V38 · 2s
-**Script segment:** "Still dry. Still alive!"
+SCENE: The hallway of Body HQ: blush-pink organic walls, framed team photos, a small bathroom door at the end. Lighting: bright clean daylight, soft bounce light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** The bright red rounded cartoon heart with stubby vessels in front of a small bathroom door. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** The door slams behind it; a relieved sigh cloud puffs out the top; Heart pumps a double thumbs-up.
+PRIMARY ACTION: The bathroom door has just slammed shut, with a relieved sigh cloud puffing over the top; Heart gives a double thumbs-up.
+ENSEMBLE ANIMATION: The rest of the team collapses panting on the hallway floor; Muscle fans himself; Lungs wheeze. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[HEART — FULL VOICE PROFILE] Perceived age 26, female. Volume −10 dBFS RMS, punchy. Pace 210 wpm (sincere lines 150). Pitch 220–450 Hz, baseline 285 Hz. Tone: bright, warm, upbeat, smiling, breathy energy. Articulation: crisp and rhythmic, on the beat like a cheerleader. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between chant segments. Resonance: mask and head, ringing. AI: stability 0.50, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] relieved, triumphant chant; 200 ms between segments.
+The Heart says: "Still dry. Still alive!" — while giving the double thumbs-up.
 
-**Voice & dialogue:**
-
-> **HEART — full voice profile:** Perceived age 28, female. Volume −15 dBFS RMS, punchy dynamics. Pace 160 wpm (sincere lines 130). Pitch 180–320 Hz, baseline 220 Hz. Tone: bright, warm, upbeat, smiling, slightly breathy energy. Articulation: crisp, rhythmic, cheerleader-on-the-beat. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman, supportive; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between catchphrase segments. Resonance: mask/head, ringing and bright. AI: stability 0.50, similarity 0.85, style 0.55.  
-> **Delivery for this line:** relieved, triumphant chant; 200 ms between segments.  
-> **The Heart says:** "Still dry. Still alive!" — *while giving the double thumbs-up.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s door SLAM
 - 0.3s long relieved 'AHHHH' from behind the door
 - 0.6s toilet FLUSH
 - 1.6s Heart's double CLAP
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V39 · 3s · Speaker: Narrator
+SCRIPT SEGMENT: "Week two brought the biggest test yet."
 
-## V39 · 3s
-**Script segment:** "Week two brought the biggest test yet."
+SCENE: A grassy hill at dusk overlooking a cartoon city skyline where a gigantic neon cocktail-glass billboard towers like a mountain, stormy lavender clouds above. Lighting: dusk sky ambience with magenta and teal neon rim light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** The coral-pink wrinkled cartoon brain with a small brown cerebellum, the deep maroon two-lobed cartoon liver, the mustard-orange J-shaped cartoon stomach with an esophagus tube on top, the bright red rounded cartoon heart with stubby vessels and the small golden-yellow lumpy cartoon pancreas with a bumpy, granular, sponge-like texture at the foot of a towering mountain shaped like a cocktail glass, stormy lavender clouds above.
+CAMERA: Low-angle wide shot, 24mm, slow tilt up. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Organs look up slowly and gulp; lightning flickers at the summit.
+PRIMARY ACTION: The team stands in a line on the hill looking up at the giant neon cocktail-glass billboard as lightning flickers in the clouds.
+ENSEMBLE ANIMATION: Everyone gulps at once; Pancreas hides behind Muscle; Liver grips Heart's hand. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Low-angle tilt up the mountain.
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] epic, foreboding weight; 500 ms hold after 'yet'.
+The Narrator says: "Week two brought the biggest test yet." — while the organs gulp.
 
-**Voice & dialogue:**
-
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** epic, foreboding weight; 500 ms hold after 'yet'.  
-> **The Narrator says:** "Week two brought the biggest test yet." — *while the organs gulp.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s distant THUNDER rumble
 - 1.8s lightning CRACK
 - 2.5s group nervous GULP
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V40 · 4s · Speaker: Narrator, Stomach
+SCRIPT SEGMENT: "Two weeks. / Guys. The burning... is gone. My lining is healing!"
 
-## V40 · 4s
-**Script segment:** "Two weeks. / Guys. The burning... Is gone. My lining is healing!"
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** White title card '2 WEEKS' top-left. The mustard-orange J-shaped cartoon stomach with an esophagus tube on top with tiny cartoon flames on its belly. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on Stomach, 50mm, team behind; white title card '2 WEEKS' top-left. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Flames fizzle out under a warm healing sparkle; bandage strips peel away; happy tears.
+PRIMARY ACTION: The last tiny cartoon flames on Stomach's belly fizzle out under a healing sparkle and bandage strips peel away; happy tears.
+ENSEMBLE ANIMATION: The team cheers; Heart hugs Stomach; Liver wipes away a tear. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Slow push-in.
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] clean title-card read.
+The Narrator says: "Two weeks." — as the card pops on.
 
-**Voice & dialogue:**
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] teary, joyful gasp; 300 ms pause on '...'.
+The Stomach says: "Guys. The burning... is gone. My lining is healing!" — while the flames disappear.
 
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** clean title-card read.  
-> **The Narrator says:** "Two weeks." — *as the card pops on.*
-
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** teary, joyful gasp; 300 ms pause on '...'.  
-> **The Stomach says:** "Guys. The burning... Is gone. My lining is healing!" — *while the flames disappear.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s title-card WHOOSH
 - 1.4s flame FIZZLE hiss
 - 2.4s healing SHIMMER
 - 3.2s bandage PEEL
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V41 · 3s · Speaker: Pancreas
+SCRIPT SEGMENT: "Me too. No more tequila tsunamis."
 
-## V41 · 3s
-**Script segment:** "Me too. No more tequila tsunamis."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The small golden-yellow lumpy cartoon pancreas with a bumpy, granular, sponge-like texture on a tiny surfboard on calm water; a giant golden wave with a tequila-bottle icon looms behind. Soft peach-to-apricot gradient background sky.
+CAMERA: Medium shot on Pancreas, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** The wave shrinks and dissolves; Pancreas balances calmly and smiles.
+PRIMARY ACTION: Pancreas points proudly at the whiteboard, where a drawn giant tequila tsunami is being erased.
+ENSEMBLE ANIMATION: The Kidneys erase the drawing with big sweeps; the team gives a little cheer. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium wide shot.
+VOICE & DIALOGUE:
+[PANCREAS — FULL VOICE PROFILE] Perceived age 36, male cartoon voice. Volume −12 dBFS RMS. Pace 200 wpm, nervous bursts to 240. Pitch 180–340 Hz, baseline 230 Hz. Tone: thin, reedy, anxious-accountant tenor. Articulation: fussy and overly precise, sharp t's and s's. Intonation: jittery questioning upspeak; flat and indignant when corrected. Delivery: neurotic, polite, easily flustered. Pauses: 200 ms nervous hesitations ('Uh,'). Resonance: head-dominant, narrow. AI: stability 0.50, similarity 0.85, style 0.45.
+[DELIVERY FOR THIS LINE] calm, relieved tenor.
+The Pancreas says: "Me too. No more tequila tsunamis." — while pointing proudly at the whiteboard.
 
-**Voice & dialogue:**
+SOUND EFFECTS (TIMED):
+- 0.3s marker-eraser SWISH
+- 1.2s second eraser SWISH
+- 2.4s small team cheer 'yay'
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-> **PANCREAS — full voice profile:** Perceived age 38, male. Volume −18 dBFS RMS. Pace 155 wpm, nervous bursts to 175. Pitch 120–230 Hz, baseline 150 Hz. Tone: thin, slightly reedy tenor, anxious-accountant quality. Articulation: fussy, overly precise, sharp t's and s's. Intonation: jittery questioning upspeak; flat and indignant when corrected. Delivery: neurotic, polite, easily flustered. Pauses: 200 ms nervous hesitations ('Uh,'). Resonance: head-dominant, narrow. AI: stability 0.50, similarity 0.85, style 0.45.  
-> **Delivery for this line:** calm, relieved tenor.  
-> **The Pancreas says:** "Me too. No more tequila tsunamis." — *while balancing peacefully.*
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
-**Sound effects (timed):**
-- 0.0s big wave WHOOSH fading
-- 1.5s calm water LAPPING
-- 2.6s seagull CAW
+```
+V42 · 5s · Speaker: Pancreas
+SCRIPT SEGMENT: "And my blood sugar got off the roller coaster. I can finally breathe."
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
----
+CAMERA: Medium shot, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-## V42 · 5s
-**Script segment:** "And my blood sugar got off the roller coaster. I can finally breathe."
+PRIMARY ACTION: Pancreas steps dizzily off a little toy roller coaster set up on the table, hand on its chest, taking a big dramatic breath.
+ENSEMBLE ANIMATION: Muscle steadies Pancreas with one hand; the team chuckles; Skin fans it. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Scene:** The small golden-yellow lumpy cartoon pancreas with a bumpy, granular, sponge-like texture stepping off a colorful roller-coaster cart onto flat ground. Soft peach-to-apricot gradient background.
+VOICE & DIALOGUE:
+[PANCREAS — FULL VOICE PROFILE] Perceived age 36, male cartoon voice. Volume −12 dBFS RMS. Pace 200 wpm, nervous bursts to 240. Pitch 180–340 Hz, baseline 230 Hz. Tone: thin, reedy, anxious-accountant tenor. Articulation: fussy and overly precise, sharp t's and s's. Intonation: jittery questioning upspeak; flat and indignant when corrected. Delivery: neurotic, polite, easily flustered. Pauses: 200 ms nervous hesitations ('Uh,'). Resonance: head-dominant, narrow. AI: stability 0.50, similarity 0.85, style 0.45.
+[DELIVERY FOR THIS LINE] relieved, slightly dizzy tenor; nervous burst then slow.
+The Pancreas says: "And my blood sugar got off the roller coaster. I can finally breathe." — while stepping off and inhaling deeply.
 
-**Motion:** Wobbles dizzily, steadies, hand on chest, takes a big dramatic breath.
-
-**Camera:** Static medium wide shot.
-
-**Voice & dialogue:**
-
-> **PANCREAS — full voice profile:** Perceived age 38, male. Volume −18 dBFS RMS. Pace 155 wpm, nervous bursts to 175. Pitch 120–230 Hz, baseline 150 Hz. Tone: thin, slightly reedy tenor, anxious-accountant quality. Articulation: fussy, overly precise, sharp t's and s's. Intonation: jittery questioning upspeak; flat and indignant when corrected. Delivery: neurotic, polite, easily flustered. Pauses: 200 ms nervous hesitations ('Uh,'). Resonance: head-dominant, narrow. AI: stability 0.50, similarity 0.85, style 0.45.  
-> **Delivery for this line:** relieved, slightly dizzy tenor; nervous burst then slow.  
-> **The Pancreas says:** "And my blood sugar got off the roller coaster. I can finally breathe." — *while stepping off and inhaling deeply.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s coaster CLATTER braking to a stop
 - 1.0s dizzy WOBBLE boing
 - 4.0s big INHALE and EXHALE
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V43 · 3s · Speaker: Lungs, Pancreas
+SCRIPT SEGMENT: "You don't breathe, Pancreas. / Figure of speech, Lungs."
 
-## V43 · 3s
-**Script segment:** "You don't breathe, Pancreas. / Figure of speech, Lungs."
+SCENE: Body HQ, the team's meeting room inside the body: a cozy, lived-in break room with warm blush-pink organic walls with faint vein patterns, a crescent wooden meeting table, mismatched chairs, a whiteboard, a wall calendar, a coffee machine, a round wall clock, a pendant lamp, a small sofa, and a big window onto a painterly sunset-cloud sky. Lighting: bright clean daylight, soft bounce light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Two-shot: left, a pair of soft pink spongy cartoon lungs; right, the small golden-yellow lumpy cartoon pancreas with a bumpy, granular, sponge-like texture. Soft peach-to-apricot gradient background.
+CAMERA: Medium two-shot, Lungs and Pancreas in the foreground, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Lungs raise a finger and an eyebrow smugly; Pancreas turns slowly with a flat half-lidded glare.
+PRIMARY ACTION: Lungs raise one finger and an eyebrow smugly; Pancreas turns with a flat, half-lidded glare.
+ENSEMBLE ANIMATION: The team snickers behind their hands; Small Intestine mouths 'ooooh'. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium two-shot.
+VOICE & DIALOGUE:
+[LUNGS — FULL VOICE PROFILE] Perceived age 32, female. Volume −12 dBFS RMS. Pace 170 wpm. Pitch 210–340 Hz, baseline 260 Hz. Tone: airy, smooth, slightly smug, audible breath on phrase starts. Articulation: overly crisp, know-it-all. Intonation: falling 'well, actually' contour. Delivery: pedantic, unimpressed teacher. Pauses: 300 ms breath before each correction. Resonance: open, airy, head-forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] airy, smug, corrective; 300 ms breath before speaking.
+The Lungs say: "You don't breathe, Pancreas." — while raising a finger.
 
-**Voice & dialogue:**
+[PANCREAS — FULL VOICE PROFILE] Perceived age 36, male cartoon voice. Volume −12 dBFS RMS. Pace 200 wpm, nervous bursts to 240. Pitch 180–340 Hz, baseline 230 Hz. Tone: thin, reedy, anxious-accountant tenor. Articulation: fussy and overly precise, sharp t's and s's. Intonation: jittery questioning upspeak; flat and indignant when corrected. Delivery: neurotic, polite, easily flustered. Pauses: 200 ms nervous hesitations ('Uh,'). Resonance: head-dominant, narrow. AI: stability 0.50, similarity 0.85, style 0.45.
+[DELIVERY FOR THIS LINE] flat, indignant monotone.
+The Pancreas says: "Figure of speech, Lungs." — while glaring.
 
-> **LUNGS — full voice profile:** Perceived age 34, female. Volume −18 dBFS RMS. Pace 135 wpm. Pitch 175–260 Hz, baseline 205 Hz. Tone: airy, smooth, slightly smug, audible breath on phrase starts. Articulation: overly crisp, know-it-all. Intonation: falling, corrective 'well, actually' contour. Delivery: pedantic, unimpressed teacher. Pauses: 300 ms breath before corrections. Resonance: open, airy, head-forward. AI: stability 0.70, similarity 0.85, style 0.35.  
-> **Delivery for this line:** airy, smug, corrective; 300 ms breath before speaking.  
-> **The Lungs say:** "You don't breathe, Pancreas." — *while raising a finger.*
-
-> **PANCREAS — full voice profile:** Perceived age 38, male. Volume −18 dBFS RMS. Pace 155 wpm, nervous bursts to 175. Pitch 120–230 Hz, baseline 150 Hz. Tone: thin, slightly reedy tenor, anxious-accountant quality. Articulation: fussy, overly precise, sharp t's and s's. Intonation: jittery questioning upspeak; flat and indignant when corrected. Delivery: neurotic, polite, easily flustered. Pauses: 200 ms nervous hesitations ('Uh,'). Resonance: head-dominant, narrow. AI: stability 0.50, similarity 0.85, style 0.45.  
-> **Delivery for this line:** flat, indignant monotone.  
-> **The Pancreas says:** "Figure of speech, Lungs." — *while glaring.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s audible soft INHALE
 - 1.4s single cricket CHIRP
 - 2.8s CHIRP
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V44 · 2s · Speaker: Brain
+SCRIPT SEGMENT: "Friday. Happy hour. Uh-oh."
 
-## V44 · 2s
-**Script segment:** "Friday. Happy hour. Uh-oh."
+SCENE: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** Deep purple evening background with a dark doorway; the coral-pink wrinkled cartoon brain with a small brown cerebellum beside a 'FRIDAY' calendar page.
+CAMERA: Wide shot, 28mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** A 'HAPPY HOUR' sign flickers on in pink and green neon; Brain freezes, pupils shrinking.
+PRIMARY ACTION: The team walks along the dusk street when the 'HAPPY HOUR' neon sign flickers on above the dark doorway; Brain, in front, freezes mid-step.
+ENSEMBLE ANIMATION: The whole team freezes mid-step behind Brain, pupils shrinking; Stomach licks his lips; Heart grabs his arm. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium wide shot.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] low, tense murmur; 300 ms between fragments.
+The Brain says: "Friday. Happy hour. Uh-oh." — while freezing in place.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** low, tense murmur; 300 ms between fragments.  
-> **The Brain says:** "Friday. Happy hour. Uh-oh." — *while freezing in place.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s neon BUZZ-CLICK
 - 0.4s background music cuts out
 - 1.6s nervous GULP
+- background: team GASP
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V45 · 3s · Speaker: Large Intestine, Small Intestine
+SCRIPT SEGMENT: "Who's the guy with the lime? / That's Craving."
 
-## V45 · 3s
-**Script segment:** "Who's the guy with the lime? / That's Craving."
+SCENE: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** Neon-lit purple doorway; a glossy translucent green toy-like cocktail-glass character wearing a lime slice as a hat, with sly half-lidded eyes leans in it. The lavender segmented, banded, frame-shaped cartoon large intestine and the salmon-pink tightly coiled cartoon small intestine with a short tube on top peek in from the frame edge.
+CAMERA: Medium-wide shot, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Craving tips its lime hat; the intestines whisper to each other.
+PRIMARY ACTION: Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) leans casually in the neon doorway, tipping its lime hat.
+ENSEMBLE ANIMATION: The team huddles behind a mailbox, peeking; the Intestines whisper in front; Liver trembles at the back. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium wide shot.
+VOICE & DIALOGUE:
+[LARGE INTESTINE — FULL VOICE PROFILE] Perceived age 24, male bro. Volume −12 dBFS RMS. Pace 220 wpm. Pitch 170–300 Hz, baseline 220 Hz. Tone: laid-back, light rasp, vocal fry at phrase ends. Articulation: relaxed, dropped g's, slangy. Intonation: surfer-bro upspeak on questions, falling 'bro'. Delivery: chill, suspicious, deadpan observer. Pauses: 250 ms before punchline words. Resonance: mid-mouth. AI: stability 0.55, similarity 0.85, style 0.45.
+[DELIVERY FOR THIS LINE] hushed, curious whisper.
+The Large Intestine says: "Who's the guy with the lime?" — while peeking.
 
-**Voice & dialogue:**
+[SMALL INTESTINE — FULL VOICE PROFILE] Perceived age 21, male bro (younger brother). Volume −11 dBFS RMS, −8 when panicking. Pace 235 wpm. Pitch 180–400 Hz, baseline 240 Hz. Tone: a higher, scratchier version of the Large Intestine so the two read as brothers. Articulation: quick, energetic. Intonation: jumpy, sharp rises when alarmed. Delivery: high-strung, superstitious little brother. Pauses: short (100–150 ms). Resonance: mouth-forward, bright. AI: stability 0.45, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] wary, ominous whisper.
+The Small Intestine says: "That's Craving." — while leaning close.
 
-> **LARGE INTESTINE — full voice profile:** Perceived age 24, male bro. Volume −17 dBFS RMS. Pace 160 wpm. Pitch 100–200 Hz, baseline 125 Hz. Tone: laid-back, light rasp, casual vocal fry at phrase ends. Articulation: relaxed, dropped g's, slurred slang. Intonation: surfer-bro — upspeak on questions, falling 'bro'. Delivery: chill, suspicious, deadpan observer. Pauses: 250 ms before punchline words. Resonance: mid-chest. AI: stability 0.55, similarity 0.85, style 0.45.  
-> **Delivery for this line:** hushed, curious whisper.  
-> **The Large Intestine says:** "Who's the guy with the lime?" — *while peeking.*
-
-> **SMALL INTESTINE — full voice profile:** Perceived age 22, male bro (younger brother). Volume −16 dBFS RMS, −13 when panicking. Pace 170 wpm. Pitch 115–230 Hz, baseline 140 Hz. Tone: higher, scratchier sibling of the Large Intestine. Articulation: quick, energetic. Intonation: jumpy, sharp rises when alarmed. Delivery: high-strung, superstitious, anxious little brother. Pauses: short (150 ms). Resonance: mouth-forward, bright. AI: stability 0.45, similarity 0.85, style 0.55.  
-> **Delivery for this line:** wary, ominous whisper.  
-> **The Small Intestine says:** "That's Craving." — *while leaning close.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s smooth lounge SAX lick
 - 1.6s hat-tip SWISH
 - 2.0s ice CUBES clink
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V46 · 5s · Speaker: Craving
+SCRIPT SEGMENT: "Come on, boss. Just one. For old times' sake. You deserve it."
 
-## V46 · 5s
-**Script segment:** "Come on, boss. Just one. For old times' sake. You deserve it."
+SCENE: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** The glossy translucent green toy-like cocktail-glass character wearing a lime slice as a hat, with sly half-lidded eyes drapes an arm around the coral-pink wrinkled cartoon brain with a small brown cerebellum. Dim purple background, neon glow.
+CAMERA: Medium two-shot, 50mm, slow push-in, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Craving slowly holds out a glowing shot glass; Brain's eyes dart sideways, tempted.
+PRIMARY ACTION: Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) drapes an arm around Brain and holds out a glowing shot glass; Brain's eyes dart sideways, tempted.
+ENSEMBLE ANIMATION: Behind them the team watches tensely: Liver bites its nails; Heart holds Stomach back by the tube; Muscle cracks his knuckles. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Slow push-in on the two-shot.
+VOICE & DIALOGUE:
+[CRAVING — FULL VOICE PROFILE] Perceived age 42, male. Volume −13 dBFS RMS, intimate close-mic. Pace 130 wpm (the slowest voice, for contrast with the fast cast). Pitch 115–240 Hz, baseline 160 Hz. Tone: smooth, velvety lounge singer, slightly breathy, charming. Articulation: silky legato, softened consonants, stretched vowels. Intonation: wavy, seductive, lingering phrase ends. Delivery: sly salesman, tempting and persuasive. Pauses: 400 ms gaps between phrases. Resonance: deep chest, proximity warmth ~150 Hz. AI: stability 0.60, similarity 0.85, style 0.55; light plate reverb 0.8 s, 12% wet.
+[DELIVERY FOR THIS LINE] velvety seductive purr at 120 wpm; 400 ms gaps between phrases.
+The Craving says: "Come on, boss. Just one. For old times' sake. You deserve it." — while offering the glowing shot glass.
 
-**Voice & dialogue:**
-
-> **CRAVING — full voice profile:** Perceived age 42, male. Volume −19 dBFS RMS, intimate close-mic. Pace 120 wpm. Pitch 80–150 Hz, baseline 100 Hz. Tone: smooth, velvety lounge-singer, slight breathiness, charming. Articulation: silky legato, softened consonants, stretched vowels. Intonation: seductive wavy contour, lingering phrase ends. Delivery: sly salesman, tempting and persuasive. Pauses: 400 ms seductive gaps between phrases. Resonance: deep chest, proximity warmth boost ~120 Hz. AI: stability 0.60, similarity 0.85, style 0.55; light plate reverb 0.8 s, 12% wet.  
-> **Delivery for this line:** velvety seductive purr at 120 wpm; 400 ms gaps between phrases.  
-> **The Craving says:** "Come on, boss. Just one. For old times' sake. You deserve it." — *while offering the glowing shot glass.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s–5.0s smooth jazz bed
 - 2.4s glass CLINK
 - 3.6s liquid POUR trickle
 - 4.6s Brain's GULP
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V47 · 2s · Speaker: Brain
+SCRIPT SEGMENT: "Not today, buddy."
 
-## V47 · 2s
-**Script segment:** "Not today, buddy."
+SCENE: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** Low-angle close-up of the coral-pink wrinkled cartoon brain with a small brown cerebellum; the glossy translucent green toy-like cocktail-glass character wearing a lime slice as a hat, with sly half-lidded eyes at frame edge. Dim purple background, warm key light on Brain.
+CAMERA: Low-angle hero close-up on Brain, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Brain raises one hand in a calm stop gesture with a cool small smile; Craving recoils.
+PRIMARY ACTION: Brain raises one hand in a calm, polite stop gesture with a cool small smile while Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) recoils at the edge of the frame.
+ENSEMBLE ANIMATION: The team behind gasps, hands over mouths. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Low-angle hero close-up.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] calm, cool, heroic baritone; slow and falling.
+The Brain says: "Not today, buddy." — while raising its hand.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** calm, cool, heroic baritone; slow and falling.  
-> **The Brain says:** "Not today, buddy." — *while raising its hand.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s record STOP
 - 1.0s heroic brass HIT
 - 1.4s Craving's shocked GASP
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V48 · 2s · Speaker: Liver
+SCRIPT SEGMENT: "He's leaving. He's actually leaving!"
 
-## V48 · 2s
-**Script segment:** "He's leaving. He's actually leaving!"
+SCENE: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** Dim neon street: in the distance the glossy translucent green toy-like cocktail-glass character wearing a lime slice as a hat, with sly half-lidded eyes walks away, shoulders slumped; in the foreground the deep maroon two-lobed cartoon liver.
+CAMERA: Wide deep-focus shot, 28mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Craving fades away; Liver points after it, bouncing with excitement.
+PRIMARY ACTION: Craving (glossy translucent green cocktail-glass character wearing a lime slice as a hat, sly half-lidded eyes) walks away down the street, shoulders slumped, its shadow long behind it.
+ENSEMBLE ANIMATION: In the foreground Liver points and bounces with excitement; the rest of the team hugs and jumps. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static, deep focus.
+VOICE & DIALOGUE:
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] disbelieving, rising cheer at 155 wpm.
+The Liver says: "He's leaving. He's actually leaving!" — while pointing and bouncing.
 
-**Voice & dialogue:**
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** disbelieving, rising cheer at 155 wpm.  
-> **The Liver says:** "He's leaving. He's actually leaving!" — *while pointing and bouncing.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s fading FOOTSTEPS
 - 1.2s hopeful CHIME
 - 1.6s bouncy BOING
+- background: team cheers
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V49 · 2s · Speaker: Stomach
+SCRIPT SEGMENT: "Bravest thing I've ever seen."
 
-## V49 · 2s
-**Script segment:** "Bravest thing I've ever seen."
+SCENE: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** Medium close-up of the mustard-orange J-shaped cartoon stomach with an esophagus tube on top holding a tiny handkerchief. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on Stomach, 50mm, team around. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Big cartoon tears stream down; dabs eyes, sniffles.
+PRIMARY ACTION: Stomach weeps with pride into a tiny handkerchief.
+ENSEMBLE ANIMATION: The team consoles him; Muscle secretly wipes away his own tear; Skin hands over another tissue. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium close-up.
+VOICE & DIALOGUE:
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] choked-up, sobbing whisper.
+The Stomach says: "Bravest thing I've ever seen." — while weeping into the handkerchief.
 
-**Voice & dialogue:**
-
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** choked-up, sobbing whisper.  
-> **The Stomach says:** "Bravest thing I've ever seen." — *while weeping into the handkerchief.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.2s SNIFFLE
 - 1.6s loud nose-blow HONK
+- background: soft group 'awww'
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V50 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "It gets easier every time, boys. Promise."
 
-## V50 · 3s
-**Script segment:** "It gets easier every time, boys. Promise."
+SCENE: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** The coral-pink wrinkled cartoon brain with a small brown cerebellum centered between the lavender segmented, banded, frame-shaped cartoon large intestine and the salmon-pink tightly coiled cartoon small intestine with a short tube on top on a sunset-gradient background (butter yellow top, peach-pink middle, lavender bottom) with a rounded pink ground plane.
+CAMERA: Medium shot, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Brain pulls both intestines into a side-hug; they smile.
+PRIMARY ACTION: Brain pulls the Intestine brothers into a side hug.
+ENSEMBLE ANIMATION: The rest of the team piles into a big group hug around them. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] warm, reassuring baritone; 300 ms pause before 'Promise'.
+The Brain says: "It gets easier every time, boys. Promise." — while hugging the brothers.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** warm, reassuring baritone; 300 ms pause before 'Promise'.  
-> **The Brain says:** "It gets easier every time, boys. Promise." — *while hugging the brothers.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.4s soft hug SQUISH
 - 0.5s warm piano CHORD
 - 2.6s two back PATS
+- background: group-hug SQUISH and laughter
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V51 · 2s · Speaker: Heart
+SCRIPT SEGMENT: "Still dry. Still alive!"
 
-## V51 · 2s
-**Script segment:** "Still dry. Still alive!"
+SCENE: A Friday-evening cartoon city street at dusk: lavender-to-magenta sky, glowing streetlights, a dark doorway under a neon 'HAPPY HOUR' sign in pink and green. Lighting: dusk sky ambience with magenta and teal neon rim light. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). The whole team is together in this location, grouped closely as described below.
 
-**Scene:** The bright red rounded cartoon heart with stubby vessels standing tall, chest puffed, sparkles around it. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on Heart, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Winks and snaps a confident thumbs-up.
+PRIMARY ACTION: Heart winks and gives a confident thumbs-up, standing tall.
+ENSEMBLE ANIMATION: Behind Heart the team walks home arm in arm under the glowing streetlights. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[HEART — FULL VOICE PROFILE] Perceived age 26, female. Volume −10 dBFS RMS, punchy. Pace 210 wpm (sincere lines 150). Pitch 220–450 Hz, baseline 285 Hz. Tone: bright, warm, upbeat, smiling, breathy energy. Articulation: crisp and rhythmic, on the beat like a cheerleader. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between chant segments. Resonance: mask and head, ringing. AI: stability 0.50, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] proud, confident chant; 200 ms between segments.
+The Heart says: "Still dry. Still alive!" — while winking.
 
-**Voice & dialogue:**
-
-> **HEART — full voice profile:** Perceived age 28, female. Volume −15 dBFS RMS, punchy dynamics. Pace 160 wpm (sincere lines 130). Pitch 180–320 Hz, baseline 220 Hz. Tone: bright, warm, upbeat, smiling, slightly breathy energy. Articulation: crisp, rhythmic, cheerleader-on-the-beat. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman, supportive; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between catchphrase segments. Resonance: mask/head, ringing and bright. AI: stability 0.50, similarity 0.85, style 0.55.  
-> **Delivery for this line:** proud, confident chant; 200 ms between segments.  
-> **The Heart says:** "Still dry. Still alive!" — *while winking.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s strong heartbeat THUMP-THUMP
 - 1.4s wink TING
 - 1.6s sparkle SHIMMER
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V52 · 3s · Speaker: Narrator, Liver
+SCRIPT SEGMENT: "Thirty days. / Everyone. I have an announcement."
 
-## V52 · 3s
-**Script segment:** "Thirty days. / Everyone. I have an announcement."
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** White title card '30 DAYS' top-left. Small round stage with a red curtain, spotlight; the deep maroon two-lobed cartoon liver stands with its back to camera; the coral-pink wrinkled cartoon brain with a small brown cerebellum, the mustard-orange J-shaped cartoon stomach with an esophagus tube on top and the bright red rounded cartoon heart with stubby vessels sit in front watching.
+CAMERA: Wide shot from behind the seated team, 28mm; white title card '30 DAYS' top-left. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Spotlight clicks on; the audience organs lean forward.
+PRIMARY ACTION: Liver stands at the head of the table in front of the bedsheet curtain, its back to the camera, under a spotlight.
+ENSEMBLE ANIMATION: The rest of the team sits facing Liver, leaning forward; Muscle holds a confetti cannon; Heart crosses her fingers. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Wide shot from behind the audience.
+VOICE & DIALOGUE:
+[NARRATOR — FULL VOICE PROFILE] Perceived age 38, male. Volume −12 dBFS RMS pre-master, steady (±2 dB). Pace 190 wpm on story setups, slowing to 120 wpm on explanatory asides. Pitch 110–240 Hz, baseline 150 Hz (the lowest, calmest voice in the show). Tone: warm, smooth, lightly amused. Articulation: crisp, fully released consonants. Intonation: storyteller — quick rising setups, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets the joke land on its own. Pauses: 300 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~200 Hz. AI: stability 0.70, similarity 0.85, style 0.25.
+[DELIVERY FOR THIS LINE] clean title-card read.
+The Narrator says: "Thirty days." — as the card pops on.
 
-**Voice & dialogue:**
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] slow, suspenseful announcer; 400 ms pause after 'Everyone.'.
+The Liver says: "Everyone. I have an announcement." — while staying turned away.
 
-> **NARRATOR — full voice profile:** Perceived age 35, gender-neutral leaning female. Volume −18 dBFS RMS, steady (±2 dB). Pace 150 wpm. Pitch 165–240 Hz, baseline 190 Hz. Tone: warm, smooth, low breathiness, slight audible smile. Articulation: crisp, fully released consonants. Intonation: storyteller — mild rise on setup clauses, deliberate drop-and-hold on cliffhanger final words. Delivery: dry, witty documentary voice that lets jokes land unannounced. Pauses: 350 ms before teaser lines, 500 ms after cliffhanger finals. Resonance: chest-forward, rounded, warmth ~250 Hz. AI: stability 0.70, similarity 0.85, style 0.25, no emotional exaggeration.  
-> **Delivery for this line:** clean title-card read.  
-> **The Narrator says:** "Thirty days." — *as the card pops on.*
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** slow, suspenseful announcer; 400 ms pause after 'Everyone.'.  
-> **The Liver says:** "Everyone. I have an announcement." — *while staying turned away.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s title-card WHOOSH
 - 0.6s spotlight CLUNK
 - 1.2s audience murmur
 - 2.2s drumroll begins
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V53 · 2s · Speaker: Stomach
+SCRIPT SEGMENT: "Oh no. Here it comes."
 
-## V53 · 2s
-**Script segment:** "Oh no. Here it comes."
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Close two-shot of the mustard-orange J-shaped cartoon stomach with an esophagus tube on top and the bright red rounded cartoon heart with stubby vessels. Soft peach-to-apricot gradient background.
+CAMERA: Close two-shot on Stomach and Heart in the audience, 85mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Stomach bites its nails and sweats; Heart peeks through its fingers.
+PRIMARY ACTION: Stomach bites his nails, sweating; Heart peeks through her fingers.
+ENSEMBLE ANIMATION: The rest of the audience leans forward, soft and blurred behind them. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static close two-shot.
+VOICE & DIALOGUE:
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] trembling, nervous whimper.
+The Stomach says: "Oh no. Here it comes." — while biting his nails.
 
-**Voice & dialogue:**
-
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** trembling, nervous whimper.  
-> **The Stomach says:** "Oh no. Here it comes." — *while biting his nails.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s–2.0s drumroll intensifying
 - 0.6s nail-biting NIBBLE clicks
 - 1.4s sweat-drop PLINK
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V54 · 4s · Speaker: Liver
+SCRIPT SEGMENT: "My fat is dropping. My swelling is going down."
 
-## V54 · 4s
-**Script segment:** "My fat is dropping. My swelling is going down."
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Spotlit stage against a painterly dream sky of pink, lavender, tangerine and cerulean clouds; the deep maroon two-lobed cartoon liver center stage.
+CAMERA: Medium full shot, 35mm, quick push on the spin. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Liver spins around, now slimmer and glossy; a ghost outline of its old puffy shape shrinks away; confetti bursts.
+PRIMARY ACTION: Liver spins around, now slimmer, smoother and glossy, as a see-through ghost of its old puffy shape shrinks away.
+ENSEMBLE ANIMATION: Muscle fires the confetti cannon; the whole team's jaws drop; Skin gasps. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium full shot, quick zoom on the spin.
+VOICE & DIALOGUE:
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] triumphant, rising, energized at 155 wpm, −15 dBFS.
+The Liver says: "My fat is dropping. My swelling is going down." — while spinning to face the camera.
 
-**Voice & dialogue:**
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** triumphant, rising, energized at 155 wpm, −15 dBFS.  
-> **The Liver says:** "My fat is dropping. My swelling is going down." — *while spinning to face the camera.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s drumroll ends in cymbal CRASH
 - 0.3s spin WHOOSH
 - 0.5s confetti cannon POP
 - 1.0s crowd 'OOOOH'
 - 2.5s deflating SHRINK squeak for the ghost outline
+- background: confetti-cannon POP, team GASP
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V55 · 4s · Speaker: Liver
+SCRIPT SEGMENT: "My cells are fixing themselves. I'm getting my shape back!"
 
-## V55 · 4s
-**Script segment:** "My cells are fixing themselves. I'm getting my shape back!"
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Close-up of the glossy maroon liver surface where tiny round cell-workers in hard hats patch cracks; the liver's beaming face at top of frame. Painterly dream sky of pink, lavender, tangerine and cerulean clouds.
+CAMERA: Macro close-up on Liver's glossy surface, 100mm, tilting up to its face. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Cells hammer, patch and polish; cracks vanish into sparkles; Liver grins.
+PRIMARY ACTION: Tiny round cell workers in hard hats patch and polish small cracks until they vanish in sparkles; Liver beams.
+ENSEMBLE ANIMATION: The whole team claps, soft and blurred in the background. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Slow tilt from the surface up to the face.
+VOICE & DIALOGUE:
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] excited, proud, rising.
+The Liver says: "My cells are fixing themselves. I'm getting my shape back!" — while the workers finish the repairs.
 
-**Voice & dialogue:**
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** excited, proud, rising.  
-> **The Liver says:** "My cells are fixing themselves. I'm getting my shape back!" — *while the workers finish the repairs.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.2s–2.4s tiny hammer TAP-TAP-TAPS
 - 1.6s bandage RIP
 - 2.8s polish SQUEAK
 - 3.4s sparkle CHIMES
+- background: team APPLAUSE
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V56 · 4s · Speaker: Heart
+SCRIPT SEGMENT: "Blood pressure's down. I'm pumping smooth jazz over here."
 
-## V56 · 4s
-**Script segment:** "Blood pressure's down. I'm pumping smooth jazz over here."
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The bright red rounded cartoon heart with stubby vessels in tiny sunglasses playing a golden saxophone beside a small blood-pressure gauge in the green zone. Sunset-gradient background (butter yellow top, peach-pink middle, lavender bottom) with a rounded pink ground plane, warm lounge glow.
+CAMERA: Medium shot on Heart, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Sways smoothly; music notes float up; the gauge needle settles calmly.
+PRIMARY ACTION: Heart, in tiny sunglasses, plays a golden saxophone on the table beside a small blood-pressure gauge settling into the green zone.
+ENSEMBLE ANIMATION: The team sways to the music; Lungs snap their fingers; Kidneys slow-dance. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[HEART — FULL VOICE PROFILE] Perceived age 26, female. Volume −10 dBFS RMS, punchy. Pace 210 wpm (sincere lines 150). Pitch 220–450 Hz, baseline 285 Hz. Tone: bright, warm, upbeat, smiling, breathy energy. Articulation: crisp and rhythmic, on the beat like a cheerleader. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between chant segments. Resonance: mask and head, ringing. AI: stability 0.50, similarity 0.85, style 0.55.
+[DELIVERY FOR THIS LINE] smooth, relaxed, jazzy; slowed to 130 wpm.
+The Heart says: "Blood pressure's down. I'm pumping smooth jazz over here." — while swaying with the sax.
 
-**Voice & dialogue:**
-
-> **HEART — full voice profile:** Perceived age 28, female. Volume −15 dBFS RMS, punchy dynamics. Pace 160 wpm (sincere lines 130). Pitch 180–320 Hz, baseline 220 Hz. Tone: bright, warm, upbeat, smiling, slightly breathy energy. Articulation: crisp, rhythmic, cheerleader-on-the-beat. Intonation: rising and enthusiastic; sincere downward settle on serious lines. Delivery: hype-woman, supportive; 'Still dry. Still alive!' is a rhythmic chant. Pauses: 200 ms between catchphrase segments. Resonance: mask/head, ringing and bright. AI: stability 0.50, similarity 0.85, style 0.55.  
-> **Delivery for this line:** smooth, relaxed, jazzy; slowed to 130 wpm.  
-> **The Heart says:** "Blood pressure's down. I'm pumping smooth jazz over here." — *while swaying with the sax.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s gauge needle TICK settling
 - 0.5s–4.0s smooth jazz SAXOPHONE riff
 - 3.6s finger SNAPS on the beat
+- background: team finger SNAPS
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V57 · 3s · Speaker: Muscle
+SCRIPT SEGMENT: "Recovery's faster, bro. The gains are gaining."
 
-## V57 · 3s
-**Script segment:** "Recovery's faster, bro. The gains are gaining."
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** A striated red cartoon muscle with white tendon ends holding a small dumbbell; an upward green arrow chart floats beside it. Soft peach-to-apricot gradient background.
+CAMERA: Low-angle medium shot on Muscle, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Curls the dumbbell, flexes; the chart arrow shoots up.
+PRIMARY ACTION: Muscle curls a small dumbbell and flexes as an upward green arrow chart pops up beside him.
+ENSEMBLE ANIMATION: The team is impressed; Skin swoons; Small Intestine copies the flex. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Low-angle medium shot.
+VOICE & DIALOGUE:
+[MUSCLE — FULL VOICE PROFILE] Perceived age 27, male. Volume −10 dBFS RMS, punchy attack. Pace 190 wpm. Pitch 140–300 Hz, baseline 190 Hz (deepest of the organ cast, still a cartoon register). Tone: thick gym-bro voice with a slight grunt texture. Articulation: heavy, blunt, strong plosives. Intonation: cocky and falling. Delivery: hype gym bro, proud and simple. Pauses: 200 ms before 'bro'. Resonance: chest and mouth. AI: stability 0.65, similarity 0.85, style 0.40.
+[DELIVERY FOR THIS LINE] deep, cocky gym-bro grunt; 200 ms before 'bro'.
+The Muscle says: "Recovery's faster, bro. The gains are gaining." — while curling and flexing.
 
-**Voice & dialogue:**
-
-> **MUSCLE — full voice profile:** Perceived age 27, male. Volume −15 dBFS RMS, punchy attack. Pace 145 wpm. Pitch 85–160 Hz, baseline 105 Hz. Tone: deep, thick gym-bro voice with slight grunt texture. Articulation: heavy, blunt, strong plosives. Intonation: cocky, falling, confident. Delivery: hype gym bro, proud and simple. Pauses: 200 ms before 'bro'. Resonance: full chest. AI: stability 0.65, similarity 0.85, style 0.40.  
-> **Delivery for this line:** deep, cocky gym-bro grunt; 200 ms before 'bro'.  
-> **The Muscle says:** "Recovery's faster, bro. The gains are gaining." — *while curling and flexing.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.3s effort GRUNT 'hngh'
 - 1.0s dumbbell CLANK
 - 2.0s 'level-up' CHIME
 - 2.6s muscle-flex STRETCH squeak
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V58 · 4s · Speaker: Bladder
+SCRIPT SEGMENT: "Fewer bathroom trips at night. I sleep through now."
 
-## V58 · 4s
-**Script segment:** "Fewer bathroom trips at night. I sleep through now."
+SCENE: Body HQ at night: the same cozy meeting room with blush-pink organic walls, crescent table pushed aside, the whole team asleep in sleeping bags and tiny cots across the floor, moonlight through the big window, indigo shadows. Lighting: cool blue moonlight through the window, soft indigo shadows. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Everyone sleeps on the floor in the same left-to-right order as their meeting seats.
 
-**Scene:** Cool blue night bedroom: the pale yellow balloon-shaped cartoon bladder asleep in a tiny bed, sleep mask pushed up on its head; clock reads 3:00 a.m.; a cobwebbed bathroom door stays shut.
+CAMERA: Wide shot, 24mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Snores peacefully, 'Zzz' letters float up; a spider dangles from the door; snuggles deeper.
+PRIMARY ACTION: Bladder sleeps peacefully in its cot with a sleep mask pushed up on its head; the clock reads 3:00 a.m.; the bathroom door in the background is covered in cobwebs.
+ENSEMBLE ANIMATION: The whole team sleeps soundly around Bladder; a spider dangles from the bathroom door. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium wide shot.
+VOICE & DIALOGUE:
+[BLADDER — FULL VOICE PROFILE] Perceived age 33, male cartoon voice. Volume −12 dBFS RMS. Pace 180 wpm. Pitch 170–300 Hz, baseline 225 Hz. Tone: slightly watery and bubbly, with a light gurgle. Articulation: easygoing, relaxed endings. Intonation: flat shrug; contented rise on 'sleep through'. Delivery: unbothered, casually deflects blame. Pauses: 300 ms before dismissive tags. Resonance: throat-centered, slightly hollow. AI: stability 0.65, similarity 0.80, style 0.35.
+[DELIVERY FOR THIS LINE] sleepy, contented murmur; contented rise on 'sleep through'.
+The Bladder says: "Fewer bathroom trips at night. I sleep through now." — while snuggling deeper into the blanket.
 
-**Voice & dialogue:**
-
-> **BLADDER — full voice profile:** Perceived age 35, male. Volume −18 dBFS RMS. Pace 140 wpm. Pitch 105–180 Hz, baseline 130 Hz. Tone: slightly watery, bubbly, light gurgle quality. Articulation: easygoing, relaxed endings. Intonation: flat shrug; contented rise on 'sleep through'. Delivery: unbothered, casually deflects blame. Pauses: 300 ms before dismissive tags. Resonance: throat-centered, slightly hollow. AI: stability 0.65, similarity 0.80, style 0.35.  
-> **Delivery for this line:** sleepy, contented murmur; contented rise on 'sleep through'.  
-> **The Bladder says:** "Fewer bathroom trips at night. I sleep through now." — *while snuggling deeper into the blanket.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s–4.0s soft rhythmic SNORES
 - 0.5s clock TICK-TOCK
 - 3.2s blanket RUSTLE
 - 3.6s tiny spider-thread BOING
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V59 · 4s · Speaker: Skin
+SCRIPT SEGMENT: "Brighter. Softer. Way less red. I look ten years younger!"
 
-## V59 · 4s
-**Script segment:** "Brighter. Softer. Way less red. I look ten years younger!"
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The warm beige rounded-square cartoon skin character with one tiny hair on top holding a hand mirror; the reflection shows a faded red, blotchy old version. Soft peach-to-apricot gradient background, soft beauty light.
+CAMERA: Medium close-up on Skin, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Glows brighter on each word; sparkles pop; gasps with delight.
+PRIMARY ACTION: Skin admires its glowing reflection in a hand mirror, sparkles popping; the reflection shows a faded red, blotchy old version.
+ENSEMBLE ANIMATION: The team gathers around admiring; Lungs look grudgingly impressed. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium close-up.
+VOICE & DIALOGUE:
+[SKIN — FULL VOICE PROFILE] Perceived age 24, female. Volume −10 dBFS RMS. Pace 190 wpm. Pitch 230–480 Hz, baseline 300 Hz. Tone: glossy influencer voice with light vocal fry. Articulation: polished, drawn-out vowels on compliments. Intonation: sing-song with high delight peaks. Delivery: vain and self-admiring, always camera-ready. Pauses: 250 ms between self-compliments. Resonance: bright mask, sparkly top end. AI: stability 0.45, similarity 0.85, style 0.60.
+[DELIVERY FOR THIS LINE] delighted, high sing-song; 250 ms between compliments, peak on 'younger'.
+The Skin says: "Brighter. Softer. Way less red. I look ten years younger!" — while admiring its reflection.
 
-**Voice & dialogue:**
-
-> **SKIN — full voice profile:** Perceived age 26, female. Volume −16 dBFS RMS. Pace 150 wpm. Pitch 200–340 Hz, baseline 240 Hz. Tone: glossy, polished influencer voice, light vocal fry. Articulation: polished, drawn-out vowels on compliments. Intonation: sing-song with high delight peaks. Delivery: vain, self-admiring, camera-ready. Pauses: 250 ms between self-compliments. Resonance: bright mask, sparkly top end. AI: stability 0.45, similarity 0.85, style 0.60.  
-> **Delivery for this line:** delighted, high sing-song; 250 ms between compliments, peak on 'younger'.  
-> **The Skin says:** "Brighter. Softer. Way less red. I look ten years younger!" — *while admiring its reflection.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.3s, 0.9s, 1.6s three sparkle TINGS
 - 2.4s delighted GASP
 - 3.6s mirror GLINT
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V60 · 4s · Speaker: Brain
+SCRIPT SEGMENT: "Focus, sharp. Mood, steady. And the wallet? Weirdly heavy."
 
-## V60 · 4s
-**Script segment:** "Focus, sharp. Mood, steady. And the wallet? Weirdly heavy."
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The coral-pink wrinkled cartoon brain with a small brown cerebellum in tiny glasses beside a level gauge resting centered. Soft peach-to-apricot gradient background.
+CAMERA: Medium shot on Brain, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Lens glint on 'sharp'; gauge needle settles on 'steady'; lifts a fat cash wallet that drags its arm down.
+PRIMARY ACTION: Brain, in tiny glasses with a lens glint, lifts a fat wallet bursting with cash that weighs its arm down.
+ENSEMBLE ANIMATION: The team leans in at the wallet; Stomach's eyes turn into sparkles. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium shot.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] crisp, pleasantly surprised baritone; 300 ms beat before 'Weirdly heavy'.
+The Brain says: "Focus, sharp. Mood, steady. And the wallet? Weirdly heavy." — while hefting the wallet.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** crisp, pleasantly surprised baritone; 300 ms beat before 'Weirdly heavy'.  
-> **The Brain says:** "Focus, sharp. Mood, steady. And the wallet? Weirdly heavy." — *while hefting the wallet.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.6s lens GLINT ting
 - 1.5s gauge CLICK
 - 3.0s heavy wallet THUD
 - 3.4s cash-register KA-CHING
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V61 · 5s · Speaker: Stomach, Large Intestine
+SCRIPT SEGMENT: "I knew this would work! / You called it ridiculous. / With love."
 
-## V61 · 5s
-**Script segment:** "I knew this would work! / You called it ridiculous. / With love."
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** The mustard-orange J-shaped cartoon stomach with an esophagus tube on top beside the lavender segmented, banded, frame-shaped cartoon large intestine on a sunset-gradient background (butter yellow top, peach-pink middle, lavender bottom) with a rounded pink ground plane.
+CAMERA: Medium two-shot, Stomach and Large Intestine, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Stomach throws arms up; Intestine side-eyes; Stomach places a hand on its chest with a sheepish smile.
+PRIMARY ACTION: Stomach throws his arms up, then puts a hand on his chest with a sheepish smile; Large Intestine gives him a deadpan side-eye.
+ENSEMBLE ANIMATION: The team snickers behind them. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium two-shot.
+VOICE & DIALOGUE:
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] loud, boastful cheer.
+The Stomach says: "I knew this would work!" — while throwing his arms up.
 
-**Voice & dialogue:**
+[LARGE INTESTINE — FULL VOICE PROFILE] Perceived age 24, male bro. Volume −12 dBFS RMS. Pace 220 wpm. Pitch 170–300 Hz, baseline 220 Hz. Tone: laid-back, light rasp, vocal fry at phrase ends. Articulation: relaxed, dropped g's, slangy. Intonation: surfer-bro upspeak on questions, falling 'bro'. Delivery: chill, suspicious, deadpan observer. Pauses: 250 ms before punchline words. Resonance: mid-mouth. AI: stability 0.55, similarity 0.85, style 0.45.
+[DELIVERY FOR THIS LINE] dry, deadpan drawl.
+The Large Intestine says: "You called it ridiculous." — while side-eyeing him.
 
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** loud, boastful cheer.  
-> **The Stomach says:** "I knew this would work!" — *while throwing his arms up.*
+[STOMACH — FULL VOICE PROFILE] Perceived age 28, male cartoon voice. Volume −11 dBFS RMS, outbursts −8. Pace 230 wpm (fastest talker). Pitch 190–500 Hz, baseline 255 Hz; outrage spikes to 390–500 Hz. Tone: bright, whiny, nasal tenor. Articulation: loose and rushed, stretched vowels on complaints. Intonation: extreme rises on questions and outrage, cracking at the top. Delivery: dramatic, food-obsessed, overreacts to everything. Pauses: minimal (100–150 ms), talks over others. Resonance: nasal-forward, boosted 1–2 kHz. AI: stability 0.35, similarity 0.80, style 0.70.
+[DELIVERY FOR THIS LINE] sheepish, innocent coo.
+The Stomach says: "With love." — while placing a hand on his heart.
 
-> **LARGE INTESTINE — full voice profile:** Perceived age 24, male bro. Volume −17 dBFS RMS. Pace 160 wpm. Pitch 100–200 Hz, baseline 125 Hz. Tone: laid-back, light rasp, casual vocal fry at phrase ends. Articulation: relaxed, dropped g's, slurred slang. Intonation: surfer-bro — upspeak on questions, falling 'bro'. Delivery: chill, suspicious, deadpan observer. Pauses: 250 ms before punchline words. Resonance: mid-chest. AI: stability 0.55, similarity 0.85, style 0.45.  
-> **Delivery for this line:** dry, deadpan drawl.  
-> **The Large Intestine says:** "You called it ridiculous." — *while side-eyeing him.*
-
-> **STOMACH — full voice profile:** Perceived age 30, male. Volume −16 dBFS RMS, outbursts peak −12. Pace 165 wpm. Pitch 110–260 Hz, baseline 140 Hz. Tone: bright, whiny tenor with a nasal edge. Articulation: loose, slightly mushy; stretched vowels on complaints. Intonation: highly dynamic, exaggerated rises on questions and outrage. Delivery: dramatic, food-obsessed, emotionally overreactive. Pauses: minimal (150 ms), talks over others. Resonance: nasal-forward, boosted mids 1–2 kHz. AI: stability 0.40, similarity 0.80, style 0.65.  
-> **Delivery for this line:** sheepish, innocent coo.  
-> **The Stomach says:** "With love." — *while placing a hand on his heart.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.2s cheer STING
 - 0.6s Stomach's self-CLAP
 - 2.2s single cricket CHIRP
 - 4.4s innocent 'ding' bell
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V62 · 5s · Speaker: Brain, Liver
+SCRIPT SEGMENT: "Liver, buddy. How do you feel? / Like I just got back from vacation."
 
-## V62 · 5s
-**Script segment:** "Liver, buddy. How do you feel? / Like I just got back from vacation."
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Painterly dream sky of pink, lavender, tangerine and cerulean clouds at sunset; the slim, glossy deep maroon two-lobed cartoon liver lounges in a beach chair wearing sunglasses and a flower lei, holding a coconut drink; the coral-pink wrinkled cartoon brain with a small brown cerebellum leans in.
+CAMERA: Medium-wide shot, 35mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Liver sips through the straw and sighs blissfully; sunglasses slide down its face.
+PRIMARY ACTION: Liver lounges in a beach chair on the HQ floor under a sun lamp beside an inflatable palm tree, wearing sunglasses and a flower lei and sipping a coconut drink; Brain leans in.
+ENSEMBLE ANIMATION: The team stands around in Hawaiian shirts, smiling; the window glows with a painterly golden sunset. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium wide shot.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] warm, caring baritone.
+The Brain says: "Liver, buddy. How do you feel?" — while leaning in.
 
-**Voice & dialogue:**
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] blissful, relaxed sigh at 125 wpm.
+The Liver says: "Like I just got back from vacation." — while sipping the coconut.
 
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** warm, caring baritone.  
-> **The Brain says:** "Liver, buddy. How do you feel?" — *while leaning in.*
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** blissful, relaxed sigh at 125 wpm.  
-> **The Liver says:** "Like I just got back from vacation." — *while sipping the coconut.*
-
-**Sound effects (timed):**
-- 0.0s–5.0s ocean WAVES
+SOUND EFFECTS (TIMED):
+- 0.0s–5.0s ocean WAVES from a little sound machine
 - 0.2s ukulele STRUM
 - 2.4s straw SLURP
 - 3.0s blissful 'AHHH'
 - 4.4s sunglasses SLIDE
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V63 · 3s · Speaker: Brain
+SCRIPT SEGMENT: "Thirty days, team. This calls for a toast!"
 
-## V63 · 3s
-**Script segment:** "Thirty days, team. This calls for a toast!"
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Wide celebratory lineup under party bunting on a sunset-gradient background (butter yellow top, peach-pink middle, lavender bottom) with a rounded pink ground plane: the coral-pink wrinkled cartoon brain with a small brown cerebellum center, with the bright red rounded cartoon heart with stubby vessels, the mustard-orange J-shaped cartoon stomach with an esophagus tube on top, the lavender segmented, banded, frame-shaped cartoon large intestine, the salmon-pink tightly coiled cartoon small intestine with a short tube on top and the slim deep maroon two-lobed cartoon liver.
+CAMERA: Wide shot, 28mm, slow push-in. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Brain raises a glass high; confetti falls; others start clapping.
+PRIMARY ACTION: Brain raises a glass high at the boss position.
+ENSEMBLE ANIMATION: The whole team raises their glasses as confetti falls. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Wide shot, slow push-in.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] proud, booming toastmaster, up to −14 dBFS.
+The Brain says: "Thirty days, team. This calls for a toast!" — while raising the glass.
 
-**Voice & dialogue:**
-
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** proud, booming toastmaster, up to −14 dBFS.  
-> **The Brain says:** "Thirty days, team. This calls for a toast!" — *while raising the glass.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s party HORN
 - 0.4s group CHEERS
 - 1.2s group APPLAUSE / clapping
 - 2.4s glass raise TING
+- background: team CHEERS and CLAPPING
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V64 · 2s · Speaker: Liver
+SCRIPT SEGMENT: "A WHAT?!"
 
-## V64 · 2s
-**Script segment:** "A WHAT?!"
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Extreme close-up of the slim deep maroon two-lobed cartoon liver; red flash vignette.
+CAMERA: Extreme close-up crash zoom on Liver, 85mm, red flash vignette. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Eyes balloon, eyebrows fly off the top of its head, mouth stretches into a giant screaming oval; zoom lines burst.
+PRIMARY ACTION: Liver's eyes balloon, its eyebrows fly off the top of its head, and its mouth stretches into a giant screaming oval.
+ENSEMBLE ANIMATION: The team behind freezes mid-toast, glasses in the air. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Crash zoom.
+VOICE & DIALOGUE:
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] shrill, horrified scream, peak −12 dBFS.
+The Liver says: "A WHAT?!" — while freezing in shock.
 
-**Voice & dialogue:**
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** shrill, horrified scream, peak −12 dBFS.  
-> **The Liver says:** "A WHAT?!" — *while freezing in shock.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.0s record SCRATCH
 - 0.2s dramatic orchestral STAB
 - 0.4s eyebrow pop-off WHOOSH
 - 1.2s applause cuts out abruptly
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V65 · 3s · Speaker: Brain, Liver
+SCRIPT SEGMENT: "With sparkling water. / Oh. Carry on."
 
-## V65 · 3s
-**Script segment:** "With sparkling water. / Oh. Carry on."
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Two-shot: the coral-pink wrinkled cartoon brain with a small brown cerebellum holding a fizzy glass of sparkling water with a lemon wedge, beside the slim deep maroon two-lobed cartoon liver. Soft peach-to-apricot gradient background.
+CAMERA: Medium two-shot, Brain and Liver, 50mm, team behind. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Brain holds up the glass deadpan, bubbles rise; Liver's shoulders drop and it nods sheepishly.
+PRIMARY ACTION: Brain holds up a fizzy glass of sparkling water with a lemon wedge, deadpan; Liver's shoulders drop and it nods sheepishly.
+ENSEMBLE ANIMATION: The team laughs with relief behind them. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Static medium two-shot.
+VOICE & DIALOGUE:
+[BRAIN — FULL VOICE PROFILE] Perceived age 35, male cartoon voice. Volume −11 dBFS RMS pre-master (commands −9). Pace 200 wpm, slowing to 140 wpm for decrees and deadpan lines. Pitch 150–320 Hz, baseline 210 Hz; drops to ~155 Hz for smug reassurances. Tone: bright, confident, slightly nasal boss voice with a dry deadpan edge. Articulation: precise, clipped consonants on short commands. Intonation: falling and flat on deadpan, sharp upward jumps when surprised. Delivery: calm captain whose control occasionally cracks into panic. Pauses: 250 ms between one-word sentences. Resonance: mouth and mask, forward. AI: stability 0.70, similarity 0.85, style 0.35.
+[DELIVERY FOR THIS LINE] unbothered, flat deadpan.
+The Brain says: "With sparkling water." — while showing the glass.
 
-**Voice & dialogue:**
+[LIVER — FULL VOICE PROFILE] Perceived age 40, male cartoon voice. Volume −12 dBFS RMS when defeated, −9 when triumphant. Pace 160 wpm weary, 220 wpm excited. Pitch 160–360 Hz, baseline 215 Hz; climbs to ~330 Hz when panicking or celebrating. Tone: tired, slightly hoarse, warm, with a breathy sigh. Articulation: relaxed, drawn-out vowels on sad lines, snappy when excited. Intonation: falling sighs early, big rising arcs in the final act. Delivery: long-suffering, overworked employee, melodramatic but lovable. Pauses: 350 ms on dramatic beats. Resonance: throat and mouth, slightly darker than the rest of the cast. AI: stability 0.55, similarity 0.85, style 0.50.
+[DELIVERY FOR THIS LINE] deflated, embarrassed mumble; 400 ms after 'Oh.'.
+The Liver says: "Oh. Carry on." — while relaxing.
 
-> **BRAIN — full voice profile:** Perceived age 40, male. Volume −17 dBFS RMS (commands up to −14). Pace 140 wpm (decrees slow to 110). Pitch 95–170 Hz, baseline 120 Hz. Tone: confident baritone, dry deadpan edge, slight gravel when tired. Articulation: precise, clipped authoritative consonants. Intonation: mostly falling; flat on deadpan lines, rising only in surprise. Delivery: boss/team captain — calm control that occasionally cracks into panic. Pauses: 300 ms between one-word sentences. Resonance: chest-dominant. AI: stability 0.75, similarity 0.85, style 0.30.  
-> **Delivery for this line:** unbothered, flat deadpan.  
-> **The Brain says:** "With sparkling water." — *while showing the glass.*
-
-> **LIVER — full voice profile:** Perceived age 45, male. Volume −19 dBFS RMS when defeated, −15 when triumphant. Pace 125 wpm weary / 155 wpm excited. Pitch 90–190 Hz, baseline 115 Hz. Tone: tired, slightly hoarse, warm, breathy sigh quality. Articulation: relaxed, softened consonants, drawn-out vowels on sad lines. Intonation: falling/sighing early, expressive and rising in the final act. Delivery: long-suffering overworked employee — melodramatic but lovable. Pauses: 400 ms on dramatic beats. Resonance: chest and throat, darker timbre. AI: stability 0.55, similarity 0.85, style 0.50.  
-> **Delivery for this line:** deflated, embarrassed mumble; 400 ms after 'Oh.'.  
-> **The Liver says:** "Oh. Carry on." — *while relaxing.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.3s FIZZ bubbles
 - 1.6s deflating-balloon SQUEAK
 - 2.6s embarrassed throat-clear 'ahem'
+- background: team relieved LAUGHTER
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
 
----
+```
+V66 · 2s · Speaker: Everyone
+SCRIPT SEGMENT: "Cheers!"
 
-## V66 · 2s
-**Script segment:** "Cheers!"
+SCENE: Body HQ decorated for a celebration: bunting, balloons, a bedsheet stage curtain strung behind the head of the crescent table, a spotlight, the big window glowing with a painterly golden sunset sky. Lighting: warm golden-hour glow mixed with colorful party lights and a white spotlight. Full cast present: Brain (coral-pink wrinkled brain with a small brown cerebellum); Liver (deep maroon two-lobed liver); Stomach (mustard-orange J-shaped stomach with an esophagus tube on top); Large Intestine (lavender segmented, banded, frame-shaped large intestine); Small Intestine (salmon-pink tight coil with a short tube on top); Heart (bright red rounded heart with stubby vessels); Kidneys (pair of warm brown bean-shaped kidneys); Bladder (pale yellow balloon-shaped bladder); Pancreas (small golden-yellow lumpy pancreas with a bumpy, granular texture); Lungs (pair of soft pink spongy lungs); Skin (warm beige rounded-square skin swatch with one tiny hair on top); Muscle (striated red muscle bulge with white tendon ends). Fixed blocking: back row standing, left to right: Muscle, Lungs, Brain (center, boss position), Large Intestine, Skin. Front row seated at a crescent table, left to right: Bladder, Stomach, Small Intestine, Liver (center), Heart, Kidneys, Pancreas.
 
-**Scene:** Wide final group shot against a painterly dream sky of pink, lavender, tangerine and cerulean clouds at sunset: the full cast — the coral-pink wrinkled cartoon brain with a small brown cerebellum, the slim deep maroon two-lobed cartoon liver, the mustard-orange J-shaped cartoon stomach with an esophagus tube on top, the bright red rounded cartoon heart with stubby vessels, the lavender segmented, banded, frame-shaped cartoon large intestine, the salmon-pink tightly coiled cartoon small intestine with a short tube on top, the pair of warm brown bean-shaped cartoon kidneys, the pale yellow balloon-shaped cartoon bladder, the small golden-yellow lumpy cartoon pancreas with a bumpy, granular, sponge-like texture, the pair of soft pink spongy cartoon lungs, the warm beige rounded-square cartoon skin character with one tiny hair on top and the striated red cartoon muscle with white tendon ends.
+CAMERA: Wide shot, slight crane up, 24mm. Keep the camera moving like a feature film: gentle dolly or push where noted, natural focus pulls to whoever is speaking.
 
-**Motion:** Everyone clinks sparkling-water glasses in the center; bubbles and confetti burst upward.
+PRIMARY ACTION: The whole team clinks sparkling-water glasses in the center as bubbles and confetti burst upward.
+ENSEMBLE ANIMATION: Everyone cheers; the window glows with a painterly pink, lavender, tangerine and cerulean sunset sky. Non-speaking characters never freeze: they breathe, blink, shift weight, and their eyes track the speaker. Only the speaker's mouth moves.
 
-**Camera:** Wide shot, slight crane up.
+VOICE & DIALOGUE:
+[ALL — FULL VOICE PROFILE] Full ensemble: every character rendered at its own profile above, layered and staggered 0–120 ms for a natural group shout; combined −8 dBFS RMS pre-master; joyful, overlapping, slightly ragged unison.
+[DELIVERY FOR THIS LINE] joyful, overlapping group cheer.
+Everyone says: "Cheers!" — while clinking glasses.
 
-**Voice & dialogue:**
-
-> **ALL — full voice profile:** Full ensemble: every character's voice rendered at its own spec above, layered and staggered 0–120 ms for a natural group shout; combined level −14 dBFS RMS; joyful, overlapping, slightly ragged unison.  
-> **Delivery for this line:** joyful, overlapping group cheer.  
-> **Everyone says:** "Cheers!" — *while clinking glasses.*
-
-**Sound effects (timed):**
+SOUND EFFECTS (TIMED):
 - 0.3s multi-glass CLINK
 - 0.5s confetti POP
 - 0.6s group CHEER and CLAPPING
 - 1.2s outro JINGLE begins
+- Room tone matched to the set; music bed 12–15 dB under dialogue
 
-**Style:** Body Banter style: 2D cartoon animation, soft digital shading, mix of flat cel-shaded and semi-realistic textured organ characters, oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, simple small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines, soft oval ground shadows, soft diffuse lighting, bright playful palette, 16:9, 24 fps smooth character animation, accurate lip-sync, squash-and-stretch comedy timing, logo-safe bottom-right corner.
-
----
+STYLE: Animated feature-film still in the Body Banter style: high-end 2D character animation with soft digital shading and semi-realistic organ textures; every character has oversized glossy white oval eyes with small navy pupils and soft blue-grey lower shading, floating thick navy eyebrows, small mouths with dark maroon interiors, thin dark navy stick arms and legs with round ball hands, warm dark-brown outlines; painterly cinematic background with depth and atmospheric haze, film-grade color grading, rim light separating characters from the background, shallow depth of field with background characters soft but readable, consistent on-model characters, 16:9. Animation: 24 fps feature-quality 2D character animation, overlapping action and secondary motion, squash-and-stretch comedy timing, accurate lip-sync on the speaker only, logo-safe bottom-right corner.
+```
