@@ -1,0 +1,1143 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Catherine 1770 Production Bible</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Public+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+ /* one visual world: imperial night. Sidebar index + long reference column */
+ --bg:#10151c; --panel:#18202a; --line:#2a3542; --ink:#dfe4ea; --muted:#93a0ad; --gold:#d6b46a; --blue:#6f93c4; --red:#c4574f;
+ --display:"Cormorant Garamond",Georgia,serif; --body:"Public Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+ color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
+a{color:var(--gold)}
+.wrap{display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;max-width:1280px;margin:0 auto;padding:32px 24px 80px}
+nav{position:sticky;top:24px;align-self:start;display:flex;flex-direction:column;gap:6px;font-size:14px}
+nav a{color:var(--muted);text-decoration:none;padding:4px 8px;border-left:2px solid transparent}
+nav a:hover,nav a:focus-visible{color:var(--ink);border-left-color:var(--gold);outline:none}
+header h1{font:600 42px/1.1 var(--display);margin:0 0 8px;text-wrap:balance;color:var(--gold)}
+header p{margin:0;color:var(--muted)}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}
+.facts span{border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:13px;font-variant-numeric:tabular-nums}
+section{margin-top:56px;scroll-margin-top:20px}
+h2{font:600 30px/1.2 var(--display);margin:0 0 6px;color:var(--gold);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h2 small{font:400 13px var(--body);color:var(--muted)}
+h3{font:600 21px/1.25 var(--display);margin:0;color:var(--ink)}
+.lead{color:var(--muted);max-width:70ch;margin:0 0 18px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.meta{display:flex;gap:8px;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
+.tag{font:600 11px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:4px 8px;border-radius:4px;border:1px solid var(--line);color:var(--muted)}
+.tag.SELFIE{color:#f0c98a;border-color:#6b5631}
+.tag.CINEMATIC{color:#a9c4ea;border-color:#34507a}
+.tag.EDIT{color:#b5bec8}
+.cb{position:relative}
+.cb pre{margin:0;white-space:pre-wrap;word-break:break-word;font:13px/1.55 var(--mono);background:#0c1117;border:1px solid var(--line);border-radius:6px;padding:12px 12px 12px 12px;padding-right:76px;color:#cdd5dd;max-height:280px;overflow:auto}
+button.copy{position:absolute;top:8px;right:8px;font:600 12px var(--body);background:var(--gold);color:#1a1408;border:0;border-radius:4px;padding:5px 10px;cursor:pointer}
+button.copy:hover{filter:brightness(1.1)}
+button.copy:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+button.copy.done{background:#7fb38a}
+.big{margin-bottom:14px}
+.clips{display:flex;flex-direction:column;gap:10px}
+.clip{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;grid-template-columns:64px minmax(0,1fr);gap:4px 14px}
+.clip .num{font:600 26px/1 var(--display);color:var(--gold);font-variant-numeric:tabular-nums}
+.clip .tm{font:12px var(--mono);color:var(--muted);margin-top:4px}
+.clip .body{display:flex;flex-direction:column;gap:8px}
+.clip .act{margin:0}
+.clip .line{margin:0;font-family:var(--display);font-size:18px;font-style:italic;color:#efe6d2}
+.split{color:var(--red);font-weight:600}
+.titlecard{color:var(--gold);font-family:var(--display);font-style:italic}
+.seqhead{font:600 13px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin:18px 0 2px}
+ol.steps{padding-left:22px;max-width:75ch} ol.steps li{margin-bottom:8px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td,th{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600}
+.tablewrap{overflow-x:auto}
+@media (max-width:820px){.wrap{grid-template-columns:1fr} nav{position:static;flex-direction:row;flex-wrap:wrap} .grid{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head><body><div class="wrap">
+<nav aria-label="Sections">
+<a href="#style">1 · Visual style</a><a href="#characters">2 · Characters</a><a href="#locations">3 · Locations</a><a href="#props">4 · Props</a><a href="#scenes">5 · Scene breakdown</a><a href="#dialogue">6 · Dialogue</a><a href="#order">7 · Generation order</a><a href="#aesthetic">8 · Aesthetic</a><a href="#grade">9 · Colour grading</a>
+</nav><main>
+<header><h1>My Morning Routine, 1770</h1><p>Production bible for <em>Petersburg with Catherine</em> · Catherine the Great vlog · photorealistic</p>
+<div class="facts"><span>Runtime 12:26</span><span>88 clips</span><span>23 split into A/B</span><span>71 selfie · 15 cinematic · 2 edit</span><span>16:9 · 24 fps</span></div></header>
+
+<section id="style"><h2>1 · Visual style profile <small>append to every prompt</small></h2><p class="lead">Two camera modes, both photorealistic. On-camera lines use Mode 1. Voice-over and cutaways use Mode 2. Paste the negative prompt into every generation that accepts one.</p><div class="grid">
+<div class="card"><h3>Mode 1 · Selfie vlog</h3><div class="meta">All on-camera (OC) clips</div><div class="cb "><button type="button" class="copy" data-t="t1">Copy</button><pre id="t1">selfie POV, handheld action-camera ultra-wide 14mm fisheye lens, visible barrel distortion, low angle from arm&#x27;s length, slight dutch tilt, deep focus, subject centered filling the middle third, deadpan heavy-lidded expression, background figures standing silently in depth of room, curved architecture, soft overcast window light with warm candle and fire practicals, light haze, muted desaturated palette, photorealistic, real human skin texture with pores, period-drama realism, fine film grain, 16:9</pre></div></div>
+<div class="card"><h3>Mode 2 · Cinematic</h3><div class="meta">All voice-over (VO) clips and cutaways</div><div class="cb "><button type="button" class="copy" data-t="t2">Copy</button><pre id="t2">cinematic period drama still, 35mm lens, shallow depth of field, eye level, centered symmetrical composition, framed through a foreground element (window bars, leaded glass, curtain or doorway), soft north-window daylight with warm candle practicals, light haze, muted desaturated palette of deep crimson, antique gold, ivory and cool grey-blue, photorealistic, real textures, prestige TV period-drama realism, fine film grain, 16:9</pre></div></div>
+<div class="card"><h3>Negative prompt</h3><div class="meta">Every generation</div><div class="cb "><button type="button" class="copy" data-t="t3">Copy</button><pre id="t3">painting, oil painting, illustration, cartoon, anime, 3D render, CGI look, plastic or waxy skin, airbrushed, beauty filter, oversaturated colors, high contrast HDR, glossy commercial lighting, modern objects, modern hairstyles, text, watermark, logo, extra fingers, deformed hands, duplicate faces</pre></div></div>
+<div class="card"><h3>Title cards</h3><div class="meta">Centred white italic serif, added in the edit</div><div class="cb "><button type="button" class="copy" data-t="t4">Copy</button><pre id="t4">Clip 5: Winter Palace · December 1770
+Clip 43: The Neva Marshes · May 1703
+Clip 49: Chesma Bay · July 1770</pre></div></div></div></section>
+<section id="characters"><h2>2 · Characters <small>reference-sheet prompts</small></h2><p class="lead">Catherine speaks every line. Generate her three looks first and reuse the Look A face as the reference for B and C.</p><div class="grid">
+<div class="card"><h3>CAT · Catherine II · Look A · Night</h3><div class="meta"><span>Age 41</span><span>clips 1–51</span><span>Host and narrator</span></div><div class="cb "><button type="button" class="copy" data-t="t5">Copy</button><pre id="t5">Photorealistic character reference sheet of Catherine the Great of Russia in 1770, a 41-year-old woman, fair skin with natural rosy cheeks and visible pores, bright blue eyes, dark arched well-defined eyebrows, high forehead, strong slightly prominent chin, full soft oval face, medium height, full matronly figure, very upright posture, dry intelligent half-smile with heavy-lidded deadpan eyes, white linen nightgown with a frilled neckline, ivory quilted-silk dressing gown lined in pale blue, white lace-edged linen night cap over loosely pinned natural chestnut-brown hair, fur-lined slippers, no makeup, front view, three-quarter view, profile and full body, plain neutral grey backdrop, soft even overcast light, real human skin texture, period-drama realism, not a painting, 16:9</pre></div></div>
+<div class="card"><h3>CAT · Catherine II · Look B · Dressing</h3><div class="meta"><span>Age 41</span><span>clips 52–72</span><span>Host and narrator</span></div><div class="cb "><button type="button" class="copy" data-t="t6">Copy</button><pre id="t6">Photorealistic character reference sheet of Catherine the Great of Russia in 1770, a 41-year-old woman, fair skin with natural rosy cheeks and visible pores, bright blue eyes, dark arched well-defined eyebrows, high forehead, strong slightly prominent chin, full soft oval face, medium height, full matronly figure, very upright posture, dry intelligent half-smile with heavy-lidded deadpan eyes, linen shift under ivory whalebone stays and wicker pannier cages tied at the hips, natural chestnut-brown hair (powdered white and dressed high from clip 66 onward), no makeup, front view, three-quarter view, profile and full body, plain neutral grey backdrop, soft even overcast light, real human skin texture, period-drama realism, not a painting, 16:9</pre></div></div>
+<div class="card"><h3>CAT · Catherine II · Look C · Court</h3><div class="meta"><span>Age 41</span><span>clips 73–88</span><span>Host and narrator</span></div><div class="cb "><button type="button" class="copy" data-t="t7">Copy</button><pre id="t7">Photorealistic character reference sheet of Catherine the Great of Russia in 1770, a 41-year-old woman, fair skin with natural rosy cheeks and visible pores, bright blue eyes, dark arched well-defined eyebrows, high forehead, strong slightly prominent chin, full soft oval face, medium height, full matronly figure, very upright posture, dry intelligent half-smile with heavy-lidded deadpan eyes, silver brocade robe à la française over wide panniers, three tiers of white lace sleeve ruffles, stomacher with diamond bows, powdered white hair dressed high with a small diamond aigrette, diamond drop earrings, Order of St Catherine badge on a red silver-edged ribbon bow, blue moiré sash of St Andrew worn from the right shoulder to the left hip, silver eight-pointed star on the left breast, light natural rouge, front view, three-quarter view, profile and full body, plain neutral grey backdrop, soft even overcast light, real human skin texture, period-drama realism, not a painting, 16:9</pre></div></div>
+<div class="card"><h3>MAR · Maria Savvishna Perekusikhina</h3><div class="meta"><span>Age 31</span><span>Chamber maid and confidante. Silent foil; the Kate of this channel.</span></div><div class="cb "><button type="button" class="copy" data-t="t8">Copy</button><pre id="t8">Photorealistic character reference sheet of an 18th-century Russian palace chamber maid, a 31-year-old woman with a round ruddy kind face, dark brown hair, sturdy build and permanently sceptical eyebrows, wearing a dark blue wool gown, white linen apron, white muslin fichu and white linen cap, front view, three-quarter view, profile and full body, plain neutral grey backdrop, soft even overcast light, real skin texture, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>ORL · Count Grigory Orlov</h3><div class="meta"><span>Age 36</span><span>Comic interruption at the door. Silent.</span></div><div class="cb "><button type="button" class="copy" data-t="t9">Copy</button><pre id="t9">Photorealistic character reference sheet of Count Grigory Orlov in 1770, a very tall 36-year-old Russian nobleman with broad shoulders, handsome strong jaw, dark brows, brown eyes and an easy confident grin, powdered hair tied in a queue with a black ribbon, pale blue silk coat with heavy silver embroidery, white satin waistcoat, a small diamond-framed miniature portrait of the empress pinned to his chest, front view, three-quarter view, profile and full body, plain neutral grey backdrop, soft even overcast light, real skin texture, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>TOM · Sir Tom Anderson</h3><div class="meta"><span>Age adult</span><span>Catherine&#x27;s dog. Pays off the Hype-button gag.</span></div><div class="cb "><button type="button" class="copy" data-t="t10">Copy</button><pre id="t10">Photorealistic reference sheet of an adult male English greyhound, slate grey coat with a white chest blaze, lean elegant body, sleepy eyes, thin gold collar, standing, lying curled and head-raised poses, plain neutral grey backdrop, soft even light, real fur texture, 16:9</pre></div></div>
+<div class="card"><h3>LADY · Lady Anderson</h3><div class="meta"><span>Age adult</span><span>Sir Tom&#x27;s &#x27;wife&#x27;. Biscuit thief.</span></div><div class="cb "><button type="button" class="copy" data-t="t11">Copy</button><pre id="t11">Photorealistic reference sheet of an adult female English greyhound, cream-fawn coat, slightly smaller and finer than a male greyhound, pink silk ribbon collar, standing, lying curled and stretching-yawn poses, plain neutral grey backdrop, soft even light, real fur texture, 16:9</pre></div></div>
+<div class="card"><h3>HAIR · Court hairdresser</h3><div class="meta"><span>Age ~28</span><span>Terrified victim of the head-turning gag.</span></div><div class="cb "><button type="button" class="copy" data-t="t12">Copy</button><pre id="t12">Photorealistic character reference of an 18th-century French court hairdresser, a thin twitchy 28-year-old man with wide anxious eyes, his own powdered wig, plum wool coat with powder-dusted cuffs, white apron, holding a comb and a swansdown powder puff, front and three-quarter views, plain neutral grey backdrop, soft overcast light, real skin texture, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>COOK · Palace cook</h3><div class="meta"><span>Age ~50</span><span>Brews the coffee.</span></div><div class="cb "><button type="button" class="copy" data-t="t13">Copy</button><pre id="t13">Photorealistic character reference of an 18th-century Russian palace cook, a heavy-set red-faced 50-year-old man with thick forearms, white cap, stained white apron, rolled linen sleeves, front and three-quarter views, plain neutral grey backdrop, soft light, real skin texture, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>SERV · Kitchen servants (2–3)</h3><div class="meta"><span>Age 20s–40s</span><span>Re-boil the coffee grounds.</span></div><div class="cb "><button type="button" class="copy" data-t="t14">Copy</button><pre id="t14">Photorealistic group reference of three 18th-century Russian kitchen servants, two men and one woman aged 20 to 40, ordinary weathered faces, coarse linen shirts, aprons and kerchiefs, standing in a row, plain neutral grey backdrop, soft light, real skin texture, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>SEC · Young secretary</h3><div class="meta"><span>Age ~24</span><span>Coffee-heart gag.</span></div><div class="cb "><button type="button" class="copy" data-t="t15">Copy</button><pre id="t15">Photorealistic character reference of an 18th-century Russian imperial secretary, a thin pale 24-year-old man with ink-stained fingers, his own hair tied back, dark green wool coat, front and three-quarter views, plain neutral grey backdrop, soft light, real skin texture, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>GRD · Preobrazhensky guardsman</h3><div class="meta"><span>Age ~30</span><span>Asleep standing up.</span></div><div class="cb "><button type="button" class="copy" data-t="t16">Copy</button><pre id="t16">Photorealistic character reference of an 18th-century Russian Preobrazhensky Guard soldier, a moustached 30-year-old man, dark green coat with red cuffs, black tricorne, musket, front and three-quarter views, plain neutral grey backdrop, soft light, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>MAIDS · Two young maids</h3><div class="meta"><span>Age 18–20</span><span>Asleep on a bench.</span></div><div class="cb "><button type="button" class="copy" data-t="t17">Copy</button><pre id="t17">Photorealistic reference of two 18th-century Russian palace maids aged 18 to 20, grey wool dresses, white caps and aprons, plain neutral grey backdrop, soft light, real skin texture, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>FOOT · Footmen (2)</h3><div class="meta"><span>Age 20s</span><span>Open the doors.</span></div><div class="cb "><button type="button" class="copy" data-t="t18">Copy</button><pre id="t18">Photorealistic reference of two tall matching 18th-century Russian imperial footmen in their twenties, crimson livery with gold braid, white stockings, powdered wigs, standing at attention, plain neutral grey backdrop, soft light, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>MIN · Ministers and courtiers (6–8)</h3><div class="meta"><span>Age 40–70</span><span>Bow in unison.</span></div><div class="cb "><button type="button" class="copy" data-t="t19">Copy</button><pre id="t19">Photorealistic group reference of eight 18th-century Russian ministers and courtiers aged 40 to 70, mixed builds, nervous expressions, embroidered coats in muted silks, powdered wigs, orders and sashes, standing in a line, plain neutral grey backdrop, soft light, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>LADIES · Two court ladies</h3><div class="meta"><span>Age 20s</span><span>Apple-cheek insert.</span></div><div class="cb "><button type="button" class="copy" data-t="t20">Copy</button><pre id="t20">Photorealistic reference of two 18th-century Russian court ladies in their twenties, pastel silk gowns, powdered hair, bright perfectly circular red rouge on both cheeks, giggling, plain neutral grey backdrop, soft light, real skin texture, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>PETER · Peter the Great (1703 insert)</h3><div class="meta"><span>Age 31</span><span>Window-to-Europe insert.</span></div><div class="cb "><button type="button" class="copy" data-t="t21">Copy</button><pre id="t21">Photorealistic character reference of Peter the Great of Russia in 1703, an extremely tall 31-year-old man with dark curly shoulder-length hair, short moustache and intense eyes, dark green coat, high mud-stained boots, black tricorne, front and three-quarter views, plain neutral grey backdrop, soft overcast light, real skin texture, period-drama realism, 16:9</pre></div></div>
+<div class="card"><h3>FLEET · Russian sailors (1770)</h3><div class="meta"><span>Age various</span><span>War inserts.</span></div><div class="cb "><button type="button" class="copy" data-t="t22">Copy</button><pre id="t22">Photorealistic group reference of 18th-century Russian navy sailors, weathered wind-burnt faces, green and white naval coats, knitted caps, wet clothing, plain neutral grey backdrop, soft light, period-drama realism, 16:9</pre></div></div>
+</div></section>
+<section id="locations"><h2>3 · Locations <small>empty plate prompts</small></h2><p class="lead">Generate each plate empty, then place characters into it in the still-scene step. Swap the lighting phrase for the other lighting state where one is listed.</p><div class="grid">
+<div class="card"><h3>L1 · Catherine&#x27;s bedchamber, Winter Palace</h3><div class="meta"><span>Pre-dawn: candle, then firelight once she lights the fire; cold blue snow-glow through the windows</span></div><div class="cb "><button type="button" class="copy" data-t="t23">Copy</button><pre id="t23">Photorealistic empty interior plate of Empress Catherine the Great&#x27;s bedchamber in the Winter Palace, St Petersburg, 1770, canopied bed hung with green and gold damask, carved white marble fireplace, parquet floor, gilded white rococo wall panelling, a gilded dog basket with silk cushions beside the bed, tall windows with frost, pre-dawn darkness lit by one candle and a low fire, cold blue snow-glow through the windows, light haze, muted desaturated palette, real textures, prestige period-drama realism, fine film grain, no people, 16:9</pre></div></div>
+<div class="card"><h3>L2 · Palace enfilade and antechamber</h3><div class="meta"><span>Pre-dawn darkness; only her candle and faint blue window light</span></div><div class="cb "><button type="button" class="copy" data-t="t24">Copy</button><pre id="t24">Photorealistic empty interior plate of a long baroque enfilade in the Winter Palace, St Petersburg, 1770, a row of aligned gilded doorways receding into darkness, white and gold mouldings, tall mirrors, a bench and an armchair against the wall, pre-dawn darkness with faint cold blue light from tall windows and one warm candle glow, light haze, muted desaturated palette, real textures, prestige period-drama realism, fine film grain, no people, 16:9</pre></div></div>
+<div class="card"><h3>L3 · Catherine&#x27;s study</h3><div class="meta"><span>Pre-dawn: candelabra, black window</span></div><div class="cb "><button type="button" class="copy" data-t="t25">Copy</button><pre id="t25">Photorealistic empty interior plate of Catherine the Great&#x27;s private study in the Winter Palace, 1770, walnut writing bureau with three tall stacks of papers, leather-bound books, quill and silver inkstand, gold snuffbox, lit candelabra, tall frosted window looking onto the dark frozen Neva, a portrait of Peter the Great on the wall, pre-dawn candlelight with cold blue window glow, light haze, muted desaturated palette, real textures, prestige period-drama realism, fine film grain, no people, 16:9</pre></div></div>
+<div class="card"><h3>L4 · Dressing room</h3><div class="meta"><span>Pre-dawn candles (clips 14–22); grey north-window dawn with candle accents (52–88)</span></div><div class="cb "><button type="button" class="copy" data-t="t26">Copy</button><pre id="t26">Photorealistic empty interior plate of an 18th-century imperial dressing room in the Winter Palace, mirrored toilette table with a silver toilette set, full-length cheval mirror, painted folding screen, a gilded doorway, a gilt cabinet with a round brass boss on its front, an open door showing a fire in the bedchamber beyond, soft grey north-window dawn light with warm candle accents, light haze, muted desaturated palette, real textures, prestige period-drama realism, fine film grain, no people, 16:9</pre></div></div>
+<div class="card"><h3>L5 · Palace kitchen / coffee room</h3><div class="meta"><span>Hearth fire and lanterns</span></div><div class="cb "><button type="button" class="copy" data-t="t27">Copy</button><pre id="t27">Photorealistic empty interior plate of an 18th-century Russian palace kitchen, brick vaulted ceiling, open hearth fire, hanging copper pots, rough wooden table with a coffee grinder and a dented copper pot, lanterns, smoky haze, muted earthy palette, real textures, prestige period-drama realism, fine film grain, no people, 16:9</pre></div></div>
+<div class="card"><h3>L6 · Exterior: Winter Palace and frozen Neva</h3><div class="meta"><span>Night with one lit window (clip 5); deep blue pre-dawn (clip 42)</span></div><div class="cb "><button type="button" class="copy" data-t="t28">Copy</button><pre id="t28">Photorealistic wide exterior of the baroque Winter Palace in St Petersburg in 1770 seen across the frozen Neva river, night, snow falling, embankment lamps, a single warm lit window on the façade, cold blue-grey tones, light mist, muted desaturated palette, prestige period-drama realism, fine film grain, 16:9</pre></div></div>
+<div class="card"><h3>L7 · Corridor outside the dressing room</h3><div class="meta"><span>Grey dawn light</span></div><div class="cb "><button type="button" class="copy" data-t="t29">Copy</button><pre id="t29">Photorealistic empty interior plate of a gilded baroque palace corridor in the Winter Palace, 1770, white and gold mouldings, a closed panelled door to a dressing room, parquet floor, soft grey dawn light from tall windows, light haze, muted desaturated palette, real textures, prestige period-drama realism, fine film grain, no people, 16:9</pre></div></div>
+<div class="card"><h3>L8 · Audience antechamber</h3><div class="meta"><span>Bright overcast morning light</span></div><div class="cb "><button type="button" class="copy" data-t="t30">Copy</button><pre id="t30">Photorealistic empty interior plate of an 18th-century imperial audience antechamber in the Winter Palace, tall gilded double doors, gilt mantel clock showing nine o&#x27;clock, polished parquet, crystal chandelier, tall windows with soft bright overcast morning light, light haze, muted desaturated palette, real textures, prestige period-drama realism, fine film grain, no people, 16:9</pre></div></div>
+<div class="card"><h3>I1 · Open sea, northern Europe</h3><div class="meta"><span>Overcast storm</span></div><div class="cb "><button type="button" class="copy" data-t="t31">Copy</button><pre id="t31">Photorealistic wide shot of an 18th-century Russian squadron of ships of the line sailing through heavy grey North Sea swell, overcast storm sky, spray, desaturated steel greys, prestige period-drama realism, fine film grain, 16:9</pre></div></div>
+<div class="card"><h3>I2 · Chesma Bay, 1770</h3><div class="meta"><span>Fire against black night</span></div><div class="cb "><button type="button" class="copy" data-t="t32">Copy</button><pre id="t32">Photorealistic wide night shot of Chesma Bay in July 1770, a crowded harbour of Ottoman warships ablaze, flames reflected on black water, smoke, an explosion lighting the sky, deep orange fire against near-black navy, prestige period-drama realism, heavier film grain, 16:9</pre></div></div>
+<div class="card"><h3>I3 · Neva marshland, 1703</h3><div class="meta"><span>Overcast daylight</span></div><div class="cb "><button type="button" class="copy" data-t="t33">Copy</button><pre id="t33">Photorealistic wide shot of the Neva river marshland in 1703, reeds, mud, timber piles being driven by workers, rough wooden scaffolding, overcast daylight, muddy greens and browns, low contrast, prestige period-drama realism, fine film grain, 16:9</pre></div></div>
+<div class="card"><h3>I4 · Court salon</h3><div class="meta"><span>Soft daylight; can be a re-dress of L8</span></div><div class="cb "><button type="button" class="copy" data-t="t34">Copy</button><pre id="t34">Photorealistic empty interior plate of an 18th-century Russian court salon, pastel silk wall panels, gilded mirrors, soft overcast daylight, muted palette, real textures, period-drama realism, fine film grain, no people, 16:9</pre></div></div>
+</div></section>
+<section id="props"><h2>4 · Props</h2><p class="lead">One sheet, so recurring objects match from clip to clip.</p><div class="cb "><button type="button" class="copy" data-t="t35">Copy</button><pre id="t35">Photorealistic props reference sheet on a dark wooden table, 18th-century Russian imperial objects from 1770: a silver bowl of river-ice chunks, a tall silver coffee pot, a porcelain saucer with cream, sugar lumps and a biscuit, a thick leather-bound law book, a folded letter with a broken red wax seal, a gold snuffbox, a gold snuffbox with an enamel horse portrait on the lid, a small portrait miniature of the empress on a ribbon, the Order of St Catherine badge on a red silver-edged ribbon bow, a blue moiré sash with a silver eight-pointed star, diamond drop earrings in a velvet box, a paper face cone, a swansdown powder puff, a pair of wicker pannier cages, a quill and inkstand, a tinderbox with flint and steel, soft overcast light, muted palette, real textures, fine film grain, 16:9</pre></div></section>
+<section id="scenes"><h2>5 · Scene breakdown <small>12:26 at 1.75 words/sec</small></h2><p class="lead">Each clip has its own Copy button. Clips marked <span class="split">split</span> run past 10 seconds: generate an A shot (wide) and a B shot (close) and cut between them under one audio line.</p><div class="cb big"><button type="button" class="copy" data-t="t36">Copy all clips</button><pre id="t36">Clip 1 | 00:00–00:04 | 4s | SELFIE | L1 Bedchamber | CAT | Catherine sits on bed edge holding a candle, looks into lens, warm smile
+Clip 2 | 00:04–00:15 | 11s | SELFIE | L1 Bedchamber | CAT | Medium close-up, mock-weary eye roll | SPLIT A wide + B close
+Clip 3 | 00:15–00:22 | 7s | EDIT | I5 Montage | — | Teaser montage cut from existing stills, 1s each: ice bowl / coffee pot / snuffbox / greyhounds / burning ship
+Clip 4 | 00:22–00:30 | 8s | SELFIE | L1 Bedchamber | CAT | Back on Catherine, one eyebrow raised, deadpan
+Clip 5 | 00:30–00:42 | 12s | CINEMATIC | L6 Exterior Neva | — | Exterior: Winter Palace across frozen Neva, night, snow falling, one lit window | SPLIT A wide + B close | TITLE: Winter Palace · December 1770
+Clip 6 | 00:42–00:45 | 3s | SELFIE | L1 Bedchamber | CAT | Catherine at bedchamber door, finger to lips, beckons camera
+Clip 7 | 00:45–00:55 | 10s | CINEMATIC | L2 Enfilade | CAT | Cinematic tracking shot behind Catherine through the dark gilded enfilade, candle in hand
+Clip 8 | 00:55–01:00 | 5s | CINEMATIC | L2 Enfilade | GRD, MAIDS | Guard dozing upright against pilaster; two maids asleep on a bench
+Clip 9 | 01:00–01:07 | 7s | SELFIE | L2 Enfilade | CAT, MAR | Maria asleep in armchair, mouth open; Catherine leans in, whispers to lens
+Clip 10 | 01:07–01:13 | 6s | SELFIE | L2 Enfilade | CAT, MAR | Catherine tiptoes past Maria, exaggerated care
+Clip 11 | 01:13–01:24 | 11s | SELFIE | L1 Bedchamber | CAT | Catherine kneels at the cold fireplace with a tinderbox | SPLIT A wide + B close
+Clip 12 | 01:24–01:29 | 5s | SELFIE | L1 Bedchamber | CAT | Selfie pointed down at her own hands: flint strikes steel, sparks, kindling catches, flames rise
+Clip 13 | 01:29–01:39 | 10s | SELFIE | L1 Bedchamber | CAT | Catherine sits back on heels, face lit by new fire, proud
+Clip 14 | 01:39–01:42 | 3s | SELFIE | L4 Dressing room | CAT | At toilette table: silver bowl of ice chunks
+Clip 15 | 01:42–01:51 | 9s | SELFIE | L4 Dressing room | CAT | Rubs ice on cheek, sharp inhale
+Clip 16 | 01:51–01:58 | 7s | SELFIE | L4 Dressing room | CAT | Second cheek, eyes snap wide
+Clip 17 | 01:58–02:05 | 7s | SELFIE | L4 Dressing room | CAT | Points at lens with the ice
+Clip 18 | 02:05–02:12 | 7s | SELFIE | L4 Dressing room | CAT | Silver coffee pot set down on tray beside her; she regards it with reverence
+Clip 19 | 02:12–02:19 | 7s | CINEMATIC | L5 Kitchen | COOK | Kitchen: cook tips a heaped scoop of ground coffee into a copper pot
+Clip 20 | 02:19–02:34 | 15s | CINEMATIC | L5 Kitchen | COOK, SERV | Servants re-boil the grounds in a dented pot, sip, eyes bulge | SPLIT A wide + B close
+Clip 21 | 02:34–02:42 | 8s | CINEMATIC | L3 Study | SEC | Gag insert: young secretary sips from her cup, clutches chest, staggers
+Clip 22 | 02:42–02:52 | 10s | SELFIE | L4 Dressing room | CAT | Pours thick cream, drops sugar lumps one by one, dunks biscuit
+Clip 23 | 02:52–02:56 | 4s | SELFIE | L1 Bedchamber | CAT | Camera pans from Catherine to silk dog basket by bed
+Clip 24 | 02:56–03:04 | 8s | SELFIE | L1 Bedchamber | CAT, TOM | Sir Tom lifts his head from a pillow
+Clip 25 | 03:04–03:15 | 11s | SELFIE | L1 Bedchamber | CAT, TOM | Catherine strokes Sir Tom, matter-of-fact | SPLIT A wide + B close
+Clip 26 | 03:15–03:20 | 5s | SELFIE | L1 Bedchamber | CAT, LADY | Lady Anderson stretches, yawns
+Clip 27 | 03:20–03:27 | 7s | SELFIE | L1 Bedchamber | CAT | Deadpan look to lens
+Clip 28 | 03:27–03:34 | 7s | CINEMATIC | L1 Bedchamber | TOM, LADY | Wide: both dogs curled on silk cushions in gilded basket
+Clip 29 | 03:34–03:45 | 11s | SELFIE | L1 Bedchamber | CAT, TOM, LADY | Dogs lap cream from a porcelain saucer; Lady steals Tom&#x27;s biscuit | SPLIT A wide + B close
+Clip 30 | 03:45–03:50 | 5s | SELFIE | L1 Bedchamber | CAT | Close-up, dry
+Clip 31 | 03:50–03:55 | 5s | SELFIE | L3 Study | CAT | Catherine sits at desk, dips quill, candles lit
+Clip 32 | 03:55–04:03 | 8s | SELFIE | L3 Study | CAT | Pats three tall stacks of papers in turn
+Clip 33 | 04:03–04:13 | 10s | SELFIE | L3 Study | CAT | Lifts a thick leather-bound volume
+Clip 34 | 04:13–04:21 | 8s | SELFIE | L3 Study | CAT | Sets book down, small satisfied smile
+Clip 35 | 04:21–04:32 | 11s | SELFIE | L3 Study | CAT | Holds up a letter with a broken red wax seal | SPLIT A wide + B close
+Clip 36 | 04:32–04:39 | 7s | SELFIE | L3 Study | CAT | Writes briskly, quill scratching
+Clip 37 | 04:39–04:49 | 10s | SELFIE | L3 Study | CAT | Looks up from letter at lens
+Clip 38 | 04:49–04:57 | 8s | SELFIE | L3 Study | CAT | Opens gold snuffbox, takes a pinch with LEFT hand
+Clip 39 | 04:57–05:08 | 11s | SELFIE | L3 Study | CAT | Raises clean RIGHT hand elegantly, as if offered for a kiss | SPLIT A wide + B close
+Clip 40 | 05:08–05:16 | 8s | SELFIE | L3 Study | CAT | Smug, then insistent lean-in
+Clip 41 | 05:16–05:19 | 3s | SELFIE | L3 Study | CAT | Catherine at frosted window, black sky beyond
+Clip 42 | 05:19–05:29 | 10s | CINEMATIC | L6 Exterior Neva | — | Exterior: frozen Neva, pre-dawn, lamps on the embankment
+Clip 43 | 05:29–05:40 | 11s | CINEMATIC | I3 Neva marsh 1703 | PETER | Insert: 1703 marsh, Peter the Great in boots among workers driving piles | SPLIT A wide + B close | TITLE: The Neva Marshes · May 1703
+Clip 44 | 05:40–05:46 | 6s | SELFIE | L3 Study | CAT | Catherine taps the glass with a fingernail
+Clip 45 | 05:46–06:00 | 14s | SELFIE | L3 Study | CAT | Lights a candelabra, one taper at a time | SPLIT A wide + B close
+Clip 46 | 06:00–06:05 | 5s | SELFIE | L3 Study | CAT | Slow push-in; Catherine leans toward lens, conspiratorial
+Clip 47 | 06:05–06:14 | 9s | CINEMATIC | I1 Open sea | FLEET | Insert: Russian ships of the line in heavy seas off northern Europe
+Clip 48 | 06:14–06:24 | 10s | CINEMATIC | I1 Open sea | FLEET | Insert: one ship listing hard, sailors bailing
+Clip 49 | 06:24–06:32 | 8s | CINEMATIC | I2 Chesma Bay | FLEET | Insert: Chesma bay at night, Ottoman fleet ablaze, explosion lights the sky | TITLE: Chesma Bay · July 1770
+Clip 50 | 06:32–06:40 | 8s | SELFIE | L3 Study | CAT | Catherine holds the dispatch in one hand, coffee cup in the other, beaming
+Clip 51 | 06:40–06:50 | 10s | SELFIE | L3 Study | CAT | Stands, claps once
+Clip 52 | 06:50–06:56 | 6s | SELFIE | L4 Dressing room | CAT, MAR | Grey dawn at window; Maria enters with folded linens
+Clip 53 | 06:56–07:10 | 14s | SELFIE | L4 Dressing room | CAT, MAR | Maria glares at the lit fire; Catherine shrugs | SPLIT A wide + B close
+Clip 54 | 07:10–07:13 | 3s | SELFIE | L4 Dressing room | CAT | Three knocks; Catherine&#x27;s eyes slide to the door
+Clip 55 | 07:13–07:27 | 14s | CINEMATIC | L7 Corridor (dawn) | ORL | Door ajar: Orlov fills the frame, grinning | SPLIT A wide + B close
+Clip 56 | 07:27–07:35 | 8s | SELFIE | L7 Corridor (dawn) | CAT, ORL | Catherine closes the door on him with a pleasant smile
+Clip 57 | 07:35–07:45 | 10s | CINEMATIC | L7 Corridor (dawn) | ORL | Corridor: Orlov leans on the wall, arms folded, patient
+Clip 58 | 07:45–07:48 | 3s | SELFIE | L4 Dressing room | CAT, MAR | Maria holds up the linen shift
+Clip 59 | 07:48–07:58 | 10s | SELFIE | L4 Dressing room | CAT, MAR | Selfie: Catherine grips the bedpost, Maria visible over her shoulder hauling on the stay-laces
+Clip 60 | 07:58–08:07 | 9s | SELFIE | L4 Dressing room | CAT, MAR | Selfie: Maria kneels in background tying pannier cages on each hip
+Clip 61 | 08:07–08:12 | 5s | SELFIE | L4 Dressing room | CAT | Gag: Catherine side-steps through a doorway, panniers just clearing
+Clip 62 | 08:12–08:19 | 7s | SELFIE | L4 Dressing room | CAT, MAR | Silver brocade gown lowered over her; she shakes out lace sleeves
+Clip 63 | 08:19–08:30 | 11s | SELFIE | L4 Dressing room | CAT | Admires sleeves in the mirror, then a conspiratorial look | SPLIT A wide + B close
+Clip 64 | 08:30–08:38 | 8s | SELFIE | L4 Dressing room | CAT, HAIR | Hairdresser enters with comb and powder puff, visibly nervous
+Clip 65 | 08:38–08:49 | 11s | SELFIE | L4 Dressing room | CAT, HAIR | Catherine reading; she jerks her head toward the book, he flinches | SPLIT A wide + B close
+Clip 66 | 08:49–08:55 | 6s | SELFIE | L4 Dressing room | CAT, HAIR | She holds a paper cone over her face; cloud of white powder
+Clip 67 | 08:55–09:05 | 10s | SELFIE | L4 Dressing room | CAT | Close-up: powder bowl, her finger through it
+Clip 68 | 09:05–09:16 | 11s | SELFIE | L4 Dressing room | CAT | Brief sober beat, then a brisk recovery | SPLIT A wide + B close
+Clip 69 | 09:16–09:20 | 4s | SELFIE | L4 Dressing room | CAT | Dabs rouge on each cheekbone
+Clip 70 | 09:20–09:31 | 11s | CINEMATIC + SELFIE | I4 / L4 Court salon / Dressing room | LADIES / CAT | Insert: two court ladies with round apple-red cheeks; cut back to Catherine | SPLIT A wide + B close
+Clip 71 | 09:31–09:45 | 14s | SELFIE | L4 Dressing room | CAT | Turns to lens, judging | SPLIT A wide + B close
+Clip 72 | 09:45–09:57 | 12s | SELFIE | L4 Dressing room | CAT | Disbelief, then a shrug | SPLIT A wide + B close
+Clip 73 | 09:57–10:01 | 4s | SELFIE | L4 Dressing room | CAT | Opens velvet box, puts on diamond earrings
+Clip 74 | 10:01–10:09 | 8s | SELFIE | L4 Dressing room | CAT, MAR | Maria pins the Order of St Catherine badge
+Clip 75 | 10:09–10:18 | 9s | SELFIE | L4 Dressing room | CAT, MAR | Maria drapes the blue sash over the right shoulder and pins the star
+Clip 76 | 10:18–10:35 | 17s | SELFIE | L4 Dressing room | CAT | Holds up a portrait miniature on a ribbon | SPLIT A wide + B close
+Clip 77 | 10:35–10:46 | 11s | SELFIE | L4 Dressing room | CAT | Opens a gold snuffbox: enamel horse portrait on the lid | SPLIT A wide + B close
+Clip 78 | 10:46–10:50 | 4s | SELFIE | L4 Dressing room | CAT | Full-length mirror reveal; Catherine turns, fully dressed
+Clip 79 | 10:50–11:02 | 12s | EDIT | I5 Montage | — | Recap montage, under 1s per cut, reusing earlier stills
+Clip 80 | 11:02–11:14 | 12s | SELFIE | L8 Audience antechamber | CAT | Catherine at closed double doors; muffled voices beyond; mantel clock at nine | SPLIT A wide + B close
+Clip 81 | 11:14–11:17 | 3s | SELFIE | L8 Audience antechamber | CAT | Pleased little nod
+Clip 82 | 11:17–11:36 | 19s | SELFIE | L8 Audience antechamber | CAT | Intimate close-up, quieter | SPLIT A wide + B close
+Clip 83 | 11:36–11:39 | 3s | SELFIE | L8 Audience antechamber | CAT, FOOT | Footmen swing open the doors; light floods in
+Clip 84 | 11:39–11:43 | 4s | SELFIE | L8 Audience antechamber | CAT, MIN | Selfie: Catherine walks in; behind her the ministers bow deeply in unison
+Clip 85 | 11:43–11:47 | 4s | SELFIE | L8 Audience antechamber | CAT, MIN | Selfie: she glances back over her shoulder at the bowing room, then at lens
+Clip 86 | 11:47–12:10 | 23s | SELFIE | L4 Dressing room | CAT | Back at toilette, direct to lens | SPLIT A wide + B close
+Clip 87 | 12:10–12:18 | 8s | SELFIE | L4 Dressing room | CAT, TOM | Sir Tom nudges a gilt button-boss on a cabinet with his nose
+Clip 88 | 12:18–12:26 | 8s | SELFIE | L4 Dressing room | CAT | Final close-up: threat, beat, smile, beat, smirk</pre></div>
+<div class="clips">
+<div class="seqhead">1 HOOK</div>
+<div class="clip"><div><div class="num">1</div><div class="tm">00:00<br>4s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT</span></div>
+<p class="act">Catherine sits on bed edge holding a candle, looks into lens, warm smile</p>
+<p class="line">“Dobroye utro, my little subjects.”</p><div class="cb "><button type="button" class="copy" data-t="t37">Copy clip</button><pre id="t37">Clip 1 · 00:00–00:04 (4s) · SELFIE · L1 Bedchamber · Characters: CAT
+Action: Catherine sits on bed edge holding a candle, looks into lens, warm smile
+Line (OC): Dobroye utro, my little subjects.</pre></div></div></div>
+<div class="clip"><div><div class="num">2</div><div class="tm">00:04<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Medium close-up, mock-weary eye roll</p>
+<p class="line">“You asked, and you asked, and one of you asked eleven times. How does an empress get ready?”</p><div class="cb "><button type="button" class="copy" data-t="t38">Copy clip</button><pre id="t38">Clip 2 · 00:04–00:15 (11s) · SELFIE · L1 Bedchamber · Characters: CAT
+Action: Medium close-up, mock-weary eye roll
+Split: A wide + B close
+Line (OC): You asked, and you asked, and one of you asked eleven times. How does an empress get ready?</pre></div></div></div>
+<div class="clip"><div><div class="num">3</div><div class="tm">00:15<br>7s</div></div><div class="body">
+<div class="meta"><span class="tag EDIT">EDIT</span><span class="tag">I5 · Montage</span><span class="tag">—</span></div>
+<p class="act">Teaser montage cut from existing stills, 1s each: ice bowl / coffee pot / snuffbox / greyhounds / burning ship</p>
+<p class="line">“Today you will see everything. Ice. Coffee. Snuff. Dogs. A war.”</p><div class="cb "><button type="button" class="copy" data-t="t39">Copy clip</button><pre id="t39">Clip 3 · 00:15–00:22 (7s) · EDIT · I5 Montage · Characters: —
+Action: Teaser montage cut from existing stills, 1s each: ice bowl / coffee pot / snuffbox / greyhounds / burning ship
+Line (VO): Today you will see everything. Ice. Coffee. Snuff. Dogs. A war.</pre></div></div></div>
+<div class="clip"><div><div class="num">4</div><div class="tm">00:22<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT</span></div>
+<p class="act">Back on Catherine, one eyebrow raised, deadpan</p>
+<p class="line">“Yes, a war. It is in the schedule. We will get to it.”</p><div class="cb "><button type="button" class="copy" data-t="t40">Copy clip</button><pre id="t40">Clip 4 · 00:22–00:30 (8s) · SELFIE · L1 Bedchamber · Characters: CAT
+Action: Back on Catherine, one eyebrow raised, deadpan
+Line (OC): Yes, a war. It is in the schedule. We will get to it.</pre></div></div></div>
+<div class="clip"><div><div class="num">5</div><div class="tm">00:30<br>12s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">L6 · Exterior Neva</span><span class="tag">—</span><span class="tag split">split A/B</span></div>
+<p class="act">Exterior: Winter Palace across frozen Neva, night, snow falling, one lit window</p><p class="titlecard">Title card: Winter Palace · December 1770</p>
+<p class="line">“But first, it is five o&#x27;clock in the morning, and nobody in this palace is awake except me.”</p><div class="cb "><button type="button" class="copy" data-t="t41">Copy clip</button><pre id="t41">Clip 5 · 00:30–00:42 (12s) · CINEMATIC · L6 Exterior Neva · Characters: —
+Action: Exterior: Winter Palace across frozen Neva, night, snow falling, one lit window
+Split: A wide + B close
+Title card: Winter Palace · December 1770
+Line (VO): But first, it is five o&#x27;clock in the morning, and nobody in this palace is awake except me.</pre></div></div></div>
+<div class="seqhead">2 SET UP</div>
+<div class="clip"><div><div class="num">6</div><div class="tm">00:42<br>3s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT</span></div>
+<p class="act">Catherine at bedchamber door, finger to lips, beckons camera</p>
+<p class="line">“Shh. Come in. Quietly.”</p><div class="cb "><button type="button" class="copy" data-t="t42">Copy clip</button><pre id="t42">Clip 6 · 00:42–00:45 (3s) · SELFIE · L1 Bedchamber · Characters: CAT
+Action: Catherine at bedchamber door, finger to lips, beckons camera
+Line (OC): Shh. Come in. Quietly.</pre></div></div></div>
+<div class="clip"><div><div class="num">7</div><div class="tm">00:45<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">L2 · Enfilade</span><span class="tag">CAT</span></div>
+<p class="act">Cinematic tracking shot behind Catherine through the dark gilded enfilade, candle in hand</p>
+<p class="line">“This is the Winter Palace. One thousand rooms, and every single one of them is asleep.”</p><div class="cb "><button type="button" class="copy" data-t="t43">Copy clip</button><pre id="t43">Clip 7 · 00:45–00:55 (10s) · CINEMATIC · L2 Enfilade · Characters: CAT
+Action: Cinematic tracking shot behind Catherine through the dark gilded enfilade, candle in hand
+Line (VO): This is the Winter Palace. One thousand rooms, and every single one of them is asleep.</pre></div></div></div>
+<div class="clip"><div><div class="num">8</div><div class="tm">00:55<br>5s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">L2 · Enfilade</span><span class="tag">GRD, MAIDS</span></div>
+<p class="act">Guard dozing upright against pilaster; two maids asleep on a bench</p>
+<p class="line">“The guards are asleep. The maids are asleep.”</p><div class="cb "><button type="button" class="copy" data-t="t44">Copy clip</button><pre id="t44">Clip 8 · 00:55–01:00 (5s) · CINEMATIC · L2 Enfilade · Characters: GRD, MAIDS
+Action: Guard dozing upright against pilaster; two maids asleep on a bench
+Line (VO): The guards are asleep. The maids are asleep.</pre></div></div></div>
+<div class="clip"><div><div class="num">9</div><div class="tm">01:00<br>7s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L2 · Enfilade</span><span class="tag">CAT, MAR</span></div>
+<p class="act">Maria asleep in armchair, mouth open; Catherine leans in, whispers to lens</p>
+<p class="line">“Maria Savvishna is asleep. She is my chamber maid. She knows everything.”</p><div class="cb "><button type="button" class="copy" data-t="t45">Copy clip</button><pre id="t45">Clip 9 · 01:00–01:07 (7s) · SELFIE · L2 Enfilade · Characters: CAT, MAR
+Action: Maria asleep in armchair, mouth open; Catherine leans in, whispers to lens
+Line (OC): Maria Savvishna is asleep. She is my chamber maid. She knows everything.</pre></div></div></div>
+<div class="clip"><div><div class="num">10</div><div class="tm">01:07<br>6s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L2 · Enfilade</span><span class="tag">CAT, MAR</span></div>
+<p class="act">Catherine tiptoes past Maria, exaggerated care</p>
+<p class="line">“I do not wake her. I do not wake anyone.”</p><div class="cb "><button type="button" class="copy" data-t="t46">Copy clip</button><pre id="t46">Clip 10 · 01:07–01:13 (6s) · SELFIE · L2 Enfilade · Characters: CAT, MAR
+Action: Catherine tiptoes past Maria, exaggerated care
+Line (OC): I do not wake her. I do not wake anyone.</pre></div></div></div>
+<div class="clip"><div><div class="num">11</div><div class="tm">01:13<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Catherine kneels at the cold fireplace with a tinderbox</p>
+<p class="line">“You think an empress rings a bell and twenty people run in? Some do. I light my own fire.”</p><div class="cb "><button type="button" class="copy" data-t="t47">Copy clip</button><pre id="t47">Clip 11 · 01:13–01:24 (11s) · SELFIE · L1 Bedchamber · Characters: CAT
+Action: Catherine kneels at the cold fireplace with a tinderbox
+Split: A wide + B close
+Line (OC): You think an empress rings a bell and twenty people run in? Some do. I light my own fire.</pre></div></div></div>
+<div class="clip"><div><div class="num">12</div><div class="tm">01:24<br>5s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT</span></div>
+<p class="act">Selfie pointed down at her own hands: flint strikes steel, sparks, kindling catches, flames rise</p>
+<p class="line">“Watch.”</p><div class="cb "><button type="button" class="copy" data-t="t48">Copy clip</button><pre id="t48">Clip 12 · 01:24–01:29 (5s) · SELFIE · L1 Bedchamber · Characters: CAT
+Action: Selfie pointed down at her own hands: flint strikes steel, sparks, kindling catches, flames rise
+Line (OC): Watch.</pre></div></div></div>
+<div class="clip"><div><div class="num">13</div><div class="tm">01:29<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT</span></div>
+<p class="act">Catherine sits back on heels, face lit by new fire, proud</p>
+<p class="line">“There. Twenty-six years in Russia, and I still have never burned down the palace. Very impressive.”</p><div class="cb "><button type="button" class="copy" data-t="t49">Copy clip</button><pre id="t49">Clip 13 · 01:29–01:39 (10s) · SELFIE · L1 Bedchamber · Characters: CAT
+Action: Catherine sits back on heels, face lit by new fire, proud
+Line (OC): There. Twenty-six years in Russia, and I still have never burned down the palace. Very impressive.</pre></div></div></div>
+<div class="seqhead">3 ICE &amp; COFFEE</div>
+<div class="clip"><div><div class="num">14</div><div class="tm">01:39<br>3s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">At toilette table: silver bowl of ice chunks</p>
+<p class="line">“First, my face.”</p><div class="cb "><button type="button" class="copy" data-t="t50">Copy clip</button><pre id="t50">Clip 14 · 01:39–01:42 (3s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: At toilette table: silver bowl of ice chunks
+Line (OC): First, my face.</pre></div></div></div>
+<div class="clip"><div><div class="num">15</div><div class="tm">01:42<br>9s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Rubs ice on cheek, sharp inhale</p>
+<p class="line">“No warm water. Ice. From the Neva. I rub it on my cheeks every morning.”</p><div class="cb "><button type="button" class="copy" data-t="t51">Copy clip</button><pre id="t51">Clip 15 · 01:42–01:51 (9s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Rubs ice on cheek, sharp inhale
+Line (OC): No warm water. Ice. From the Neva. I rub it on my cheeks every morning.</pre></div></div></div>
+<div class="clip"><div><div class="num">16</div><div class="tm">01:51<br>7s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Second cheek, eyes snap wide</p>
+<p class="line">“It wakes the skin. It wakes the soul. It wakes the neighbours.”</p><div class="cb "><button type="button" class="copy" data-t="t52">Copy clip</button><pre id="t52">Clip 16 · 01:51–01:58 (7s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Second cheek, eyes snap wide
+Line (OC): It wakes the skin. It wakes the soul. It wakes the neighbours.</pre></div></div></div>
+<div class="clip"><div><div class="num">17</div><div class="tm">01:58<br>7s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Points at lens with the ice</p>
+<p class="line">“Do not try this, little subjects. You are not built like me.”</p><div class="cb "><button type="button" class="copy" data-t="t53">Copy clip</button><pre id="t53">Clip 17 · 01:58–02:05 (7s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Points at lens with the ice
+Line (OC): Do not try this, little subjects. You are not built like me.</pre></div></div></div>
+<div class="clip"><div><div class="num">18</div><div class="tm">02:05<br>7s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Silver coffee pot set down on tray beside her; she regards it with reverence</p>
+<p class="line">“Now, coffee. This is the most dangerous drink in the Russian Empire.”</p><div class="cb "><button type="button" class="copy" data-t="t54">Copy clip</button><pre id="t54">Clip 18 · 02:05–02:12 (7s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Silver coffee pot set down on tray beside her; she regards it with reverence
+Line (OC): Now, coffee. This is the most dangerous drink in the Russian Empire.</pre></div></div></div>
+<div class="clip"><div><div class="num">19</div><div class="tm">02:12<br>7s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">L5 · Kitchen</span><span class="tag">COOK</span></div>
+<p class="act">Kitchen: cook tips a heaped scoop of ground coffee into a copper pot</p>
+<p class="line">“One pound of coffee. Five cups. That is the recipe. My recipe.”</p><div class="cb "><button type="button" class="copy" data-t="t55">Copy clip</button><pre id="t55">Clip 19 · 02:12–02:19 (7s) · CINEMATIC · L5 Kitchen · Characters: COOK
+Action: Kitchen: cook tips a heaped scoop of ground coffee into a copper pot
+Line (VO): One pound of coffee. Five cups. That is the recipe. My recipe.</pre></div></div></div>
+<div class="clip"><div><div class="num">20</div><div class="tm">02:19<br>15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">L5 · Kitchen</span><span class="tag">COOK, SERV</span><span class="tag split">split A/B</span></div>
+<p class="act">Servants re-boil the grounds in a dented pot, sip, eyes bulge</p>
+<p class="line">“My cook brews it, and when I am finished, the servants boil the same grounds again for themselves. Still strong enough to wake a horse.”</p><div class="cb "><button type="button" class="copy" data-t="t56">Copy clip</button><pre id="t56">Clip 20 · 02:19–02:34 (15s) · CINEMATIC · L5 Kitchen · Characters: COOK, SERV
+Action: Servants re-boil the grounds in a dented pot, sip, eyes bulge
+Split: A wide + B close
+Line (VO): My cook brews it, and when I am finished, the servants boil the same grounds again for themselves. Still strong enough to wake a horse.</pre></div></div></div>
+<div class="clip"><div><div class="num">21</div><div class="tm">02:34<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">L3 · Study</span><span class="tag">SEC</span></div>
+<p class="act">Gag insert: young secretary sips from her cup, clutches chest, staggers</p>
+<p class="line">“Once, a secretary tried my coffee. His heart has never forgiven me.”</p><div class="cb "><button type="button" class="copy" data-t="t57">Copy clip</button><pre id="t57">Clip 21 · 02:34–02:42 (8s) · CINEMATIC · L3 Study · Characters: SEC
+Action: Gag insert: young secretary sips from her cup, clutches chest, staggers
+Line (VO): Once, a secretary tried my coffee. His heart has never forgiven me.</pre></div></div></div>
+<div class="clip"><div><div class="num">22</div><div class="tm">02:42<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Pours thick cream, drops sugar lumps one by one, dunks biscuit</p>
+<p class="line">“Thick cream. A biscuit. And sugar. Many sugars. I am German by birth. We need it.”</p><div class="cb "><button type="button" class="copy" data-t="t58">Copy clip</button><pre id="t58">Clip 22 · 02:42–02:52 (10s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Pours thick cream, drops sugar lumps one by one, dunks biscuit
+Line (OC): Thick cream. A biscuit. And sugar. Many sugars. I am German by birth. We need it.</pre></div></div></div>
+<div class="seqhead">4 DOGS</div>
+<div class="clip"><div><div class="num">23</div><div class="tm">02:52<br>4s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT</span></div>
+<p class="act">Camera pans from Catherine to silk dog basket by bed</p>
+<p class="line">“You may notice I am not alone.”</p><div class="cb "><button type="button" class="copy" data-t="t59">Copy clip</button><pre id="t59">Clip 23 · 02:52–02:56 (4s) · SELFIE · L1 Bedchamber · Characters: CAT
+Action: Camera pans from Catherine to silk dog basket by bed
+Line (OC): You may notice I am not alone.</pre></div></div></div>
+<div class="clip"><div><div class="num">24</div><div class="tm">02:56<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT, TOM</span></div>
+<p class="act">Sir Tom lifts his head from a pillow</p>
+<p class="line">“This is Sir Tom Anderson. English greyhound. A gift from my doctor, Dimsdale.”</p><div class="cb "><button type="button" class="copy" data-t="t60">Copy clip</button><pre id="t60">Clip 24 · 02:56–03:04 (8s) · SELFIE · L1 Bedchamber · Characters: CAT, TOM
+Action: Sir Tom lifts his head from a pillow
+Line (OC): This is Sir Tom Anderson. English greyhound. A gift from my doctor, Dimsdale.</pre></div></div></div>
+<div class="clip"><div><div class="num">25</div><div class="tm">03:04<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT, TOM</span><span class="tag split">split A/B</span></div>
+<p class="act">Catherine strokes Sir Tom, matter-of-fact</p>
+<p class="line">“You remember Dimsdale. He gave me smallpox, on purpose. Then he gave me a dog. Both were good ideas.”</p><div class="cb "><button type="button" class="copy" data-t="t61">Copy clip</button><pre id="t61">Clip 25 · 03:04–03:15 (11s) · SELFIE · L1 Bedchamber · Characters: CAT, TOM
+Action: Catherine strokes Sir Tom, matter-of-fact
+Split: A wide + B close
+Line (OC): You remember Dimsdale. He gave me smallpox, on purpose. Then he gave me a dog. Both were good ideas.</pre></div></div></div>
+<div class="clip"><div><div class="num">26</div><div class="tm">03:15<br>5s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT, LADY</span></div>
+<p class="act">Lady Anderson stretches, yawns</p>
+<p class="line">“And this is Lady Anderson. Sir Tom&#x27;s wife.”</p><div class="cb "><button type="button" class="copy" data-t="t62">Copy clip</button><pre id="t62">Clip 26 · 03:15–03:20 (5s) · SELFIE · L1 Bedchamber · Characters: CAT, LADY
+Action: Lady Anderson stretches, yawns
+Line (OC): And this is Lady Anderson. Sir Tom&#x27;s wife.</pre></div></div></div>
+<div class="clip"><div><div class="num">27</div><div class="tm">03:20<br>7s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT</span></div>
+<p class="act">Deadpan look to lens</p>
+<p class="line">“Yes, my dogs are married. More successfully than I was.”</p><div class="cb "><button type="button" class="copy" data-t="t63">Copy clip</button><pre id="t63">Clip 27 · 03:20–03:27 (7s) · SELFIE · L1 Bedchamber · Characters: CAT
+Action: Deadpan look to lens
+Line (OC): Yes, my dogs are married. More successfully than I was.</pre></div></div></div>
+<div class="clip"><div><div class="num">28</div><div class="tm">03:27<br>7s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">L1 · Bedchamber</span><span class="tag">TOM, LADY</span></div>
+<p class="act">Wide: both dogs curled on silk cushions in gilded basket</p>
+<p class="line">“They sleep in a basket by my bed. On silk. With pillows.”</p><div class="cb "><button type="button" class="copy" data-t="t64">Copy clip</button><pre id="t64">Clip 28 · 03:27–03:34 (7s) · CINEMATIC · L1 Bedchamber · Characters: TOM, LADY
+Action: Wide: both dogs curled on silk cushions in gilded basket
+Line (VO): They sleep in a basket by my bed. On silk. With pillows.</pre></div></div></div>
+<div class="clip"><div><div class="num">29</div><div class="tm">03:34<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT, TOM, LADY</span><span class="tag split">split A/B</span></div>
+<p class="act">Dogs lap cream from a porcelain saucer; Lady steals Tom&#x27;s biscuit</p>
+<p class="line">“They eat the cream from my coffee. Sir Tom eats the biscuit. Lady Anderson eats Sir Tom&#x27;s biscuit.”</p><div class="cb "><button type="button" class="copy" data-t="t65">Copy clip</button><pre id="t65">Clip 29 · 03:34–03:45 (11s) · SELFIE · L1 Bedchamber · Characters: CAT, TOM, LADY
+Action: Dogs lap cream from a porcelain saucer; Lady steals Tom&#x27;s biscuit
+Split: A wide + B close
+Line (OC): They eat the cream from my coffee. Sir Tom eats the biscuit. Lady Anderson eats Sir Tom&#x27;s biscuit.</pre></div></div></div>
+<div class="clip"><div><div class="num">30</div><div class="tm">03:45<br>5s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L1 · Bedchamber</span><span class="tag">CAT</span></div>
+<p class="act">Close-up, dry</p>
+<p class="line">“That is how marriage works in Russia.”</p><div class="cb "><button type="button" class="copy" data-t="t66">Copy clip</button><pre id="t66">Clip 30 · 03:45–03:50 (5s) · SELFIE · L1 Bedchamber · Characters: CAT
+Action: Close-up, dry
+Line (OC): That is how marriage works in Russia.</pre></div></div></div>
+<div class="seqhead">5 DESK</div>
+<div class="clip"><div><div class="num">31</div><div class="tm">03:50<br>5s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Catherine sits at desk, dips quill, candles lit</p>
+<p class="line">“Now, work. Before anyone else wakes, I write.”</p><div class="cb "><button type="button" class="copy" data-t="t67">Copy clip</button><pre id="t67">Clip 31 · 03:50–03:55 (5s) · SELFIE · L3 Study · Characters: CAT
+Action: Catherine sits at desk, dips quill, candles lit
+Line (OC): Now, work. Before anyone else wakes, I write.</pre></div></div></div>
+<div class="clip"><div><div class="num">32</div><div class="tm">03:55<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Pats three tall stacks of papers in turn</p>
+<p class="line">“Three hours, every morning. Laws. Letters. Plays. Yes, I write comedies. Somebody must.”</p><div class="cb "><button type="button" class="copy" data-t="t68">Copy clip</button><pre id="t68">Clip 32 · 03:55–04:03 (8s) · SELFIE · L3 Study · Characters: CAT
+Action: Pats three tall stacks of papers in turn
+Line (OC): Three hours, every morning. Laws. Letters. Plays. Yes, I write comedies. Somebody must.</pre></div></div></div>
+<div class="clip"><div><div class="num">33</div><div class="tm">04:03<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Lifts a thick leather-bound volume</p>
+<p class="line">“Three years ago I wrote a whole book of laws for Russia. Five hundred and twenty-six articles.”</p><div class="cb "><button type="button" class="copy" data-t="t69">Copy clip</button><pre id="t69">Clip 33 · 04:03–04:13 (10s) · SELFIE · L3 Study · Characters: CAT
+Action: Lifts a thick leather-bound volume
+Line (OC): Three years ago I wrote a whole book of laws for Russia. Five hundred and twenty-six articles.</pre></div></div></div>
+<div class="clip"><div><div class="num">34</div><div class="tm">04:13<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Sets book down, small satisfied smile</p>
+<p class="line">“In France, they banned it. Too dangerous. I was very flattered.”</p><div class="cb "><button type="button" class="copy" data-t="t70">Copy clip</button><pre id="t70">Clip 34 · 04:13–04:21 (8s) · SELFIE · L3 Study · Characters: CAT
+Action: Sets book down, small satisfied smile
+Line (OC): In France, they banned it. Too dangerous. I was very flattered.</pre></div></div></div>
+<div class="clip"><div><div class="num">35</div><div class="tm">04:21<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Holds up a letter with a broken red wax seal</p>
+<p class="line">“This is a letter to Voltaire. He is in France. He calls me the Star of the North.”</p><div class="cb "><button type="button" class="copy" data-t="t71">Copy clip</button><pre id="t71">Clip 35 · 04:21–04:32 (11s) · SELFIE · L3 Study · Characters: CAT
+Action: Holds up a letter with a broken red wax seal
+Split: A wide + B close
+Line (OC): This is a letter to Voltaire. He is in France. He calls me the Star of the North.</pre></div></div></div>
+<div class="clip"><div><div class="num">36</div><div class="tm">04:32<br>7s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Writes briskly, quill scratching</p>
+<p class="line">“I write back often. Flattery should be answered promptly. Otherwise it stops.”</p><div class="cb "><button type="button" class="copy" data-t="t72">Copy clip</button><pre id="t72">Clip 36 · 04:32–04:39 (7s) · SELFIE · L3 Study · Characters: CAT
+Action: Writes briskly, quill scratching
+Line (OC): I write back often. Flattery should be answered promptly. Otherwise it stops.</pre></div></div></div>
+<div class="clip"><div><div class="num">37</div><div class="tm">04:39<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Looks up from letter at lens</p>
+<p class="line">“He writes that I am the greatest ruler in Europe. I agree with him. It saves time.”</p><div class="cb "><button type="button" class="copy" data-t="t73">Copy clip</button><pre id="t73">Clip 37 · 04:39–04:49 (10s) · SELFIE · L3 Study · Characters: CAT
+Action: Looks up from letter at lens
+Line (OC): He writes that I am the greatest ruler in Europe. I agree with him. It saves time.</pre></div></div></div>
+<div class="clip"><div><div class="num">38</div><div class="tm">04:49<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Opens gold snuffbox, takes a pinch with LEFT hand</p>
+<p class="line">“And this. My snuff. I take it with my left hand. Always the left.”</p><div class="cb "><button type="button" class="copy" data-t="t74">Copy clip</button><pre id="t74">Clip 38 · 04:49–04:57 (8s) · SELFIE · L3 Study · Characters: CAT
+Action: Opens gold snuffbox, takes a pinch with LEFT hand
+Line (OC): And this. My snuff. I take it with my left hand. Always the left.</pre></div></div></div>
+<div class="clip"><div><div class="num">39</div><div class="tm">04:57<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Raises clean RIGHT hand elegantly, as if offered for a kiss</p>
+<p class="line">“Because my right hand is for kissing. Ambassadors kiss it. Generals kiss it. Nobody wants to kiss tobacco.”</p><div class="cb "><button type="button" class="copy" data-t="t75">Copy clip</button><pre id="t75">Clip 39 · 04:57–05:08 (11s) · SELFIE · L3 Study · Characters: CAT
+Action: Raises clean RIGHT hand elegantly, as if offered for a kiss
+Split: A wide + B close
+Line (OC): Because my right hand is for kissing. Ambassadors kiss it. Generals kiss it. Nobody wants to kiss tobacco.</pre></div></div></div>
+<div class="clip"><div><div class="num">40</div><div class="tm">05:08<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Smug, then insistent lean-in</p>
+<p class="line">“Very clever. That one was my idea. It really was my idea.”</p><div class="cb "><button type="button" class="copy" data-t="t76">Copy clip</button><pre id="t76">Clip 40 · 05:08–05:16 (8s) · SELFIE · L3 Study · Characters: CAT
+Action: Smug, then insistent lean-in
+Line (OC): Very clever. That one was my idea. It really was my idea.</pre></div></div></div>
+<div class="seqhead">6 WINDOW</div>
+<div class="clip"><div><div class="num">41</div><div class="tm">05:16<br>3s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Catherine at frosted window, black sky beyond</p>
+<p class="line">“Look outside. Dark.”</p><div class="cb "><button type="button" class="copy" data-t="t77">Copy clip</button><pre id="t77">Clip 41 · 05:16–05:19 (3s) · SELFIE · L3 Study · Characters: CAT
+Action: Catherine at frosted window, black sky beyond
+Line (OC): Look outside. Dark.</pre></div></div></div>
+<div class="clip"><div><div class="num">42</div><div class="tm">05:19<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">L6 · Exterior Neva</span><span class="tag">—</span></div>
+<p class="act">Exterior: frozen Neva, pre-dawn, lamps on the embankment</p>
+<p class="line">“In winter, Petersburg gets six hours of sun. Maybe. If God is in a good mood.”</p><div class="cb "><button type="button" class="copy" data-t="t78">Copy clip</button><pre id="t78">Clip 42 · 05:19–05:29 (10s) · CINEMATIC · L6 Exterior Neva · Characters: —
+Action: Exterior: frozen Neva, pre-dawn, lamps on the embankment
+Line (VO): In winter, Petersburg gets six hours of sun. Maybe. If God is in a good mood.</pre></div></div></div>
+<div class="clip"><div><div class="num">43</div><div class="tm">05:29<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">I3 · Neva marsh 1703</span><span class="tag">PETER</span><span class="tag split">split A/B</span></div>
+<p class="act">Insert: 1703 marsh, Peter the Great in boots among workers driving piles</p><p class="titlecard">Title card: The Neva Marshes · May 1703</p>
+<p class="line">“My husband&#x27;s grandfather, Peter the Great, built this city on a swamp. Because he wanted a window to Europe.”</p><div class="cb "><button type="button" class="copy" data-t="t79">Copy clip</button><pre id="t79">Clip 43 · 05:29–05:40 (11s) · CINEMATIC · I3 Neva marsh 1703 · Characters: PETER
+Action: Insert: 1703 marsh, Peter the Great in boots among workers driving piles
+Split: A wide + B close
+Title card: The Neva Marshes · May 1703
+Line (VO): My husband&#x27;s grandfather, Peter the Great, built this city on a swamp. Because he wanted a window to Europe.</pre></div></div></div>
+<div class="clip"><div><div class="num">44</div><div class="tm">05:40<br>6s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Catherine taps the glass with a fingernail</p>
+<p class="line">“He got a window. He forgot the sun.”</p><div class="cb "><button type="button" class="copy" data-t="t80">Copy clip</button><pre id="t80">Clip 44 · 05:40–05:46 (6s) · SELFIE · L3 Study · Characters: CAT
+Action: Catherine taps the glass with a fingernail
+Line (OC): He got a window. He forgot the sun.</pre></div></div></div>
+<div class="clip"><div><div class="num">45</div><div class="tm">05:46<br>14s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Lights a candelabra, one taper at a time</p>
+<p class="line">“So I work by candle. Wax, not tallow. Tallow is made of sheep. It smells like sheep. My study is not a farm.”</p><div class="cb "><button type="button" class="copy" data-t="t81">Copy clip</button><pre id="t81">Clip 45 · 05:46–06:00 (14s) · SELFIE · L3 Study · Characters: CAT
+Action: Lights a candelabra, one taper at a time
+Split: A wide + B close
+Line (OC): So I work by candle. Wax, not tallow. Tallow is made of sheep. It smells like sheep. My study is not a farm.</pre></div></div></div>
+<div class="seqhead">7 RE-HOOK</div>
+<div class="clip"><div><div class="num">46</div><div class="tm">06:00<br>5s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Slow push-in; Catherine leans toward lens, conspiratorial</p>
+<p class="line">“Now, I promised you a war.”</p><div class="cb "><button type="button" class="copy" data-t="t82">Copy clip</button><pre id="t82">Clip 46 · 06:00–06:05 (5s) · SELFIE · L3 Study · Characters: CAT
+Action: Slow push-in; Catherine leans toward lens, conspiratorial
+Line (OC): Now, I promised you a war.</pre></div></div></div>
+<div class="clip"><div><div class="num">47</div><div class="tm">06:05<br>9s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">I1 · Open sea</span><span class="tag">FLEET</span></div>
+<p class="act">Insert: Russian ships of the line in heavy seas off northern Europe</p>
+<p class="line">“This summer, my fleet sailed all the way around Europe. From the Baltic to Turkey.”</p><div class="cb "><button type="button" class="copy" data-t="t83">Copy clip</button><pre id="t83">Clip 47 · 06:05–06:14 (9s) · CINEMATIC · I1 Open sea · Characters: FLEET
+Action: Insert: Russian ships of the line in heavy seas off northern Europe
+Line (VO): This summer, my fleet sailed all the way around Europe. From the Baltic to Turkey.</pre></div></div></div>
+<div class="clip"><div><div class="num">48</div><div class="tm">06:14<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">I1 · Open sea</span><span class="tag">FLEET</span></div>
+<p class="act">Insert: one ship listing hard, sailors bailing</p>
+<p class="line">“Everyone said Russian ships could not do it. Half of them nearly sank on the way.”</p><div class="cb "><button type="button" class="copy" data-t="t84">Copy clip</button><pre id="t84">Clip 48 · 06:14–06:24 (10s) · CINEMATIC · I1 Open sea · Characters: FLEET
+Action: Insert: one ship listing hard, sailors bailing
+Line (VO): Everyone said Russian ships could not do it. Half of them nearly sank on the way.</pre></div></div></div>
+<div class="clip"><div><div class="num">49</div><div class="tm">06:24<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">I2 · Chesma Bay</span><span class="tag">FLEET</span></div>
+<p class="act">Insert: Chesma bay at night, Ottoman fleet ablaze, explosion lights the sky</p><p class="titlecard">Title card: Chesma Bay · July 1770</p>
+<p class="line">“Then, at Chesma, they burned the entire Turkish fleet. In one night.”</p><div class="cb "><button type="button" class="copy" data-t="t85">Copy clip</button><pre id="t85">Clip 49 · 06:24–06:32 (8s) · CINEMATIC · I2 Chesma Bay · Characters: FLEET
+Action: Insert: Chesma bay at night, Ottoman fleet ablaze, explosion lights the sky
+Title card: Chesma Bay · July 1770
+Line (VO): Then, at Chesma, they burned the entire Turkish fleet. In one night.</pre></div></div></div>
+<div class="clip"><div><div class="num">50</div><div class="tm">06:32<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Catherine holds the dispatch in one hand, coffee cup in the other, beaming</p>
+<p class="line">“I found out by letter. With my coffee. Best morning of my life.”</p><div class="cb "><button type="button" class="copy" data-t="t86">Copy clip</button><pre id="t86">Clip 50 · 06:32–06:40 (8s) · SELFIE · L3 Study · Characters: CAT
+Action: Catherine holds the dispatch in one hand, coffee cup in the other, beaming
+Line (OC): I found out by letter. With my coffee. Best morning of my life.</pre></div></div></div>
+<div class="clip"><div><div class="num">51</div><div class="tm">06:40<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L3 · Study</span><span class="tag">CAT</span></div>
+<p class="act">Stands, claps once</p>
+<p class="line">“So, as you can see, I am in a very good mood today. Let us get dressed.”</p><div class="cb "><button type="button" class="copy" data-t="t87">Copy clip</button><pre id="t87">Clip 51 · 06:40–06:50 (10s) · SELFIE · L3 Study · Characters: CAT
+Action: Stands, claps once
+Line (OC): So, as you can see, I am in a very good mood today. Let us get dressed.</pre></div></div></div>
+<div class="seqhead">8 SET UP 2</div>
+<div class="clip"><div><div class="num">52</div><div class="tm">06:50<br>6s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, MAR</span></div>
+<p class="act">Grey dawn at window; Maria enters with folded linens</p>
+<p class="line">“Seven o&#x27;clock. The palace wakes up. Maria Savvishna. Good morning.”</p><div class="cb "><button type="button" class="copy" data-t="t88">Copy clip</button><pre id="t88">Clip 52 · 06:50–06:56 (6s) · SELFIE · L4 Dressing room · Characters: CAT, MAR
+Action: Grey dawn at window; Maria enters with folded linens
+Line (OC): Seven o&#x27;clock. The palace wakes up. Maria Savvishna. Good morning.</pre></div></div></div>
+<div class="clip"><div><div class="num">53</div><div class="tm">06:56<br>14s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, MAR</span><span class="tag split">split A/B</span></div>
+<p class="act">Maria glares at the lit fire; Catherine shrugs</p>
+<p class="line">“Yes, I lit my own fire again. No, I will not stop. She hates it. She thinks I will burn down the empire.”</p><div class="cb "><button type="button" class="copy" data-t="t89">Copy clip</button><pre id="t89">Clip 53 · 06:56–07:10 (14s) · SELFIE · L4 Dressing room · Characters: CAT, MAR
+Action: Maria glares at the lit fire; Catherine shrugs
+Split: A wide + B close
+Line (OC): Yes, I lit my own fire again. No, I will not stop. She hates it. She thinks I will burn down the empire.</pre></div></div></div>
+<div class="clip"><div><div class="num">54</div><div class="tm">07:10<br>3s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Three knocks; Catherine&#x27;s eyes slide to the door</p>
+<p class="line">“Someone is knocking. Again.”</p><div class="cb "><button type="button" class="copy" data-t="t90">Copy clip</button><pre id="t90">Clip 54 · 07:10–07:13 (3s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Three knocks; Catherine&#x27;s eyes slide to the door
+Line (OC): Someone is knocking. Again.</pre></div></div></div>
+<div class="clip"><div><div class="num">55</div><div class="tm">07:13<br>14s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">L7 · Corridor (dawn)</span><span class="tag">ORL</span><span class="tag split">split A/B</span></div>
+<p class="act">Door ajar: Orlov fills the frame, grinning</p>
+<p class="line">“That is Grigory Orlov. Count Orlov. Very tall. Very brave. He helped me become empress, you will hear that story in another video.”</p><div class="cb "><button type="button" class="copy" data-t="t91">Copy clip</button><pre id="t91">Clip 55 · 07:13–07:27 (14s) · CINEMATIC · L7 Corridor (dawn) · Characters: ORL
+Action: Door ajar: Orlov fills the frame, grinning
+Split: A wide + B close
+Line (VO): That is Grigory Orlov. Count Orlov. Very tall. Very brave. He helped me become empress, you will hear that story in another video.</pre></div></div></div>
+<div class="clip"><div><div class="num">56</div><div class="tm">07:27<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L7 · Corridor (dawn)</span><span class="tag">CAT, ORL</span></div>
+<p class="act">Catherine closes the door on him with a pleasant smile</p>
+<p class="line">“Not now, Grigory. I am in my shift. Half the empire is watching.”</p><div class="cb "><button type="button" class="copy" data-t="t92">Copy clip</button><pre id="t92">Clip 56 · 07:27–07:35 (8s) · SELFIE · L7 Corridor (dawn) · Characters: CAT, ORL
+Action: Catherine closes the door on him with a pleasant smile
+Line (OC): Not now, Grigory. I am in my shift. Half the empire is watching.</pre></div></div></div>
+<div class="clip"><div><div class="num">57</div><div class="tm">07:35<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC</span><span class="tag">L7 · Corridor (dawn)</span><span class="tag">ORL</span></div>
+<p class="act">Corridor: Orlov leans on the wall, arms folded, patient</p>
+<p class="line">“He will wait. He is good at waiting. It is his best quality, after the shoulders.”</p><div class="cb "><button type="button" class="copy" data-t="t93">Copy clip</button><pre id="t93">Clip 57 · 07:35–07:45 (10s) · CINEMATIC · L7 Corridor (dawn) · Characters: ORL
+Action: Corridor: Orlov leans on the wall, arms folded, patient
+Line (VO): He will wait. He is good at waiting. It is his best quality, after the shoulders.</pre></div></div></div>
+<div class="seqhead">9 GOWN</div>
+<div class="clip"><div><div class="num">58</div><div class="tm">07:45<br>3s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, MAR</span></div>
+<p class="act">Maria holds up the linen shift</p>
+<p class="line">“First, the shift. Linen. Soft.”</p><div class="cb "><button type="button" class="copy" data-t="t94">Copy clip</button><pre id="t94">Clip 58 · 07:45–07:48 (3s) · SELFIE · L4 Dressing room · Characters: CAT, MAR
+Action: Maria holds up the linen shift
+Line (OC): First, the shift. Linen. Soft.</pre></div></div></div>
+<div class="clip"><div><div class="num">59</div><div class="tm">07:48<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, MAR</span></div>
+<p class="act">Selfie: Catherine grips the bedpost, Maria visible over her shoulder hauling on the stay-laces</p>
+<p class="line">“Then the stays. Whalebone. Laced tight, so I stand like an empress even after five cups.”</p><div class="cb "><button type="button" class="copy" data-t="t95">Copy clip</button><pre id="t95">Clip 59 · 07:48–07:58 (10s) · SELFIE · L4 Dressing room · Characters: CAT, MAR
+Action: Selfie: Catherine grips the bedpost, Maria visible over her shoulder hauling on the stay-laces
+Line (OC): Then the stays. Whalebone. Laced tight, so I stand like an empress even after five cups.</pre></div></div></div>
+<div class="clip"><div><div class="num">60</div><div class="tm">07:58<br>9s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, MAR</span></div>
+<p class="act">Selfie: Maria kneels in background tying pannier cages on each hip</p>
+<p class="line">“Then panniers. Little baskets, tied on each hip, so the skirt goes out, out, out.”</p><div class="cb "><button type="button" class="copy" data-t="t96">Copy clip</button><pre id="t96">Clip 60 · 07:58–08:07 (9s) · SELFIE · L4 Dressing room · Characters: CAT, MAR
+Action: Selfie: Maria kneels in background tying pannier cages on each hip
+Line (OC): Then panniers. Little baskets, tied on each hip, so the skirt goes out, out, out.</pre></div></div></div>
+<div class="clip"><div><div class="num">61</div><div class="tm">08:07<br>5s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Gag: Catherine side-steps through a doorway, panniers just clearing</p>
+<p class="line">“Through a door, sideways. Always sideways.”</p><div class="cb "><button type="button" class="copy" data-t="t97">Copy clip</button><pre id="t97">Clip 61 · 08:07–08:12 (5s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Gag: Catherine side-steps through a doorway, panniers just clearing
+Line (OC): Through a door, sideways. Always sideways.</pre></div></div></div>
+<div class="clip"><div><div class="num">62</div><div class="tm">08:12<br>7s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, MAR</span></div>
+<p class="act">Silver brocade gown lowered over her; she shakes out lace sleeves</p>
+<p class="line">“Then the gown. Silk. Silver thread. And these sleeves. Lace. Three layers.”</p><div class="cb "><button type="button" class="copy" data-t="t98">Copy clip</button><pre id="t98">Clip 62 · 08:12–08:19 (7s) · SELFIE · L4 Dressing room · Characters: CAT, MAR
+Action: Silver brocade gown lowered over her; she shakes out lace sleeves
+Line (OC): Then the gown. Silk. Silver thread. And these sleeves. Lace. Three layers.</pre></div></div></div>
+<div class="clip"><div><div class="num">63</div><div class="tm">08:19<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Admires sleeves in the mirror, then a conspiratorial look</p>
+<p class="line">“French fashion, Russian money. Do not tell Paris how much they cost. Do not tell my treasury either.”</p><div class="cb "><button type="button" class="copy" data-t="t99">Copy clip</button><pre id="t99">Clip 63 · 08:19–08:30 (11s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Admires sleeves in the mirror, then a conspiratorial look
+Split: A wide + B close
+Line (OC): French fashion, Russian money. Do not tell Paris how much they cost. Do not tell my treasury either.</pre></div></div></div>
+<div class="seqhead">10 HAIR &amp; FACE</div>
+<div class="clip"><div><div class="num">64</div><div class="tm">08:30<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, HAIR</span></div>
+<p class="act">Hairdresser enters with comb and powder puff, visibly nervous</p>
+<p class="line">“My hairdresser. He arrives with a comb, a powder puff, and a terrified expression.”</p><div class="cb "><button type="button" class="copy" data-t="t100">Copy clip</button><pre id="t100">Clip 64 · 08:30–08:38 (8s) · SELFIE · L4 Dressing room · Characters: CAT, HAIR
+Action: Hairdresser enters with comb and powder puff, visibly nervous
+Line (OC): My hairdresser. He arrives with a comb, a powder puff, and a terrified expression.</pre></div></div></div>
+<div class="clip"><div><div class="num">65</div><div class="tm">08:38<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, HAIR</span><span class="tag split">split A/B</span></div>
+<p class="act">Catherine reading; she jerks her head toward the book, he flinches</p>
+<p class="line">“He is terrified because I read while he works. If I find something interesting, I move my head.”</p><div class="cb "><button type="button" class="copy" data-t="t101">Copy clip</button><pre id="t101">Clip 65 · 08:38–08:49 (11s) · SELFIE · L4 Dressing room · Characters: CAT, HAIR
+Action: Catherine reading; she jerks her head toward the book, he flinches
+Split: A wide + B close
+Line (OC): He is terrified because I read while he works. If I find something interesting, I move my head.</pre></div></div></div>
+<div class="clip"><div><div class="num">66</div><div class="tm">08:49<br>6s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, HAIR</span></div>
+<p class="act">She holds a paper cone over her face; cloud of white powder</p>
+<p class="line">“Hair up, high. Pomade. Then powder. White. Everybody powders.”</p><div class="cb "><button type="button" class="copy" data-t="t102">Copy clip</button><pre id="t102">Clip 66 · 08:49–08:55 (6s) · SELFIE · L4 Dressing room · Characters: CAT, HAIR
+Action: She holds a paper cone over her face; cloud of white powder
+Line (OC): Hair up, high. Pomade. Then powder. White. Everybody powders.</pre></div></div></div>
+<div class="clip"><div><div class="num">67</div><div class="tm">08:55<br>10s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Close-up: powder bowl, her finger through it</p>
+<p class="line">“The powder is made of flour. Yes. Flour. In a country where people are hungry.”</p><div class="cb "><button type="button" class="copy" data-t="t103">Copy clip</button><pre id="t103">Clip 67 · 08:55–09:05 (10s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Close-up: powder bowl, her finger through it
+Line (OC): The powder is made of flour. Yes. Flour. In a country where people are hungry.</pre></div></div></div>
+<div class="clip"><div><div class="num">68</div><div class="tm">09:05<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Brief sober beat, then a brisk recovery</p>
+<p class="line">“I know. I think about it. I have opinions about it. I will write a law about it. Later.”</p><div class="cb "><button type="button" class="copy" data-t="t104">Copy clip</button><pre id="t104">Clip 68 · 09:05–09:16 (11s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Brief sober beat, then a brisk recovery
+Split: A wide + B close
+Line (OC): I know. I think about it. I have opinions about it. I will write a law about it. Later.</pre></div></div></div>
+<div class="clip"><div><div class="num">69</div><div class="tm">09:16<br>4s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Dabs rouge on each cheekbone</p>
+<p class="line">“Face: a little rouge. Here, here.”</p><div class="cb "><button type="button" class="copy" data-t="t105">Copy clip</button><pre id="t105">Clip 69 · 09:16–09:20 (4s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Dabs rouge on each cheekbone
+Line (OC): Face: a little rouge. Here, here.</pre></div></div></div>
+<div class="clip"><div><div class="num">70</div><div class="tm">09:20<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">CINEMATIC + SELFIE</span><span class="tag">I4 / L4 · Court salon / Dressing room</span><span class="tag">LADIES / CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Insert: two court ladies with round apple-red cheeks; cut back to Catherine</p>
+<p class="line">“At Russian court, ladies wear so much rouge they look like apples. I am an empress, not an apple.”</p><div class="cb "><button type="button" class="copy" data-t="t106">Copy clip</button><pre id="t106">Clip 70 · 09:20–09:31 (11s) · CINEMATIC + SELFIE · I4 / L4 Court salon / Dressing room · Characters: LADIES / CAT
+Action: Insert: two court ladies with round apple-red cheeks; cut back to Catherine
+Split: A wide + B close
+Line (VO / OC): At Russian court, ladies wear so much rouge they look like apples. I am an empress, not an apple.</pre></div></div></div>
+<div class="clip"><div><div class="num">71</div><div class="tm">09:31<br>14s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Turns to lens, judging</p>
+<p class="line">“And you, my little subjects, how long do you take? I hear you put on trousers, a shirt, and you are done. Ten minutes.”</p><div class="cb "><button type="button" class="copy" data-t="t107">Copy clip</button><pre id="t107">Clip 71 · 09:31–09:45 (14s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Turns to lens, judging
+Split: A wide + B close
+Line (OC): And you, my little subjects, how long do you take? I hear you put on trousers, a shirt, and you are done. Ten minutes.</pre></div></div></div>
+<div class="clip"><div><div class="num">72</div><div class="tm">09:45<br>12s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Disbelief, then a shrug</p>
+<p class="line">“Ten minutes. And you call yourselves civilised. Mind you, none of you burned a Turkish fleet this summer. So.”</p><div class="cb "><button type="button" class="copy" data-t="t108">Copy clip</button><pre id="t108">Clip 72 · 09:45–09:57 (12s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Disbelief, then a shrug
+Split: A wide + B close
+Line (OC): Ten minutes. And you call yourselves civilised. Mind you, none of you burned a Turkish fleet this summer. So.</pre></div></div></div>
+<div class="seqhead">11 JEWELS</div>
+<div class="clip"><div><div class="num">73</div><div class="tm">09:57<br>4s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Opens velvet box, puts on diamond earrings</p>
+<p class="line">“Earrings. Diamonds. From the Urals. My mountains.”</p><div class="cb "><button type="button" class="copy" data-t="t109">Copy clip</button><pre id="t109">Clip 73 · 09:57–10:01 (4s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Opens velvet box, puts on diamond earrings
+Line (OC): Earrings. Diamonds. From the Urals. My mountains.</pre></div></div></div>
+<div class="clip"><div><div class="num">74</div><div class="tm">10:01<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, MAR</span></div>
+<p class="act">Maria pins the Order of St Catherine badge</p>
+<p class="line">“And this. My Order of St. Catherine. Named after a saint. And, conveniently, me.”</p><div class="cb "><button type="button" class="copy" data-t="t110">Copy clip</button><pre id="t110">Clip 74 · 10:01–10:09 (8s) · SELFIE · L4 Dressing room · Characters: CAT, MAR
+Action: Maria pins the Order of St Catherine badge
+Line (OC): And this. My Order of St. Catherine. Named after a saint. And, conveniently, me.</pre></div></div></div>
+<div class="clip"><div><div class="num">75</div><div class="tm">10:09<br>9s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, MAR</span></div>
+<p class="act">Maria drapes the blue sash over the right shoulder and pins the star</p>
+<p class="line">“Then the blue sash of St. Andrew. And the star. Every empress needs a star.”</p><div class="cb "><button type="button" class="copy" data-t="t111">Copy clip</button><pre id="t111">Clip 75 · 10:09–10:18 (9s) · SELFIE · L4 Dressing room · Characters: CAT, MAR
+Action: Maria drapes the blue sash over the right shoulder and pins the star
+Line (OC): Then the blue sash of St. Andrew. And the star. Every empress needs a star.</pre></div></div></div>
+<div class="clip"><div><div class="num">76</div><div class="tm">10:18<br>17s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Holds up a portrait miniature on a ribbon</p>
+<p class="line">“And a little portrait of me, on a ribbon, which I give to people I like. I have given away many. Do not worry. There is plenty of me.”</p><div class="cb "><button type="button" class="copy" data-t="t112">Copy clip</button><pre id="t112">Clip 76 · 10:18–10:35 (17s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Holds up a portrait miniature on a ribbon
+Split: A wide + B close
+Line (OC): And a little portrait of me, on a ribbon, which I give to people I like. I have given away many. Do not worry. There is plenty of me.</pre></div></div></div>
+<div class="clip"><div><div class="num">77</div><div class="tm">10:35<br>11s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Opens a gold snuffbox: enamel horse portrait on the lid</p>
+<p class="line">“One more thing. A small snuffbox. Gold. With a picture of my horse. My horse is also very handsome.”</p><div class="cb "><button type="button" class="copy" data-t="t113">Copy clip</button><pre id="t113">Clip 77 · 10:35–10:46 (11s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Opens a gold snuffbox: enamel horse portrait on the lid
+Split: A wide + B close
+Line (OC): One more thing. A small snuffbox. Gold. With a picture of my horse. My horse is also very handsome.</pre></div></div></div>
+<div class="seqhead">12 OUTRO</div>
+<div class="clip"><div><div class="num">78</div><div class="tm">10:46<br>4s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Full-length mirror reveal; Catherine turns, fully dressed</p>
+<p class="line">“And done.”</p><div class="cb "><button type="button" class="copy" data-t="t114">Copy clip</button><pre id="t114">Clip 78 · 10:46–10:50 (4s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Full-length mirror reveal; Catherine turns, fully dressed
+Line (OC): And done.</pre></div></div></div>
+<div class="clip"><div><div class="num">79</div><div class="tm">10:50<br>12s</div></div><div class="body">
+<div class="meta"><span class="tag EDIT">EDIT</span><span class="tag">I5 · Montage</span><span class="tag">—</span></div>
+<p class="act">Recap montage, under 1s per cut, reusing earlier stills</p>
+<p class="line">“Ice, coffee, dogs, letters, Voltaire, snuff, a war, stays, panniers, silk, lace, flour, rouge, diamonds, sash, star, and one golden horse.”</p><div class="cb "><button type="button" class="copy" data-t="t115">Copy clip</button><pre id="t115">Clip 79 · 10:50–11:02 (12s) · EDIT · I5 Montage · Characters: —
+Action: Recap montage, under 1s per cut, reusing earlier stills
+Line (VO): Ice, coffee, dogs, letters, Voltaire, snuff, a war, stays, panniers, silk, lace, flour, rouge, diamonds, sash, star, and one golden horse.</pre></div></div></div>
+<div class="clip"><div><div class="num">80</div><div class="tm">11:02<br>12s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L8 · Audience antechamber</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Catherine at closed double doors; muffled voices beyond; mantel clock at nine</p>
+<p class="line">“Two and a half hours. And now, nine o&#x27;clock. My ministers are waiting outside. They are nervous. I can hear them.”</p><div class="cb "><button type="button" class="copy" data-t="t116">Copy clip</button><pre id="t116">Clip 80 · 11:02–11:14 (12s) · SELFIE · L8 Audience antechamber · Characters: CAT
+Action: Catherine at closed double doors; muffled voices beyond; mantel clock at nine
+Split: A wide + B close
+Line (OC): Two and a half hours. And now, nine o&#x27;clock. My ministers are waiting outside. They are nervous. I can hear them.</pre></div></div></div>
+<div class="clip"><div><div class="num">81</div><div class="tm">11:14<br>3s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L8 · Audience antechamber</span><span class="tag">CAT</span></div>
+<p class="act">Pleased little nod</p>
+<p class="line">“Good. Nervous ministers work harder.”</p><div class="cb "><button type="button" class="copy" data-t="t117">Copy clip</button><pre id="t117">Clip 81 · 11:14–11:17 (3s) · SELFIE · L8 Audience antechamber · Characters: CAT
+Action: Pleased little nod
+Line (OC): Good. Nervous ministers work harder.</pre></div></div></div>
+<div class="clip"><div><div class="num">82</div><div class="tm">11:17<br>19s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L8 · Audience antechamber</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Intimate close-up, quieter</p>
+<p class="line">“Out there, they think the empress simply appears. Like weather. You know better now. You know about the ice. You know about the coffee. You know about Sir Tom. Tell no one.”</p><div class="cb "><button type="button" class="copy" data-t="t118">Copy clip</button><pre id="t118">Clip 82 · 11:17–11:36 (19s) · SELFIE · L8 Audience antechamber · Characters: CAT
+Action: Intimate close-up, quieter
+Split: A wide + B close
+Line (OC): Out there, they think the empress simply appears. Like weather. You know better now. You know about the ice. You know about the coffee. You know about Sir Tom. Tell no one.</pre></div></div></div>
+<div class="clip"><div><div class="num">83</div><div class="tm">11:36<br>3s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L8 · Audience antechamber</span><span class="tag">CAT, FOOT</span></div>
+<p class="act">Footmen swing open the doors; light floods in</p>
+<p class="line">“Open the doors.”</p><div class="cb "><button type="button" class="copy" data-t="t119">Copy clip</button><pre id="t119">Clip 83 · 11:36–11:39 (3s) · SELFIE · L8 Audience antechamber · Characters: CAT, FOOT
+Action: Footmen swing open the doors; light floods in
+Line (OC): Open the doors.</pre></div></div></div>
+<div class="clip"><div><div class="num">84</div><div class="tm">11:39<br>4s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L8 · Audience antechamber</span><span class="tag">CAT, MIN</span></div>
+<p class="act">Selfie: Catherine walks in; behind her the ministers bow deeply in unison</p>
+<p class="line">“Good morning, gentlemen.”</p><div class="cb "><button type="button" class="copy" data-t="t120">Copy clip</button><pre id="t120">Clip 84 · 11:39–11:43 (4s) · SELFIE · L8 Audience antechamber · Characters: CAT, MIN
+Action: Selfie: Catherine walks in; behind her the ministers bow deeply in unison
+Line (OC): Good morning, gentlemen.</pre></div></div></div>
+<div class="clip"><div><div class="num">85</div><div class="tm">11:43<br>4s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L8 · Audience antechamber</span><span class="tag">CAT, MIN</span></div>
+<p class="act">Selfie: she glances back over her shoulder at the bowing room, then at lens</p>
+<p class="line">“Every single one of them bowed. Correct.”</p><div class="cb "><button type="button" class="copy" data-t="t121">Copy clip</button><pre id="t121">Clip 85 · 11:43–11:47 (4s) · SELFIE · L8 Audience antechamber · Characters: CAT, MIN
+Action: Selfie: she glances back over her shoulder at the bowing room, then at lens
+Line (OC): Every single one of them bowed. Correct.</pre></div></div></div>
+<div class="clip"><div><div class="num">86</div><div class="tm">11:47<br>23s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span><span class="tag split">split A/B</span></div>
+<p class="act">Back at toilette, direct to lens</p>
+<p class="line">“Thank you for watching me get ready, my little subjects. Tell me in the comments: how many cups of coffee do you drink in the morning? If it is less than five, I do not want to hear it.”</p><div class="cb "><button type="button" class="copy" data-t="t122">Copy clip</button><pre id="t122">Clip 86 · 11:47–12:10 (23s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Back at toilette, direct to lens
+Split: A wide + B close
+Line (OC): Thank you for watching me get ready, my little subjects. Tell me in the comments: how many cups of coffee do you drink in the morning? If it is less than five, I do not want to hear it.</pre></div></div></div>
+<div class="clip"><div><div class="num">87</div><div class="tm">12:10<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT, TOM</span></div>
+<p class="act">Sir Tom nudges a gilt button-boss on a cabinet with his nose</p>
+<p class="line">“And press the little Hype button. Sir Tom pressed it already. With his nose.”</p><div class="cb "><button type="button" class="copy" data-t="t123">Copy clip</button><pre id="t123">Clip 87 · 12:10–12:18 (8s) · SELFIE · L4 Dressing room · Characters: CAT, TOM
+Action: Sir Tom nudges a gilt button-boss on a cabinet with his nose
+Line (OC): And press the little Hype button. Sir Tom pressed it already. With his nose.</pre></div></div></div>
+<div class="clip"><div><div class="num">88</div><div class="tm">12:18<br>8s</div></div><div class="body">
+<div class="meta"><span class="tag SELFIE">SELFIE</span><span class="tag">L4 · Dressing room</span><span class="tag">CAT</span></div>
+<p class="act">Final close-up: threat, beat, smile, beat, smirk</p>
+<p class="line">“Subscribe, or I shall send you to Siberia. Joking. Mostly.”</p><div class="cb "><button type="button" class="copy" data-t="t124">Copy clip</button><pre id="t124">Clip 88 · 12:18–12:26 (8s) · SELFIE · L4 Dressing room · Characters: CAT
+Action: Final close-up: threat, beat, smile, beat, smirk
+Line (OC): Subscribe, or I shall send you to Siberia. Joking. Mostly.</pre></div></div></div>
+</div></section>
+<section id="dialogue"><h2>6 · Dialogue <small>all lines spoken by Catherine</small></h2><p class="lead">OC means on camera, so the clip needs lip-sync. VO plays over other footage, so it needs none.</p><div class="grid">
+<div class="card"><h3>Voice direction</h3><div class="cb "><button type="button" class="copy" data-t="t125">Copy</button><pre id="t125">Mature female voice, about 40, light German-Russian accent, unhurried, dry and amused, formal with no contractions, small pause before every punchline.</pre></div></div></div>
+<div style="margin-top:14px" class="grid"><div class="card"><h3>Clean script for the voice generator</h3><div class="meta">Lines only, one per paragraph</div><div class="cb "><button type="button" class="copy" data-t="t126">Copy</button><pre id="t126">Dobroye utro, my little subjects.
+
+You asked, and you asked, and one of you asked eleven times. How does an empress get ready?
+
+Today you will see everything. Ice. Coffee. Snuff. Dogs. A war.
+
+Yes, a war. It is in the schedule. We will get to it.
+
+But first, it is five o&#x27;clock in the morning, and nobody in this palace is awake except me.
+
+Shh. Come in. Quietly.
+
+This is the Winter Palace. One thousand rooms, and every single one of them is asleep.
+
+The guards are asleep. The maids are asleep.
+
+Maria Savvishna is asleep. She is my chamber maid. She knows everything.
+
+I do not wake her. I do not wake anyone.
+
+You think an empress rings a bell and twenty people run in? Some do. I light my own fire.
+
+Watch.
+
+There. Twenty-six years in Russia, and I still have never burned down the palace. Very impressive.
+
+First, my face.
+
+No warm water. Ice. From the Neva. I rub it on my cheeks every morning.
+
+It wakes the skin. It wakes the soul. It wakes the neighbours.
+
+Do not try this, little subjects. You are not built like me.
+
+Now, coffee. This is the most dangerous drink in the Russian Empire.
+
+One pound of coffee. Five cups. That is the recipe. My recipe.
+
+My cook brews it, and when I am finished, the servants boil the same grounds again for themselves. Still strong enough to wake a horse.
+
+Once, a secretary tried my coffee. His heart has never forgiven me.
+
+Thick cream. A biscuit. And sugar. Many sugars. I am German by birth. We need it.
+
+You may notice I am not alone.
+
+This is Sir Tom Anderson. English greyhound. A gift from my doctor, Dimsdale.
+
+You remember Dimsdale. He gave me smallpox, on purpose. Then he gave me a dog. Both were good ideas.
+
+And this is Lady Anderson. Sir Tom&#x27;s wife.
+
+Yes, my dogs are married. More successfully than I was.
+
+They sleep in a basket by my bed. On silk. With pillows.
+
+They eat the cream from my coffee. Sir Tom eats the biscuit. Lady Anderson eats Sir Tom&#x27;s biscuit.
+
+That is how marriage works in Russia.
+
+Now, work. Before anyone else wakes, I write.
+
+Three hours, every morning. Laws. Letters. Plays. Yes, I write comedies. Somebody must.
+
+Three years ago I wrote a whole book of laws for Russia. Five hundred and twenty-six articles.
+
+In France, they banned it. Too dangerous. I was very flattered.
+
+This is a letter to Voltaire. He is in France. He calls me the Star of the North.
+
+I write back often. Flattery should be answered promptly. Otherwise it stops.
+
+He writes that I am the greatest ruler in Europe. I agree with him. It saves time.
+
+And this. My snuff. I take it with my left hand. Always the left.
+
+Because my right hand is for kissing. Ambassadors kiss it. Generals kiss it. Nobody wants to kiss tobacco.
+
+Very clever. That one was my idea. It really was my idea.
+
+Look outside. Dark.
+
+In winter, Petersburg gets six hours of sun. Maybe. If God is in a good mood.
+
+My husband&#x27;s grandfather, Peter the Great, built this city on a swamp. Because he wanted a window to Europe.
+
+He got a window. He forgot the sun.
+
+So I work by candle. Wax, not tallow. Tallow is made of sheep. It smells like sheep. My study is not a farm.
+
+Now, I promised you a war.
+
+This summer, my fleet sailed all the way around Europe. From the Baltic to Turkey.
+
+Everyone said Russian ships could not do it. Half of them nearly sank on the way.
+
+Then, at Chesma, they burned the entire Turkish fleet. In one night.
+
+I found out by letter. With my coffee. Best morning of my life.
+
+So, as you can see, I am in a very good mood today. Let us get dressed.
+
+Seven o&#x27;clock. The palace wakes up. Maria Savvishna. Good morning.
+
+Yes, I lit my own fire again. No, I will not stop. She hates it. She thinks I will burn down the empire.
+
+Someone is knocking. Again.
+
+That is Grigory Orlov. Count Orlov. Very tall. Very brave. He helped me become empress, you will hear that story in another video.
+
+Not now, Grigory. I am in my shift. Half the empire is watching.
+
+He will wait. He is good at waiting. It is his best quality, after the shoulders.
+
+First, the shift. Linen. Soft.
+
+Then the stays. Whalebone. Laced tight, so I stand like an empress even after five cups.
+
+Then panniers. Little baskets, tied on each hip, so the skirt goes out, out, out.
+
+Through a door, sideways. Always sideways.
+
+Then the gown. Silk. Silver thread. And these sleeves. Lace. Three layers.
+
+French fashion, Russian money. Do not tell Paris how much they cost. Do not tell my treasury either.
+
+My hairdresser. He arrives with a comb, a powder puff, and a terrified expression.
+
+He is terrified because I read while he works. If I find something interesting, I move my head.
+
+Hair up, high. Pomade. Then powder. White. Everybody powders.
+
+The powder is made of flour. Yes. Flour. In a country where people are hungry.
+
+I know. I think about it. I have opinions about it. I will write a law about it. Later.
+
+Face: a little rouge. Here, here.
+
+At Russian court, ladies wear so much rouge they look like apples. I am an empress, not an apple.
+
+And you, my little subjects, how long do you take? I hear you put on trousers, a shirt, and you are done. Ten minutes.
+
+Ten minutes. And you call yourselves civilised. Mind you, none of you burned a Turkish fleet this summer. So.
+
+Earrings. Diamonds. From the Urals. My mountains.
+
+And this. My Order of St. Catherine. Named after a saint. And, conveniently, me.
+
+Then the blue sash of St. Andrew. And the star. Every empress needs a star.
+
+And a little portrait of me, on a ribbon, which I give to people I like. I have given away many. Do not worry. There is plenty of me.
+
+One more thing. A small snuffbox. Gold. With a picture of my horse. My horse is also very handsome.
+
+And done.
+
+Ice, coffee, dogs, letters, Voltaire, snuff, a war, stays, panniers, silk, lace, flour, rouge, diamonds, sash, star, and one golden horse.
+
+Two and a half hours. And now, nine o&#x27;clock. My ministers are waiting outside. They are nervous. I can hear them.
+
+Good. Nervous ministers work harder.
+
+Out there, they think the empress simply appears. Like weather. You know better now. You know about the ice. You know about the coffee. You know about Sir Tom. Tell no one.
+
+Open the doors.
+
+Good morning, gentlemen.
+
+Every single one of them bowed. Correct.
+
+Thank you for watching me get ready, my little subjects. Tell me in the comments: how many cups of coffee do you drink in the morning? If it is less than five, I do not want to hear it.
+
+And press the little Hype button. Sir Tom pressed it already. With his nose.
+
+Subscribe, or I shall send you to Siberia. Joking. Mostly.</pre></div></div>
+<div class="card"><h3>Timecoded script</h3><div class="meta">For the edit</div><div class="cb "><button type="button" class="copy" data-t="t127">Copy</button><pre id="t127">[00:00] Clip 1 (OC): Dobroye utro, my little subjects.
+[00:04] Clip 2 (OC): You asked, and you asked, and one of you asked eleven times. How does an empress get ready?
+[00:15] Clip 3 (VO): Today you will see everything. Ice. Coffee. Snuff. Dogs. A war.
+[00:22] Clip 4 (OC): Yes, a war. It is in the schedule. We will get to it.
+[00:30] Clip 5 (VO): But first, it is five o&#x27;clock in the morning, and nobody in this palace is awake except me.
+[00:42] Clip 6 (OC): Shh. Come in. Quietly.
+[00:45] Clip 7 (VO): This is the Winter Palace. One thousand rooms, and every single one of them is asleep.
+[00:55] Clip 8 (VO): The guards are asleep. The maids are asleep.
+[01:00] Clip 9 (OC): Maria Savvishna is asleep. She is my chamber maid. She knows everything.
+[01:07] Clip 10 (OC): I do not wake her. I do not wake anyone.
+[01:13] Clip 11 (OC): You think an empress rings a bell and twenty people run in? Some do. I light my own fire.
+[01:24] Clip 12 (OC): Watch.
+[01:29] Clip 13 (OC): There. Twenty-six years in Russia, and I still have never burned down the palace. Very impressive.
+[01:39] Clip 14 (OC): First, my face.
+[01:42] Clip 15 (OC): No warm water. Ice. From the Neva. I rub it on my cheeks every morning.
+[01:51] Clip 16 (OC): It wakes the skin. It wakes the soul. It wakes the neighbours.
+[01:58] Clip 17 (OC): Do not try this, little subjects. You are not built like me.
+[02:05] Clip 18 (OC): Now, coffee. This is the most dangerous drink in the Russian Empire.
+[02:12] Clip 19 (VO): One pound of coffee. Five cups. That is the recipe. My recipe.
+[02:19] Clip 20 (VO): My cook brews it, and when I am finished, the servants boil the same grounds again for themselves. Still strong enough to wake a horse.
+[02:34] Clip 21 (VO): Once, a secretary tried my coffee. His heart has never forgiven me.
+[02:42] Clip 22 (OC): Thick cream. A biscuit. And sugar. Many sugars. I am German by birth. We need it.
+[02:52] Clip 23 (OC): You may notice I am not alone.
+[02:56] Clip 24 (OC): This is Sir Tom Anderson. English greyhound. A gift from my doctor, Dimsdale.
+[03:04] Clip 25 (OC): You remember Dimsdale. He gave me smallpox, on purpose. Then he gave me a dog. Both were good ideas.
+[03:15] Clip 26 (OC): And this is Lady Anderson. Sir Tom&#x27;s wife.
+[03:20] Clip 27 (OC): Yes, my dogs are married. More successfully than I was.
+[03:27] Clip 28 (VO): They sleep in a basket by my bed. On silk. With pillows.
+[03:34] Clip 29 (OC): They eat the cream from my coffee. Sir Tom eats the biscuit. Lady Anderson eats Sir Tom&#x27;s biscuit.
+[03:45] Clip 30 (OC): That is how marriage works in Russia.
+[03:50] Clip 31 (OC): Now, work. Before anyone else wakes, I write.
+[03:55] Clip 32 (OC): Three hours, every morning. Laws. Letters. Plays. Yes, I write comedies. Somebody must.
+[04:03] Clip 33 (OC): Three years ago I wrote a whole book of laws for Russia. Five hundred and twenty-six articles.
+[04:13] Clip 34 (OC): In France, they banned it. Too dangerous. I was very flattered.
+[04:21] Clip 35 (OC): This is a letter to Voltaire. He is in France. He calls me the Star of the North.
+[04:32] Clip 36 (OC): I write back often. Flattery should be answered promptly. Otherwise it stops.
+[04:39] Clip 37 (OC): He writes that I am the greatest ruler in Europe. I agree with him. It saves time.
+[04:49] Clip 38 (OC): And this. My snuff. I take it with my left hand. Always the left.
+[04:57] Clip 39 (OC): Because my right hand is for kissing. Ambassadors kiss it. Generals kiss it. Nobody wants to kiss tobacco.
+[05:08] Clip 40 (OC): Very clever. That one was my idea. It really was my idea.
+[05:16] Clip 41 (OC): Look outside. Dark.
+[05:19] Clip 42 (VO): In winter, Petersburg gets six hours of sun. Maybe. If God is in a good mood.
+[05:29] Clip 43 (VO): My husband&#x27;s grandfather, Peter the Great, built this city on a swamp. Because he wanted a window to Europe.
+[05:40] Clip 44 (OC): He got a window. He forgot the sun.
+[05:46] Clip 45 (OC): So I work by candle. Wax, not tallow. Tallow is made of sheep. It smells like sheep. My study is not a farm.
+[06:00] Clip 46 (OC): Now, I promised you a war.
+[06:05] Clip 47 (VO): This summer, my fleet sailed all the way around Europe. From the Baltic to Turkey.
+[06:14] Clip 48 (VO): Everyone said Russian ships could not do it. Half of them nearly sank on the way.
+[06:24] Clip 49 (VO): Then, at Chesma, they burned the entire Turkish fleet. In one night.
+[06:32] Clip 50 (OC): I found out by letter. With my coffee. Best morning of my life.
+[06:40] Clip 51 (OC): So, as you can see, I am in a very good mood today. Let us get dressed.
+[06:50] Clip 52 (OC): Seven o&#x27;clock. The palace wakes up. Maria Savvishna. Good morning.
+[06:56] Clip 53 (OC): Yes, I lit my own fire again. No, I will not stop. She hates it. She thinks I will burn down the empire.
+[07:10] Clip 54 (OC): Someone is knocking. Again.
+[07:13] Clip 55 (VO): That is Grigory Orlov. Count Orlov. Very tall. Very brave. He helped me become empress, you will hear that story in another video.
+[07:27] Clip 56 (OC): Not now, Grigory. I am in my shift. Half the empire is watching.
+[07:35] Clip 57 (VO): He will wait. He is good at waiting. It is his best quality, after the shoulders.
+[07:45] Clip 58 (OC): First, the shift. Linen. Soft.
+[07:48] Clip 59 (OC): Then the stays. Whalebone. Laced tight, so I stand like an empress even after five cups.
+[07:58] Clip 60 (OC): Then panniers. Little baskets, tied on each hip, so the skirt goes out, out, out.
+[08:07] Clip 61 (OC): Through a door, sideways. Always sideways.
+[08:12] Clip 62 (OC): Then the gown. Silk. Silver thread. And these sleeves. Lace. Three layers.
+[08:19] Clip 63 (OC): French fashion, Russian money. Do not tell Paris how much they cost. Do not tell my treasury either.
+[08:30] Clip 64 (OC): My hairdresser. He arrives with a comb, a powder puff, and a terrified expression.
+[08:38] Clip 65 (OC): He is terrified because I read while he works. If I find something interesting, I move my head.
+[08:49] Clip 66 (OC): Hair up, high. Pomade. Then powder. White. Everybody powders.
+[08:55] Clip 67 (OC): The powder is made of flour. Yes. Flour. In a country where people are hungry.
+[09:05] Clip 68 (OC): I know. I think about it. I have opinions about it. I will write a law about it. Later.
+[09:16] Clip 69 (OC): Face: a little rouge. Here, here.
+[09:20] Clip 70 (VO / OC): At Russian court, ladies wear so much rouge they look like apples. I am an empress, not an apple.
+[09:31] Clip 71 (OC): And you, my little subjects, how long do you take? I hear you put on trousers, a shirt, and you are done. Ten minutes.
+[09:45] Clip 72 (OC): Ten minutes. And you call yourselves civilised. Mind you, none of you burned a Turkish fleet this summer. So.
+[09:57] Clip 73 (OC): Earrings. Diamonds. From the Urals. My mountains.
+[10:01] Clip 74 (OC): And this. My Order of St. Catherine. Named after a saint. And, conveniently, me.
+[10:09] Clip 75 (OC): Then the blue sash of St. Andrew. And the star. Every empress needs a star.
+[10:18] Clip 76 (OC): And a little portrait of me, on a ribbon, which I give to people I like. I have given away many. Do not worry. There is plenty of me.
+[10:35] Clip 77 (OC): One more thing. A small snuffbox. Gold. With a picture of my horse. My horse is also very handsome.
+[10:46] Clip 78 (OC): And done.
+[10:50] Clip 79 (VO): Ice, coffee, dogs, letters, Voltaire, snuff, a war, stays, panniers, silk, lace, flour, rouge, diamonds, sash, star, and one golden horse.
+[11:02] Clip 80 (OC): Two and a half hours. And now, nine o&#x27;clock. My ministers are waiting outside. They are nervous. I can hear them.
+[11:14] Clip 81 (OC): Good. Nervous ministers work harder.
+[11:17] Clip 82 (OC): Out there, they think the empress simply appears. Like weather. You know better now. You know about the ice. You know about the coffee. You know about Sir Tom. Tell no one.
+[11:36] Clip 83 (OC): Open the doors.
+[11:39] Clip 84 (OC): Good morning, gentlemen.
+[11:43] Clip 85 (OC): Every single one of them bowed. Correct.
+[11:47] Clip 86 (OC): Thank you for watching me get ready, my little subjects. Tell me in the comments: how many cups of coffee do you drink in the morning? If it is less than five, I do not want to hear it.
+[12:10] Clip 87 (OC): And press the little Hype button. Sir Tom pressed it already. With his nose.
+[12:18] Clip 88 (OC): Subscribe, or I shall send you to Siberia. Joking. Mostly.</pre></div></div></div>
+<div class="tablewrap" style="margin-top:14px"><table><thead><tr><th>Clip</th><th>Time</th><th>Mode</th><th>Line</th></tr></thead><tbody>
+<tr><td>1</td><td style='font-variant-numeric:tabular-nums'>00:00</td><td>OC</td><td>Dobroye utro, my little subjects.</td></tr>
+<tr><td>2</td><td style='font-variant-numeric:tabular-nums'>00:04</td><td>OC</td><td>You asked, and you asked, and one of you asked eleven times. How does an empress get ready?</td></tr>
+<tr><td>3</td><td style='font-variant-numeric:tabular-nums'>00:15</td><td>VO</td><td>Today you will see everything. Ice. Coffee. Snuff. Dogs. A war.</td></tr>
+<tr><td>4</td><td style='font-variant-numeric:tabular-nums'>00:22</td><td>OC</td><td>Yes, a war. It is in the schedule. We will get to it.</td></tr>
+<tr><td>5</td><td style='font-variant-numeric:tabular-nums'>00:30</td><td>VO</td><td>But first, it is five o&#x27;clock in the morning, and nobody in this palace is awake except me.</td></tr>
+<tr><td>6</td><td style='font-variant-numeric:tabular-nums'>00:42</td><td>OC</td><td>Shh. Come in. Quietly.</td></tr>
+<tr><td>7</td><td style='font-variant-numeric:tabular-nums'>00:45</td><td>VO</td><td>This is the Winter Palace. One thousand rooms, and every single one of them is asleep.</td></tr>
+<tr><td>8</td><td style='font-variant-numeric:tabular-nums'>00:55</td><td>VO</td><td>The guards are asleep. The maids are asleep.</td></tr>
+<tr><td>9</td><td style='font-variant-numeric:tabular-nums'>01:00</td><td>OC</td><td>Maria Savvishna is asleep. She is my chamber maid. She knows everything.</td></tr>
+<tr><td>10</td><td style='font-variant-numeric:tabular-nums'>01:07</td><td>OC</td><td>I do not wake her. I do not wake anyone.</td></tr>
+<tr><td>11</td><td style='font-variant-numeric:tabular-nums'>01:13</td><td>OC</td><td>You think an empress rings a bell and twenty people run in? Some do. I light my own fire.</td></tr>
+<tr><td>12</td><td style='font-variant-numeric:tabular-nums'>01:24</td><td>OC</td><td>Watch.</td></tr>
+<tr><td>13</td><td style='font-variant-numeric:tabular-nums'>01:29</td><td>OC</td><td>There. Twenty-six years in Russia, and I still have never burned down the palace. Very impressive.</td></tr>
+<tr><td>14</td><td style='font-variant-numeric:tabular-nums'>01:39</td><td>OC</td><td>First, my face.</td></tr>
+<tr><td>15</td><td style='font-variant-numeric:tabular-nums'>01:42</td><td>OC</td><td>No warm water. Ice. From the Neva. I rub it on my cheeks every morning.</td></tr>
+<tr><td>16</td><td style='font-variant-numeric:tabular-nums'>01:51</td><td>OC</td><td>It wakes the skin. It wakes the soul. It wakes the neighbours.</td></tr>
+<tr><td>17</td><td style='font-variant-numeric:tabular-nums'>01:58</td><td>OC</td><td>Do not try this, little subjects. You are not built like me.</td></tr>
+<tr><td>18</td><td style='font-variant-numeric:tabular-nums'>02:05</td><td>OC</td><td>Now, coffee. This is the most dangerous drink in the Russian Empire.</td></tr>
+<tr><td>19</td><td style='font-variant-numeric:tabular-nums'>02:12</td><td>VO</td><td>One pound of coffee. Five cups. That is the recipe. My recipe.</td></tr>
+<tr><td>20</td><td style='font-variant-numeric:tabular-nums'>02:19</td><td>VO</td><td>My cook brews it, and when I am finished, the servants boil the same grounds again for themselves. Still strong enough to wake a horse.</td></tr>
+<tr><td>21</td><td style='font-variant-numeric:tabular-nums'>02:34</td><td>VO</td><td>Once, a secretary tried my coffee. His heart has never forgiven me.</td></tr>
+<tr><td>22</td><td style='font-variant-numeric:tabular-nums'>02:42</td><td>OC</td><td>Thick cream. A biscuit. And sugar. Many sugars. I am German by birth. We need it.</td></tr>
+<tr><td>23</td><td style='font-variant-numeric:tabular-nums'>02:52</td><td>OC</td><td>You may notice I am not alone.</td></tr>
+<tr><td>24</td><td style='font-variant-numeric:tabular-nums'>02:56</td><td>OC</td><td>This is Sir Tom Anderson. English greyhound. A gift from my doctor, Dimsdale.</td></tr>
+<tr><td>25</td><td style='font-variant-numeric:tabular-nums'>03:04</td><td>OC</td><td>You remember Dimsdale. He gave me smallpox, on purpose. Then he gave me a dog. Both were good ideas.</td></tr>
+<tr><td>26</td><td style='font-variant-numeric:tabular-nums'>03:15</td><td>OC</td><td>And this is Lady Anderson. Sir Tom&#x27;s wife.</td></tr>
+<tr><td>27</td><td style='font-variant-numeric:tabular-nums'>03:20</td><td>OC</td><td>Yes, my dogs are married. More successfully than I was.</td></tr>
+<tr><td>28</td><td style='font-variant-numeric:tabular-nums'>03:27</td><td>VO</td><td>They sleep in a basket by my bed. On silk. With pillows.</td></tr>
+<tr><td>29</td><td style='font-variant-numeric:tabular-nums'>03:34</td><td>OC</td><td>They eat the cream from my coffee. Sir Tom eats the biscuit. Lady Anderson eats Sir Tom&#x27;s biscuit.</td></tr>
+<tr><td>30</td><td style='font-variant-numeric:tabular-nums'>03:45</td><td>OC</td><td>That is how marriage works in Russia.</td></tr>
+<tr><td>31</td><td style='font-variant-numeric:tabular-nums'>03:50</td><td>OC</td><td>Now, work. Before anyone else wakes, I write.</td></tr>
+<tr><td>32</td><td style='font-variant-numeric:tabular-nums'>03:55</td><td>OC</td><td>Three hours, every morning. Laws. Letters. Plays. Yes, I write comedies. Somebody must.</td></tr>
+<tr><td>33</td><td style='font-variant-numeric:tabular-nums'>04:03</td><td>OC</td><td>Three years ago I wrote a whole book of laws for Russia. Five hundred and twenty-six articles.</td></tr>
+<tr><td>34</td><td style='font-variant-numeric:tabular-nums'>04:13</td><td>OC</td><td>In France, they banned it. Too dangerous. I was very flattered.</td></tr>
+<tr><td>35</td><td style='font-variant-numeric:tabular-nums'>04:21</td><td>OC</td><td>This is a letter to Voltaire. He is in France. He calls me the Star of the North.</td></tr>
+<tr><td>36</td><td style='font-variant-numeric:tabular-nums'>04:32</td><td>OC</td><td>I write back often. Flattery should be answered promptly. Otherwise it stops.</td></tr>
+<tr><td>37</td><td style='font-variant-numeric:tabular-nums'>04:39</td><td>OC</td><td>He writes that I am the greatest ruler in Europe. I agree with him. It saves time.</td></tr>
+<tr><td>38</td><td style='font-variant-numeric:tabular-nums'>04:49</td><td>OC</td><td>And this. My snuff. I take it with my left hand. Always the left.</td></tr>
+<tr><td>39</td><td style='font-variant-numeric:tabular-nums'>04:57</td><td>OC</td><td>Because my right hand is for kissing. Ambassadors kiss it. Generals kiss it. Nobody wants to kiss tobacco.</td></tr>
+<tr><td>40</td><td style='font-variant-numeric:tabular-nums'>05:08</td><td>OC</td><td>Very clever. That one was my idea. It really was my idea.</td></tr>
+<tr><td>41</td><td style='font-variant-numeric:tabular-nums'>05:16</td><td>OC</td><td>Look outside. Dark.</td></tr>
+<tr><td>42</td><td style='font-variant-numeric:tabular-nums'>05:19</td><td>VO</td><td>In winter, Petersburg gets six hours of sun. Maybe. If God is in a good mood.</td></tr>
+<tr><td>43</td><td style='font-variant-numeric:tabular-nums'>05:29</td><td>VO</td><td>My husband&#x27;s grandfather, Peter the Great, built this city on a swamp. Because he wanted a window to Europe.</td></tr>
+<tr><td>44</td><td style='font-variant-numeric:tabular-nums'>05:40</td><td>OC</td><td>He got a window. He forgot the sun.</td></tr>
+<tr><td>45</td><td style='font-variant-numeric:tabular-nums'>05:46</td><td>OC</td><td>So I work by candle. Wax, not tallow. Tallow is made of sheep. It smells like sheep. My study is not a farm.</td></tr>
+<tr><td>46</td><td style='font-variant-numeric:tabular-nums'>06:00</td><td>OC</td><td>Now, I promised you a war.</td></tr>
+<tr><td>47</td><td style='font-variant-numeric:tabular-nums'>06:05</td><td>VO</td><td>This summer, my fleet sailed all the way around Europe. From the Baltic to Turkey.</td></tr>
+<tr><td>48</td><td style='font-variant-numeric:tabular-nums'>06:14</td><td>VO</td><td>Everyone said Russian ships could not do it. Half of them nearly sank on the way.</td></tr>
+<tr><td>49</td><td style='font-variant-numeric:tabular-nums'>06:24</td><td>VO</td><td>Then, at Chesma, they burned the entire Turkish fleet. In one night.</td></tr>
+<tr><td>50</td><td style='font-variant-numeric:tabular-nums'>06:32</td><td>OC</td><td>I found out by letter. With my coffee. Best morning of my life.</td></tr>
+<tr><td>51</td><td style='font-variant-numeric:tabular-nums'>06:40</td><td>OC</td><td>So, as you can see, I am in a very good mood today. Let us get dressed.</td></tr>
+<tr><td>52</td><td style='font-variant-numeric:tabular-nums'>06:50</td><td>OC</td><td>Seven o&#x27;clock. The palace wakes up. Maria Savvishna. Good morning.</td></tr>
+<tr><td>53</td><td style='font-variant-numeric:tabular-nums'>06:56</td><td>OC</td><td>Yes, I lit my own fire again. No, I will not stop. She hates it. She thinks I will burn down the empire.</td></tr>
+<tr><td>54</td><td style='font-variant-numeric:tabular-nums'>07:10</td><td>OC</td><td>Someone is knocking. Again.</td></tr>
+<tr><td>55</td><td style='font-variant-numeric:tabular-nums'>07:13</td><td>VO</td><td>That is Grigory Orlov. Count Orlov. Very tall. Very brave. He helped me become empress, you will hear that story in another video.</td></tr>
+<tr><td>56</td><td style='font-variant-numeric:tabular-nums'>07:27</td><td>OC</td><td>Not now, Grigory. I am in my shift. Half the empire is watching.</td></tr>
+<tr><td>57</td><td style='font-variant-numeric:tabular-nums'>07:35</td><td>VO</td><td>He will wait. He is good at waiting. It is his best quality, after the shoulders.</td></tr>
+<tr><td>58</td><td style='font-variant-numeric:tabular-nums'>07:45</td><td>OC</td><td>First, the shift. Linen. Soft.</td></tr>
+<tr><td>59</td><td style='font-variant-numeric:tabular-nums'>07:48</td><td>OC</td><td>Then the stays. Whalebone. Laced tight, so I stand like an empress even after five cups.</td></tr>
+<tr><td>60</td><td style='font-variant-numeric:tabular-nums'>07:58</td><td>OC</td><td>Then panniers. Little baskets, tied on each hip, so the skirt goes out, out, out.</td></tr>
+<tr><td>61</td><td style='font-variant-numeric:tabular-nums'>08:07</td><td>OC</td><td>Through a door, sideways. Always sideways.</td></tr>
+<tr><td>62</td><td style='font-variant-numeric:tabular-nums'>08:12</td><td>OC</td><td>Then the gown. Silk. Silver thread. And these sleeves. Lace. Three layers.</td></tr>
+<tr><td>63</td><td style='font-variant-numeric:tabular-nums'>08:19</td><td>OC</td><td>French fashion, Russian money. Do not tell Paris how much they cost. Do not tell my treasury either.</td></tr>
+<tr><td>64</td><td style='font-variant-numeric:tabular-nums'>08:30</td><td>OC</td><td>My hairdresser. He arrives with a comb, a powder puff, and a terrified expression.</td></tr>
+<tr><td>65</td><td style='font-variant-numeric:tabular-nums'>08:38</td><td>OC</td><td>He is terrified because I read while he works. If I find something interesting, I move my head.</td></tr>
+<tr><td>66</td><td style='font-variant-numeric:tabular-nums'>08:49</td><td>OC</td><td>Hair up, high. Pomade. Then powder. White. Everybody powders.</td></tr>
+<tr><td>67</td><td style='font-variant-numeric:tabular-nums'>08:55</td><td>OC</td><td>The powder is made of flour. Yes. Flour. In a country where people are hungry.</td></tr>
+<tr><td>68</td><td style='font-variant-numeric:tabular-nums'>09:05</td><td>OC</td><td>I know. I think about it. I have opinions about it. I will write a law about it. Later.</td></tr>
+<tr><td>69</td><td style='font-variant-numeric:tabular-nums'>09:16</td><td>OC</td><td>Face: a little rouge. Here, here.</td></tr>
+<tr><td>70</td><td style='font-variant-numeric:tabular-nums'>09:20</td><td>VO / OC</td><td>At Russian court, ladies wear so much rouge they look like apples. I am an empress, not an apple.</td></tr>
+<tr><td>71</td><td style='font-variant-numeric:tabular-nums'>09:31</td><td>OC</td><td>And you, my little subjects, how long do you take? I hear you put on trousers, a shirt, and you are done. Ten minutes.</td></tr>
+<tr><td>72</td><td style='font-variant-numeric:tabular-nums'>09:45</td><td>OC</td><td>Ten minutes. And you call yourselves civilised. Mind you, none of you burned a Turkish fleet this summer. So.</td></tr>
+<tr><td>73</td><td style='font-variant-numeric:tabular-nums'>09:57</td><td>OC</td><td>Earrings. Diamonds. From the Urals. My mountains.</td></tr>
+<tr><td>74</td><td style='font-variant-numeric:tabular-nums'>10:01</td><td>OC</td><td>And this. My Order of St. Catherine. Named after a saint. And, conveniently, me.</td></tr>
+<tr><td>75</td><td style='font-variant-numeric:tabular-nums'>10:09</td><td>OC</td><td>Then the blue sash of St. Andrew. And the star. Every empress needs a star.</td></tr>
+<tr><td>76</td><td style='font-variant-numeric:tabular-nums'>10:18</td><td>OC</td><td>And a little portrait of me, on a ribbon, which I give to people I like. I have given away many. Do not worry. There is plenty of me.</td></tr>
+<tr><td>77</td><td style='font-variant-numeric:tabular-nums'>10:35</td><td>OC</td><td>One more thing. A small snuffbox. Gold. With a picture of my horse. My horse is also very handsome.</td></tr>
+<tr><td>78</td><td style='font-variant-numeric:tabular-nums'>10:46</td><td>OC</td><td>And done.</td></tr>
+<tr><td>79</td><td style='font-variant-numeric:tabular-nums'>10:50</td><td>VO</td><td>Ice, coffee, dogs, letters, Voltaire, snuff, a war, stays, panniers, silk, lace, flour, rouge, diamonds, sash, star, and one golden horse.</td></tr>
+<tr><td>80</td><td style='font-variant-numeric:tabular-nums'>11:02</td><td>OC</td><td>Two and a half hours. And now, nine o&#x27;clock. My ministers are waiting outside. They are nervous. I can hear them.</td></tr>
+<tr><td>81</td><td style='font-variant-numeric:tabular-nums'>11:14</td><td>OC</td><td>Good. Nervous ministers work harder.</td></tr>
+<tr><td>82</td><td style='font-variant-numeric:tabular-nums'>11:17</td><td>OC</td><td>Out there, they think the empress simply appears. Like weather. You know better now. You know about the ice. You know about the coffee. You know about Sir Tom. Tell no one.</td></tr>
+<tr><td>83</td><td style='font-variant-numeric:tabular-nums'>11:36</td><td>OC</td><td>Open the doors.</td></tr>
+<tr><td>84</td><td style='font-variant-numeric:tabular-nums'>11:39</td><td>OC</td><td>Good morning, gentlemen.</td></tr>
+<tr><td>85</td><td style='font-variant-numeric:tabular-nums'>11:43</td><td>OC</td><td>Every single one of them bowed. Correct.</td></tr>
+<tr><td>86</td><td style='font-variant-numeric:tabular-nums'>11:47</td><td>OC</td><td>Thank you for watching me get ready, my little subjects. Tell me in the comments: how many cups of coffee do you drink in the morning? If it is less than five, I do not want to hear it.</td></tr>
+<tr><td>87</td><td style='font-variant-numeric:tabular-nums'>12:10</td><td>OC</td><td>And press the little Hype button. Sir Tom pressed it already. With his nose.</td></tr>
+<tr><td>88</td><td style='font-variant-numeric:tabular-nums'>12:18</td><td>OC</td><td>Subscribe, or I shall send you to Siberia. Joking. Mostly.</td></tr>
+</tbody></table></div></section>
+<section id="order"><h2>7 · Generation order</h2><ol class="steps"><li><strong>Voice track.</strong> Generate all 88 lines first and lock clip lengths to the real audio. Adjust the timecodes if the voice runs faster or slower.</li><li><strong>Characters.</strong> Catherine Looks A, B and C (lock the face from Look A and reuse it as the reference for B and C). Then Maria, Orlov, the two greyhounds and the hairdresser. Then the bit parts.</li><li><strong>Props.</strong> One props sheet, so the snuffboxes, sash, badge and Hype boss look identical in every clip.</li><li><strong>Locations.</strong> Empty plates for L1–L8 in every lighting state listed, then I1–I4.</li><li><strong>Still scenes.</strong> One keyframe per clip, or per A/B shot for split clips. Selfie clips: bake the fisheye distortion into the still. Cinematic clips: include the foreground frame element. Add the three title cards in the edit, not in the image.</li><li><strong>Colour grade.</strong> Apply the grades below to every still before animating.</li><li><strong>Video.</strong> Image-to-video from the graded stills. Lip-sync every on-camera clip to the voice track. Voice-over clips need no lip-sync. Cut the montages (clips 3 and 79) from existing stills.</li><li><strong>Final pass.</strong> One unifying grade, grain and halation over the full edit. Then music and sound effects: fire crackle, quill scratch, coffee pour, dog sighs, door knocks, cannon booms.</li></ol><div class="cb "><button type="button" class="copy" data-t="t128">Copy order</button><pre id="t128">1. Voice track: Generate all 88 lines first and lock clip lengths to the real audio. Adjust the timecodes if the voice runs faster or slower.
+2. Characters: Catherine Looks A, B and C (lock the face from Look A and reuse it as the reference for B and C). Then Maria, Orlov, the two greyhounds and the hairdresser. Then the bit parts.
+3. Props: One props sheet, so the snuffboxes, sash, badge and Hype boss look identical in every clip.
+4. Locations: Empty plates for L1–L8 in every lighting state listed, then I1–I4.
+5. Still scenes: One keyframe per clip, or per A/B shot for split clips. Selfie clips: bake the fisheye distortion into the still. Cinematic clips: include the foreground frame element. Add the three title cards in the edit, not in the image.
+6. Colour grade: Apply the grades below to every still before animating.
+7. Video: Image-to-video from the graded stills. Lip-sync every on-camera clip to the voice track. Voice-over clips need no lip-sync. Cut the montages (clips 3 and 79) from existing stills.
+8. Final pass: One unifying grade, grain and halation over the full edit. Then music and sound effects: fire crackle, quill scratch, coffee pour, dog sighs, door knocks, cannon booms.</pre></div></section>
+<section id="aesthetic"><h2>8 · Aesthetic direction</h2><div class="cb "><button type="button" class="copy" data-t="t129">Copy</button><pre id="t129">Photorealistic prestige period drama shot on two cameras. The on-camera lines are the empress&#x27;s own selfie: a handheld ultra-wide action camera held at arm&#x27;s length, low angle, slight tilt, barrel-distorted rooms curving around her deadpan face, with servants and courtiers standing silently in the depth of the frame. Everything else is a calm, centred 35mm period-drama camera with shallow focus, often looking through window bars, curtains or doorways. Light is soft and natural: overcast window daylight (or cold snow-glow before dawn) as the base, with candles and fire as warm accents only. The palette is muted: deep crimson, antique gold, ivory lace and cool grey-blue stone, with saturated red lips as the strongest colour. Textures are real: skin pores, lace weave, brocade thread, frost on glass, powder in the air, fine film grain. The world is lavish, exact and serious; only Catherine is funny.</pre></div></section>
+<section id="grade"><h2>9 · Colour grading <small>apply to stills before video</small></h2><div class="grid">
+<div class="card"><h3>Base · Overcast Palace</h3><div class="meta">Clips: All interiors</div><div class="cb "><button type="button" class="copy" data-t="t130">Copy</button><pre id="t130">Saturation −20%. Low contrast with lifted blacks (about 5%), never crushed. Shadows cool grey-blue (#2A333B). Skin pale and neutral. Reds (lips, crimson fabric) and antique gold kept rich while everything else is muted. Windows allowed to bloom softly. Light haze. Fine 35mm grain.</pre></div></div>
+<div class="card"><h3>Pre-dawn</h3><div class="meta">Clips: 1–51 interiors</div><div class="cb "><button type="button" class="copy" data-t="t131">Copy</button><pre id="t131">Same base. Key from candles and fire at about 2,800K but restrained: warm only where flames are. Fill from cold snow-glow through windows at about 7,000K. No orange wash over the whole frame.</pre></div></div>
+<div class="card"><h3>Dawn and Morning</h3><div class="meta">Clips: 52–88</div><div class="cb "><button type="button" class="copy" data-t="t132">Copy</button><pre id="t132">Same base. Grey north-window daylight at 5,600–6,000K as the key. Candles and fire are small warm accents only. Silver brocade and the blue sash read clean.</pre></div></div>
+<div class="card"><h3>Winter Exterior</h3><div class="meta">Clips: 5, 42</div><div class="cb "><button type="button" class="copy" data-t="t133">Copy</button><pre id="t133">Blue-grey moonlight at about 7,000K, white snow, single warm amber window as the focal point.</pre></div></div>
+<div class="card"><h3>War</h3><div class="meta">Clips: 47–49</div><div class="cb "><button type="button" class="copy" data-t="t134">Copy</button><pre id="t134">Sea: desaturated steel grey, wet, overcast. Chesma: deep orange fire against near-black navy, higher contrast, heavier grain.</pre></div></div>
+<div class="card"><h3>1703</h3><div class="meta">Clips: 43</div><div class="cb "><button type="button" class="copy" data-t="t135">Copy</button><pre id="t135">Overcast, muddy greens and browns, low contrast, slightly faded.</pre></div></div>
+<div class="card"><h3>Global finish</h3><div class="meta">Clips: All</div><div class="cb "><button type="button" class="copy" data-t="t136">Copy</button><pre id="t136">Fine 35mm grain, subtle vignette, low sharpening, skin tones locked across every grade so Catherine never shifts colour between clips. Grade the stills before image-to-video so the motion model inherits the look.</pre></div></div>
+</div></section></main></div>
+<script>
+document.addEventListener('click',async ev=>{const b=ev.target.closest('button.copy');if(!b)return;
+const el=document.getElementById(b.dataset.t);const txt=el.innerText;const old=b.textContent;
+try{await navigator.clipboard.writeText(txt);b.textContent='Copied';b.classList.add('done');}
+catch(err){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected, press Ctrl+C';}
+setTimeout(()=>{b.textContent=old;b.classList.remove('done');},1800);});
+</script></body></html>
