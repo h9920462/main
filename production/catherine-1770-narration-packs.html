@@ -1,0 +1,426 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Catherine 1770 Narration Packs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Public+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet"><style>
+:root{
+ /* one visual world: imperial night. Sidebar index + long reference column */
+ --bg:#10151c; --panel:#18202a; --line:#2a3542; --ink:#dfe4ea; --muted:#93a0ad; --gold:#d6b46a; --blue:#6f93c4; --red:#c4574f;
+ --display:"Cormorant Garamond",Georgia,serif; --body:"Public Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+ color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
+a{color:var(--gold)}
+.wrap{display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;max-width:1280px;margin:0 auto;padding:32px 24px 80px}
+nav{position:sticky;top:24px;align-self:start;display:flex;flex-direction:column;gap:6px;font-size:14px}
+nav a{color:var(--muted);text-decoration:none;padding:4px 8px;border-left:2px solid transparent}
+nav a:hover,nav a:focus-visible{color:var(--ink);border-left-color:var(--gold);outline:none}
+header h1{font:600 42px/1.1 var(--display);margin:0 0 8px;text-wrap:balance;color:var(--gold)}
+header p{margin:0;color:var(--muted)}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}
+.facts span{border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:13px;font-variant-numeric:tabular-nums}
+section{margin-top:56px;scroll-margin-top:20px}
+h2{font:600 30px/1.2 var(--display);margin:0 0 6px;color:var(--gold);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h2 small{font:400 13px var(--body);color:var(--muted)}
+h3{font:600 21px/1.25 var(--display);margin:0;color:var(--ink)}
+.lead{color:var(--muted);max-width:70ch;margin:0 0 18px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.meta{display:flex;gap:8px;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
+.tag{font:600 11px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:4px 8px;border-radius:4px;border:1px solid var(--line);color:var(--muted)}
+.tag.SELFIE{color:#f0c98a;border-color:#6b5631}
+.tag.CINEMATIC{color:#a9c4ea;border-color:#34507a}
+.tag.EDIT{color:#b5bec8}
+.cb{position:relative}
+.cb pre{margin:0;white-space:pre-wrap;word-break:break-word;font:13px/1.55 var(--mono);background:#0c1117;border:1px solid var(--line);border-radius:6px;padding:12px 12px 12px 12px;padding-right:76px;color:#cdd5dd;max-height:280px;overflow:auto}
+button.copy{position:absolute;top:8px;right:8px;font:600 12px var(--body);background:var(--gold);color:#1a1408;border:0;border-radius:4px;padding:5px 10px;cursor:pointer}
+button.copy:hover{filter:brightness(1.1)}
+button.copy:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+button.copy.done{background:#7fb38a}
+.big{margin-bottom:14px}
+.clips{display:flex;flex-direction:column;gap:10px}
+.clip{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;grid-template-columns:64px minmax(0,1fr);gap:4px 14px}
+.clip .num{font:600 26px/1 var(--display);color:var(--gold);font-variant-numeric:tabular-nums}
+.clip .tm{font:12px var(--mono);color:var(--muted);margin-top:4px}
+.clip .body{display:flex;flex-direction:column;gap:8px}
+.clip .act{margin:0}
+.clip .line{margin:0;font-family:var(--display);font-size:18px;font-style:italic;color:#efe6d2}
+.split{color:var(--red);font-weight:600}
+.titlecard{color:var(--gold);font-family:var(--display);font-style:italic}
+.seqhead{font:600 13px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin:18px 0 2px}
+ol.steps{padding-left:22px;max-width:75ch} ol.steps li{margin-bottom:8px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+td,th{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600}
+.tablewrap{overflow-x:auto}
+@media (max-width:820px){.wrap{grid-template-columns:1fr} nav{position:static;flex-direction:row;flex-wrap:wrap} .grid{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{font:12px var(--mono);background:#0c1117;border:1px solid var(--line);border-radius:4px;padding:2px 7px;color:var(--gold)}.seg{margin:0;font-family:var(--display);font-style:italic;font-size:17px;color:#efe6d2}.sid{font:600 22px/1 var(--display);color:var(--gold)}.note{color:var(--muted);font-size:13px;margin:0}</style></head><body><div class="wrap">
+<nav aria-label="Sections"><a href="#how">How to use</a><a href="#packs">Packs N01–N14</a></nav><main>
+<header><h1>Narration Packs · Morning Routine, 1770</h1><p>All of Catherine's off-screen lines, in story order, packed into 15-second Grok generations for audio extraction</p>
+<div class="facts"><span>14 generations</span><span>35 shots covered</span><span>15s each</span></div></header>
+<section id="how"><h2>How to use</h2><ol class="steps">
+<li>Generate each pack as a 15-second video with any dark, still start image. The picture does not matter.</li>
+<li>Extract the audio. Lines are separated by about a second of silence, so each one is easy to find on the waveform.</li>
+<li>Each card says which of your 6-second clips each line goes over. Where one sentence covers two or three clips (for example S5a + S5b), it is spoken as one natural line: cut it at the pause after the word shown.</li>
+<li>If a pack mixes up the order or adds a voice, regenerate just that pack.</li></ol></section>
+<section id="packs"><h2>Packs</h2><div class="cb big"><button type="button" class="copy" data-t="p1">Copy all packs</button><pre id="p1">NARRATION PACK N01 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-6.0s] Brisk and teasing, mid pitch, light and quick; give each word in the list its own small beat with a slight rise; then drop low and flat on &#x27;A war.&#x27;, a little ominous, with a hint of a smile. &quot;Today you will see everything. Ice. Coffee. Snuff. Dogs. A war.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N02 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-9.5s] Hushed and intimate, low pitch, slow storytelling pace, almost a whisper. A small private smile on &#x27;except me&#x27;. &quot;But first, it is five o&#x27;clock in the morning, and nobody in this palace is awake except me.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N03 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.5s] Proud but quiet, like a tour guide in a sleeping house. Low-medium pitch, slow. Soften on &#x27;asleep&#x27;. &quot;This is the Winter Palace. One thousand rooms, and every single one of them is asleep.&quot;
+[9.3-13.8s] Dry and deadpan, low pitch, flat delivery, slightly amused. &quot;The guards are asleep. The maids are asleep.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N04 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-6.5s] Conspiratorial pride, medium pitch, firm stress on &#x27;One pound&#x27;. Slow down and turn possessive on &#x27;My recipe.&#x27; &quot;One pound of coffee. Five cups. That is the recipe. My recipe.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N05 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-12.5s] Matter-of-fact storytelling, medium pitch, steady. Lift slightly with amusement on &#x27;wake a horse&#x27;. &quot;My cook brews it, and when I am finished, the servants boil the same grounds again for themselves. Still strong enough to wake a horse.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N06 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-6.5s] Deadpan gossip with mock pity, low-medium pitch. Slow and dry on &#x27;His heart has never forgiven me.&#x27; &quot;Once, a secretary tried my coffee. His heart has never forgiven me.&quot;
+[7.3-13.3s] Fond and indulgent, warm, soft mid pitch, gentle pace. A small beat of pride on &#x27;With pillows.&#x27; &quot;They sleep in a basket by my bed. On silk. With pillows.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N07 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.5s] Weary and sardonic, low pitch, slow. &#x27;Maybe.&#x27; flat and dry. A tired half-smile on &#x27;If God is in a good mood.&#x27; &quot;In winter, Petersburg gets six hours of sun. Maybe. If God is in a good mood.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N08 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-10.0s] Grand and respectful with a light mocking edge, low-medium pitch, clear and measured. Small lift on &#x27;a window to Europe&#x27;. &quot;My husband&#x27;s grandfather, Peter the Great, built this city on a swamp. Because he wanted a window to Europe.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N09 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.0s] Rising pride, building energy, medium pitch, a little louder and faster than usual. &quot;This summer, my fleet sailed all the way around Europe. From the Baltic to Turkey.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N10 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.5s] Scornful amusement, medium pitch. Relish &#x27;Half of them nearly sank on the way.&#x27; &quot;Everyone said Russian ships could not do it. Half of them nearly sank on the way.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N11 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-6.5s] Triumphant but restrained, low and slow. &#x27;In one night.&#x27; quiet and savoured, almost a whisper. &quot;Then, at Chesma, they burned the entire Turkish fleet. In one night.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N12 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.0s] Fond, slightly flirtatious and amused, warm mid pitch. &#x27;Very tall. Very brave.&#x27; clipped and admiring. Teasing on &#x27;another video&#x27;. &quot;That is Grigory Orlov. Count Orlov. Very tall. Very brave. He helped me become empress,&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N13 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.5s] Wry and affectionate, low pitch, unhurried. A small pause before &#x27;after the shoulders&#x27;, delivered slyly. &quot;He will wait. He is good at waiting. It is his best quality, after the shoulders.&quot;
+[9.3-14.3s] Gossiping and mildly scandalised, medium pitch, a little lift on &#x27;apples&#x27;. &quot;Ladies wear so much rouge they look like apples.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.
+
+----------
+
+NARRATION PACK N14 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-11.0s] Fast, rhythmic list, slightly breathless, medium pitch, building speed. Slow right down for &#x27;and one golden horse&#x27; with a satisfied smile. &quot;Ice, coffee, dogs, letters, Voltaire, snuff, a war, stays, panniers, silk, lace, flour, rouge, diamonds, sash, star, and one golden horse.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div><div class="clips" style="margin-top:14px">
+<div class="clip"><div><div class="sid">N01</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S3a, S3b</span></div><p class="seg">“Today you will see everything. Ice. Coffee. Snuff. Dogs. A war.”</p>
+<p class="note">S3a + S3b: one line; cut it at the pause after “Dogs.”</p><div class="cb "><button type="button" class="copy" data-t="p2">Copy prompt</button><pre id="p2">NARRATION PACK N01 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-6.0s] Brisk and teasing, mid pitch, light and quick; give each word in the list its own small beat with a slight rise; then drop low and flat on &#x27;A war.&#x27;, a little ominous, with a hint of a smile. &quot;Today you will see everything. Ice. Coffee. Snuff. Dogs. A war.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N02</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S5a, S5b</span></div><p class="seg">“But first, it is five o&#x27;clock in the morning, and nobody in this palace is awake except me.”</p>
+<p class="note">S5a + S5b: one line; cut it at the pause after “morning,”</p><div class="cb "><button type="button" class="copy" data-t="p3">Copy prompt</button><pre id="p3">NARRATION PACK N02 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-9.5s] Hushed and intimate, low pitch, slow storytelling pace, almost a whisper. A small private smile on &#x27;except me&#x27;. &quot;But first, it is five o&#x27;clock in the morning, and nobody in this palace is awake except me.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N03</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S7a, S7b, S8</span></div><p class="seg">“This is the Winter Palace. One thousand rooms, and every single one of them is asleep.”</p><p class="seg">“The guards are asleep. The maids are asleep.”</p>
+<p class="note">S7a + S7b: one line; cut it at the pause after “rooms,”<br>S8: the whole line.</p><div class="cb "><button type="button" class="copy" data-t="p4">Copy prompt</button><pre id="p4">NARRATION PACK N03 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.5s] Proud but quiet, like a tour guide in a sleeping house. Low-medium pitch, slow. Soften on &#x27;asleep&#x27;. &quot;This is the Winter Palace. One thousand rooms, and every single one of them is asleep.&quot;
+[9.3-13.8s] Dry and deadpan, low pitch, flat delivery, slightly amused. &quot;The guards are asleep. The maids are asleep.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N04</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S19a, S19b</span></div><p class="seg">“One pound of coffee. Five cups. That is the recipe. My recipe.”</p>
+<p class="note">S19a + S19b: one line; cut it at the pause after “recipe.”</p><div class="cb "><button type="button" class="copy" data-t="p5">Copy prompt</button><pre id="p5">NARRATION PACK N04 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-6.5s] Conspiratorial pride, medium pitch, firm stress on &#x27;One pound&#x27;. Slow down and turn possessive on &#x27;My recipe.&#x27; &quot;One pound of coffee. Five cups. That is the recipe. My recipe.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N05</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S20a, S20b, S20c</span></div><p class="seg">“My cook brews it, and when I am finished, the servants boil the same grounds again for themselves. Still strong enough to wake a horse.”</p>
+<p class="note">S20a + S20b + S20c: one line; cut it at the pause after “finished,”; “themselves.”</p><div class="cb "><button type="button" class="copy" data-t="p6">Copy prompt</button><pre id="p6">NARRATION PACK N05 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-12.5s] Matter-of-fact storytelling, medium pitch, steady. Lift slightly with amusement on &#x27;wake a horse&#x27;. &quot;My cook brews it, and when I am finished, the servants boil the same grounds again for themselves. Still strong enough to wake a horse.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N06</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S21a, S21b, S28a, S28b</span></div><p class="seg">“Once, a secretary tried my coffee. His heart has never forgiven me.”</p><p class="seg">“They sleep in a basket by my bed. On silk. With pillows.”</p>
+<p class="note">S21a + S21b: one line; cut it at the pause after “coffee.”<br>S28a + S28b: one line; cut it at the pause after “silk.”</p><div class="cb "><button type="button" class="copy" data-t="p7">Copy prompt</button><pre id="p7">NARRATION PACK N06 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-6.5s] Deadpan gossip with mock pity, low-medium pitch. Slow and dry on &#x27;His heart has never forgiven me.&#x27; &quot;Once, a secretary tried my coffee. His heart has never forgiven me.&quot;
+[7.3-13.3s] Fond and indulgent, warm, soft mid pitch, gentle pace. A small beat of pride on &#x27;With pillows.&#x27; &quot;They sleep in a basket by my bed. On silk. With pillows.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N07</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S42a, S42b</span></div><p class="seg">“In winter, Petersburg gets six hours of sun. Maybe. If God is in a good mood.”</p>
+<p class="note">S42a + S42b: one line; cut it at the pause after “Maybe.”</p><div class="cb "><button type="button" class="copy" data-t="p8">Copy prompt</button><pre id="p8">NARRATION PACK N07 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.5s] Weary and sardonic, low pitch, slow. &#x27;Maybe.&#x27; flat and dry. A tired half-smile on &#x27;If God is in a good mood.&#x27; &quot;In winter, Petersburg gets six hours of sun. Maybe. If God is in a good mood.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N08</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S43a, S43b, S43c</span></div><p class="seg">“My husband&#x27;s grandfather, Peter the Great, built this city on a swamp. Because he wanted a window to Europe.”</p>
+<p class="note">S43a + S43b + S43c: one line; cut it at the pause after “Great,”; “swamp.”</p><div class="cb "><button type="button" class="copy" data-t="p9">Copy prompt</button><pre id="p9">NARRATION PACK N08 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-10.0s] Grand and respectful with a light mocking edge, low-medium pitch, clear and measured. Small lift on &#x27;a window to Europe&#x27;. &quot;My husband&#x27;s grandfather, Peter the Great, built this city on a swamp. Because he wanted a window to Europe.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N09</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S47a, S47b</span></div><p class="seg">“This summer, my fleet sailed all the way around Europe. From the Baltic to Turkey.”</p>
+<p class="note">S47a + S47b: one line; cut it at the pause after “Europe.”</p><div class="cb "><button type="button" class="copy" data-t="p10">Copy prompt</button><pre id="p10">NARRATION PACK N09 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.0s] Rising pride, building energy, medium pitch, a little louder and faster than usual. &quot;This summer, my fleet sailed all the way around Europe. From the Baltic to Turkey.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N10</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S48a, S48b</span></div><p class="seg">“Everyone said Russian ships could not do it. Half of them nearly sank on the way.”</p>
+<p class="note">S48a + S48b: one line; cut it at the pause after “it.”</p><div class="cb "><button type="button" class="copy" data-t="p11">Copy prompt</button><pre id="p11">NARRATION PACK N10 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.5s] Scornful amusement, medium pitch. Relish &#x27;Half of them nearly sank on the way.&#x27; &quot;Everyone said Russian ships could not do it. Half of them nearly sank on the way.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N11</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S49a, S49b</span></div><p class="seg">“Then, at Chesma, they burned the entire Turkish fleet. In one night.”</p>
+<p class="note">S49a + S49b: one line; cut it at the pause after “fleet.”</p><div class="cb "><button type="button" class="copy" data-t="p12">Copy prompt</button><pre id="p12">NARRATION PACK N11 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-6.5s] Triumphant but restrained, low and slow. &#x27;In one night.&#x27; quiet and savoured, almost a whisper. &quot;Then, at Chesma, they burned the entire Turkish fleet. In one night.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N12</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S55a, S55b</span></div><p class="seg">“That is Grigory Orlov. Count Orlov. Very tall. Very brave. He helped me become empress,”</p>
+<p class="note">S55a + S55b: one line; cut it at the pause after “brave.”</p><div class="cb "><button type="button" class="copy" data-t="p13">Copy prompt</button><pre id="p13">NARRATION PACK N12 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.0s] Fond, slightly flirtatious and amused, warm mid pitch. &#x27;Very tall. Very brave.&#x27; clipped and admiring. Teasing on &#x27;another video&#x27;. &quot;That is Grigory Orlov. Count Orlov. Very tall. Very brave. He helped me become empress,&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N13</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S57a, S57b, S70b</span></div><p class="seg">“He will wait. He is good at waiting. It is his best quality, after the shoulders.”</p><p class="seg">“Ladies wear so much rouge they look like apples.”</p>
+<p class="note">S57a + S57b: one line; cut it at the pause after “waiting.”<br>S70b: the whole line.</p><div class="cb "><button type="button" class="copy" data-t="p14">Copy prompt</button><pre id="p14">NARRATION PACK N13 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-8.5s] Wry and affectionate, low pitch, unhurried. A small pause before &#x27;after the shoulders&#x27;, delivered slyly. &quot;He will wait. He is good at waiting. It is his best quality, after the shoulders.&quot;
+[9.3-14.3s] Gossiping and mildly scandalised, medium pitch, a little lift on &#x27;apples&#x27;. &quot;Ladies wear so much rouge they look like apples.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+<div class="clip"><div><div class="sid">N14</div><div class="tm">15s</div></div><div class="body">
+<div class="meta"><span class="tag CINEMATIC">covers S79a, S79b, S79c</span></div><p class="seg">“Ice, coffee, dogs, letters, Voltaire, snuff, a war, stays, panniers, silk, lace, flour, rouge, diamonds, sash, star, and one golden horse.”</p>
+<p class="note">S79a + S79b + S79c: one line; cut it at the pause after “panniers,”; “star,”</p><div class="cb "><button type="button" class="copy" data-t="p15">Copy prompt</button><pre id="p15">NARRATION PACK N14 | 15s | 16:9 | 720p
+ATTACH: one start image only (any dark, still palace frame, for example your S5a frame).
+PURPOSE: this clip is made only for its audio. Keep the picture almost still: very slow, subtle push-in, nobody on screen, nobody speaking on screen, no lip movement anywhere. No on-screen text, captions or subtitles.
+NARRATION: Catherine the Great speaks OFF-CAMERA as a voice-over. She is NOT on screen.
+VOICE: mature woman, 41, warm low-medium female voice, smooth and slightly husky, light German-Russian accent, formal English with no contractions, dry and amused; the same voice for every line; only she speaks.
+LINES IN ORDER, each spoken once, starting at the time shown, with about one second of clean silence between lines:
+[0.5-11.0s] Fast, rhythmic list, slightly breathless, medium pitch, building speed. Slow right down for &#x27;and one golden horse&#x27; with a satisfied smile. &quot;Ice, coffee, dogs, letters, Voltaire, snuff, a war, stays, panniers, silk, lace, flour, rouge, diamonds, sash, star, and one golden horse.&quot;
+After the last line: silence until 15.0 s.
+PACE: natural and unhurried, about two words per second; a small natural pause at every comma and full stop; no slow motion, no drawn-out words; every line finishes inside its time window.
+AUDIO: ONLY Catherine&#x27;s voice, only the quoted words, each once, in this order. No other voice at all: nobody answers, repeats, whispers or laughs. No added sighs, gasps or breaths. Very quiet room tone only between lines, no sound effects, no background music, so each line can be cut out cleanly.</pre></div></div></div>
+</div></section></main></div>
+<script>
+document.addEventListener('click',async ev=>{const b=ev.target.closest('button.copy');if(!b)return;
+const el=document.getElementById(b.dataset.t);const txt=el.innerText;const old=b.textContent;
+try{await navigator.clipboard.writeText(txt);b.textContent='Copied';b.classList.add('done');}
+catch(err){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected, press Ctrl+C';}
+setTimeout(()=>{b.textContent=old;b.classList.remove('done');},1800);});
+</script></body></html>
